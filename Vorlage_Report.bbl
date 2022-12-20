@@ -1,5 +1,10 @@
 \begin{thebibliography}{Rupp\,12}
 
+\bibitem[IBM\,21]{ibm_dependencies}
+IBM.
+\newblock ``Dependency relationships''.
+\newblock March 2021.
+
 \bibitem[Rupp\,12]{uml}
 C.~Rupp, S.~Queins, and die SOPHISTen.
 \newblock {\itshape UML 2 glasklar}.

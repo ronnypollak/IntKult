@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.18)  20 DEC 2022 10:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.18)  20 DEC 2022 12:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1291,8 +1291,8 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 12
-7.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 13
+0.
 
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1300,34 +1300,34 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 (Vorlage_Report.aux (cover.aux))
 \openout1 = `Vorlage_Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-Package scrbase Info: activating english \partname on input line 127.
-Package scrbase Info: activating english \chaptername on input line 127.
-Package scrbase Info: activating english \appendixname on input line 127.
-Package scrbase Info: activating english \figurename on input line 127.
-Package scrbase Info: activating english \tablename on input line 127.
-Package scrbase Info: activating english \contentsname on input line 127.
-Package scrbase Info: activating english \listfigurename on input line 127.
-Package scrbase Info: activating english \listtablename on input line 127.
-Package scrbase Info: activating english \bibname on input line 127.
-Package scrbase Info: activating english \indexname on input line 127.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+Package scrbase Info: activating english \partname on input line 130.
+Package scrbase Info: activating english \chaptername on input line 130.
+Package scrbase Info: activating english \appendixname on input line 130.
+Package scrbase Info: activating english \figurename on input line 130.
+Package scrbase Info: activating english \tablename on input line 130.
+Package scrbase Info: activating english \contentsname on input line 130.
+Package scrbase Info: activating english \listfigurename on input line 130.
+Package scrbase Info: activating english \listtablename on input line 130.
+Package scrbase Info: activating english \bibname on input line 130.
+Package scrbase Info: activating english \indexname on input line 130.
 
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -1393,7 +1393,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 127.
+loading the todonotes package. on input line 130.
 
 
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
@@ -1405,7 +1405,7 @@ Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
 F (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring OFF on input line 127.
+Package hyperref Info: Link coloring OFF on input line 130.
  (Vorlage_Report.out) (Vorlage_Report.out)
 \@outlinefile=\write4
 \openout4 = `Vorlage_Report.out'.
@@ -1417,7 +1417,7 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 127.
+(scrbook)           before \begin{document} on input line 130.
 
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
@@ -1427,7 +1427,7 @@ File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count385
 ))
 \c@lstlisting=\count386
-Package scrhack Info: undefining \float@addtolists on input line 127.
+Package scrhack Info: undefining \float@addtolists on input line 130.
 \openout2 = `cover.aux'.
 
  (cover.tex
@@ -1510,7 +1510,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] (Vorlage_Report.lol
 
 LaTeX Warning: Citation `albrecht_blueprints_2020' on page v undefined on input
- line 5.
+ line 4.
 
 )
 \tf@lol=\write8
@@ -1522,7 +1522,7 @@ LaTeX Warning: Citation `albrecht_blueprints_2020' on page v undefined on input
 ]
 chapter 1.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-67.
+70.
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [1
@@ -1532,123 +1532,212 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ]
 [2]
 chapter 2.
-<figures/aggr_comp/aggr.jpg, id=100, 3066.45625pt x 823.075pt>
+<figures/aggr_comp/aggr.jpg, id=102, 3066.45625pt x 823.075pt>
 File: figures/aggr_comp/aggr.jpg Graphic file (type jpg)
 <use figures/aggr_comp/aggr.jpg>
-Package pdftex.def Info: figures/aggr_comp/aggr.jpg  used on input line 200.
+Package pdftex.def Info: figures/aggr_comp/aggr.jpg  used on input line 205.
 (pdftex.def)             Requested size: 333.92206pt x 89.6217pt.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-06.
+11.
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Overfull \hbox (74.30003pt too wide) in paragraph at lines 206--210
-\T1/lmtt/m/n/12 sendDroneToRecipient() \T1/lmr/m/n/12 op-er-a-tion and three pr
-i-vate at-tributes, \T1/lmtt/m/n/12 velocity\T1/lmr/m/n/12 , \T1/lmtt/m/n/12 ho
-rizontalDegree\T1/lmr/m/n/12 ,
- []
-
-
-Overfull \hbox (2.13718pt too wide) in paragraph at lines 206--210
-\T1/lmr/m/n/12 and \T1/lmtt/m/n/12 verticalDegree\T1/lmr/m/n/12 , which con-tro
-l the move-ment of the drone in the air. [[],
- []
-
-[3
+) [3
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.210 
+l.215 
        <./figures/aggr_comp/aggr.jpg>] [4]
-<figures/aggr_comp/comp.jpg, id=113, 2765.33125pt x 592.2125pt>
+<figures/aggr_comp/comp.jpg, id=115, 2765.33125pt x 592.2125pt>
 File: figures/aggr_comp/comp.jpg Graphic file (type jpg)
 <use figures/aggr_comp/comp.jpg>
-Package pdftex.def Info: figures/aggr_comp/comp.jpg  used on input line 234.
+Package pdftex.def Info: figures/aggr_comp/comp.jpg  used on input line 239.
 (pdftex.def)             Requested size: 333.92206pt x 71.5052pt.
-
-Overfull \hbox (4.03381pt too wide) in paragraph at lines 242--243
-[]\T1/lmr/m/n/12 This de-sign also in-cor-po-rates an anti-theft con-cept, in w
-hich each chipset is uniquely
- []
-
-[5
+ [5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.248 \chapter
-              {Foo} <./figures/aggr_comp/comp.jpg>]
-chapter 3.
+l.258 
+       <./figures/aggr_comp/comp.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 263--263
+[]|\T1/lmr/bx/n/12 Type of de-pen-
+ []
 
-LaTeX Warning: Citation `albrecht_blueprints_2020' on page 6 undefined on input
- line 250.
 
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
+[]|\T1/lmr/m/n/12 ^^Sabstraction^^T,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
+\T1/lmr/m/n/12 ^^Sde-rive^^T, ^^Sre-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+[]|\T1/lmr/m/n/12 Relates two model el-e-ments, or sets
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+\T1/lmr/m/n/12 of model el-e-ments, that rep-re-sent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+\T1/lmr/m/n/12 the same con-cept at dif-fer-ent lev-els
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+\T1/lmr/m/n/12 of ab-strac-tion, or from dif-fer-ent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+[]|\T1/lmr/m/n/12 Connects tem-plate ar-gu-ments to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+\T1/lmr/m/n/12 tem-plate pa-ram-e-ters to cre-ate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+[]|\T1/lmr/m/n/12 Indicates that the client model
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+\T1/lmr/m/n/12 el-e-ment is an im-ple-men-ta-tion of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+\T1/lmr/m/n/12 the sup-plier model el-e-ment, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+\T1/lmr/m/n/12 the sup-plier model el-e-ment is the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+[]|\T1/lmr/m/n/12 Indicates that the client model
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+\T1/lmr/m/n/12 el-e-ment takes the place of the sup-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+\T1/lmr/m/n/12 plier; the client model el-e-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+\T1/lmr/m/n/12 must con-form to the con-tract or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+\T1/lmr/m/n/12 in-ter-face that the sup-plier model
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+[]|\T1/lmr/m/n/12 ^^Suse^^T, ^^Scall^^T,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+\T1/lmr/m/n/12 ^^Scre-ate^^T, ^^Sin-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+\T1/lmr/m/n/12 stan-ti-ate^^T, or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+[]|\T1/lmr/m/n/12 Indicates that one model el-e-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+\T1/lmr/m/n/12 re-quires an-other model el-e-ment for
+ []
+
+[6]
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 255.
+nput line 286.
 
 
-LaTeX Warning: Citation `albrecht_blueprints_2020' on page 6 undefined on input
- line 258.
+LaTeX Warning: Citation `albrecht_blueprints_2020' on page 7 undefined on input
+ line 289.
 
 
-LaTeX Warning: Citation `albrecht_blueprints_2020' on page 6 undefined on input
- line 258.
+LaTeX Warning: Citation `albrecht_blueprints_2020' on page 7 undefined on input
+ line 289.
 
-[6
-
-]
-chapter 4.
-<figures/pepe-example.png, id=127, 448.67625pt x 252.34274pt>
+[7]
+chapter 3.
+<figures/pepe-example.png, id=136, 448.67625pt x 252.34274pt>
 File: figures/pepe-example.png Graphic file (type png)
 <use figures/pepe-example.png>
-Package pdftex.def Info: figures/pepe-example.png  used on input line 267.
+Package pdftex.def Info: figures/pepe-example.png  used on input line 298.
 (pdftex.def)             Requested size: 333.92206pt x 187.80882pt.
 
-LaTeX Warning: Citation `albrecht_blueprints_2020' on page 7 undefined on input
- line 268.
+LaTeX Warning: Citation `albrecht_blueprints_2020' on page 8 undefined on input
+ line 299.
 
 
-LaTeX Warning: Citation `albrecht_blueprints_2020' on page 7 undefined on input
- line 268.
+LaTeX Warning: Citation `albrecht_blueprints_2020' on page 8 undefined on input
+ line 299.
 
-[7
+[8
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.276 
+l.307 
        <./figures/pepe-example.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 286--286
+Underfull \hbox (badness 10000) in paragraph at lines 317--317
 [][][]\T1/lmr/m/n/12 Die Tabel-len-cap-tion: Für Tabellen emp-fiehlt sich der
  []
 
-[8
-pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) h
+[9
+pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.291 \backmatter
+l.322 \backmatter
                  ]
 Using TeX to sort glossary entries---this may take a while
-(Vorlage_Report.bbl [9
+(Vorlage_Report.bbl [10
 
 
 
 ]
 chapter without number
-) [10
+) [11
 
 ]
 chapter without number
-[11
+[12
 
 
 ] (Vorlage_Report.aux (cover.aux))
@@ -1659,10 +1748,10 @@ Package rerunfilecheck Info: File `Vorlage_Report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 37481 strings out of 475281
- 748959 string characters out of 2774064
- 1412970 words of memory out of 3000000
- 58197 multiletter control sequences out of 15000+600000
+ 37487 strings out of 475281
+ 749035 string characters out of 2774064
+ 1415895 words of memory out of 3000000
+ 58200 multiletter control sequences out of 15000+600000
  520590 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,19n,106p,10611b,1319s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1675,9 +1764,9 @@ rs/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/User
 s/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/User
 s/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/User
 s/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Vorlage_Report.pdf (16 pages, 883239 bytes).
+Output written on Vorlage_Report.pdf (17 pages, 887254 bytes).
 PDF statistics:
- 262 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
+ 272 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
  201 words of extra memory for PDF output out of 10000 (max. 10000000)
 

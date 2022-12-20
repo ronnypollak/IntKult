@@ -9,45 +9,46 @@ Reallocating 'name_of_file' (item size: 1) to 5 items.
 Database file #1: refs.bib
 Warning--I didn't find a database entry for "albrecht_blueprints_2020"
 Rupp -> Rupp
-You've used 1 entry,
+IBM -> IBM
+You've used 2 entries,
             1647 wiz_defined-function locations,
-            432 strings with 3378 characters,
-and the built_in function-call counts, 384 in all, are:
-= -- 46
-> -- 18
+            436 strings with 3425 characters,
+and the built_in function-call counts, 604 in all, are:
+= -- 74
+> -- 25
 < -- 0
-+ -- 6
-- -- 6
-* -- 28
-:= -- 94
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 6
-chr.to.int$ -- 1
-cite$ -- 1
-duplicate$ -- 9
++ -- 8
+- -- 8
+* -- 43
+:= -- 143
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 9
+chr.to.int$ -- 2
+cite$ -- 2
+duplicate$ -- 15
 empty$ -- 1
-format.name$ -- 7
-if$ -- 72
+format.name$ -- 10
+if$ -- 113
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 15
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 5
+missing$ -- 25
+newline$ -- 13
+num.names$ -- 4
+pop$ -- 8
 preamble$ -- 1
-purify$ -- 8
+purify$ -- 14
 quote$ -- 0
-skip$ -- 17
+skip$ -- 26
 stack$ -- 0
-substring$ -- 7
-swap$ -- 1
+substring$ -- 14
+swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
-top$ -- 1
+top$ -- 2
 type$ -- 0
 warning$ -- 0
-while$ -- 2
-width$ -- 2
-write$ -- 16
+while$ -- 4
+width$ -- 3
+write$ -- 27
 (There was 1 warning)

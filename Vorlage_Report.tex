@@ -124,6 +124,9 @@
 %\counterwithout{figure}{chapter}
 % um nicht die Nummer des Kapitels bei der Figure Nummerierung zu stehen haben
 
+\sloppy
+%damit \textt nicht über die zeile hinaus geht
+
 \begin{document}
 \setcounter{secnumdepth}{3}  % numerate subsections
 \setcounter{tocdepth}{2}  % ...but don't include them in toc
@@ -175,6 +178,8 @@ Basic relationships are called \emph{associations}.
 An Association indicates that one class has a reference to another class. \cite[p. 108-111]{uml}
 The association is shown using a solid line with an open arrow at one end, indicating the direction of the relationship. \cite[p. 142-143]{uml}
 
+\section{Structure}
+%TODO Wie ist die Arbeit aufgebaut
 
 \chapter{Complex UML class diagram relationships}
 This chapter will examine various types of complex UML class diagram relationships in detail and how they are depicted.
@@ -241,8 +246,38 @@ In Figure \ref{fig:composition_example}, an example of a composition relationshi
 
 This design also incorporates an anti-theft concept, in which each chipset is uniquely bound to a specific drone. The number of chipsets used by the drone may vary based on their efficiency and the desired level of efficiency for the drone.
 
-\subsection{Comparison}
 
+\section{Dependencies}
+
+In UML, a dependency is a relationship between two elements in which one element (the client) uses or depends on another element (the supplier) for specification or implementation.
+The dependency represents a semantic or structural relationship between the supplier and the client, indicating that the client is dependent on the supplier in some way (Booch, Rumbaugh, und Jacobson, 1998).
+A dependency indicates that the connection between the two elements is at a higher level of abstraction than an association relationship.
+Dependencies can be represented in various UML diagrams, including class diagrams, component diagrams, deployment diagrams, and use-case diagrams. 
+To represent a dependency in a UML diagram, a dashed line with an open arrow pointing from the client to the supplier is used. 
+In some cases, stereotypes may be used to show the precise nature of the dependency.
+
+\vspace{1em}
+{\RaggedRight
+\begin{longtable} {|p{3.5cm}|p{3.25cm}|p{6.5cm}|}
+		\hline
+		\textbf{Type of dependency} & \textbf{Stereotype} & \textbf{Description} \\
+		\hline
+		Abstraction & «abstraction», «derive», «refine», or «trace» & Relates two model elements, or sets of model elements, that represent the same concept at different levels of abstraction, or from different viewpoints  \\ 
+		\hline
+		Binding & 	«bind» & Connects template arguments to template parameters to create model elements from templates \\ 
+		\hline
+		Realization & «realize» & 	Indicates that the client model element is an implementation of the supplier model element, and the supplier model element is the specification \\ 
+		\hline
+		Substitution & «substitute» & Indicates that the client model element takes the place of the supplier; the client model element must conform to the contract or interface that the supplier model element establishes  \\ 
+		\hline
+		Usage & «use», «call», «create», «instantiate», or «send» & Indicates that one model element requires another model element for its full implementation or operation  \\ 
+		\hline
+	\caption[Types of dependencies]{Types of dependency \cite{ibm_dependencies}}
+	\label{tab:functional_req}
+\end{longtable}
+}
+
+In cases where a client has a dependency on several suppliers, a connector (represented as a small black dot) can be used to model the dependency. This allows designers and developers to represent complex dependency relationships in a clear and concise manner, making it easier to understand the dependencies and interactions between different parts of a system.
 
 
 \section{Foo Foo}
