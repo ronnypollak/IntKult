@@ -11,12 +11,15 @@
 \contentsline {subsection}{\numberline {2.1.1}Aggregation}{3}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Composition}{4}{subsection.2.1.2}%
 \contentsline {section}{\numberline {2.2}Dependencies}{5}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Foo Foo}{7}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Foo Foo Foo}{7}{subsection.2.3.1}%
-\contentsline {chapter}{\numberline {3}Bar}{8}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Bar Bar}{9}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Bar Bar Bar}{9}{subsection.3.1.1}%
-\contentsline {chapter}{Glossary}{10}{section*.5}%
-\contentsline {chapter}{\nonumberline Bibliography}{11}{chapter*.7}%
-\contentsline {chapter}{\nonumberline Supplemental Information}{12}{chapter*.8}%
+\contentsline {subsection}{\numberline {2.2.1}Usage}{7}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Abstraction}{7}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Binding}{8}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Foo Foo}{9}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Foo Foo Foo}{9}{subsection.2.3.1}%
+\contentsline {chapter}{\numberline {3}Bar}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Bar Bar}{11}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Bar Bar Bar}{11}{subsection.3.1.1}%
+\contentsline {chapter}{Glossary}{12}{section*.5}%
+\contentsline {chapter}{\nonumberline Bibliography}{13}{chapter*.7}%
+\contentsline {chapter}{\nonumberline Supplemental Information}{14}{chapter*.8}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

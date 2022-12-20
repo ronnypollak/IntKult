@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.18)  20 DEC 2022 12:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.13)  20 DEC 2022 18:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -922,7 +922,7 @@ Package: fp-eval 1995/04/03
 \@dtl@foreach@level=\count330
 )
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tracklang.sty
-Package: tracklang 2022/12/13 v1.6.1 (NLCT) Track Languages
+Package: tracklang 2022/10/29 v1.6 (NLCT) Track Languages
 
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/generic/tracklang\tracklang.t
 ex))
@@ -1532,7 +1532,7 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ]
 [2]
 chapter 2.
-<figures/aggr_comp/aggr.jpg, id=102, 3066.45625pt x 823.075pt>
+<figures/aggr_comp/aggr.jpg, id=108, 3066.45625pt x 823.075pt>
 File: figures/aggr_comp/aggr.jpg Graphic file (type jpg)
 <use figures/aggr_comp/aggr.jpg>
 Package pdftex.def Info: figures/aggr_comp/aggr.jpg  used on input line 205.
@@ -1550,7 +1550,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.215 
        <./figures/aggr_comp/aggr.jpg>] [4]
-<figures/aggr_comp/comp.jpg, id=115, 2765.33125pt x 592.2125pt>
+<figures/aggr_comp/comp.jpg, id=121, 2765.33125pt x 592.2125pt>
 File: figures/aggr_comp/comp.jpg Graphic file (type jpg)
 <use figures/aggr_comp/comp.jpg>
 Package pdftex.def Info: figures/aggr_comp/comp.jpg  used on input line 239.
@@ -1560,184 +1560,194 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.258 
+l.259 
        <./figures/aggr_comp/comp.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 267--267
 []|\T1/lmr/bx/n/12 Type of de-pen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--265
+Underfull \hbox (badness 10000) in paragraph at lines 269--269
 []|\T1/lmr/m/n/12 ^^Sabstraction^^T,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--265
+Underfull \hbox (badness 10000) in paragraph at lines 269--269
 \T1/lmr/m/n/12 ^^Sde-rive^^T, ^^Sre-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
 []|\T1/lmr/m/n/12 Relates two model el-e-ments, or sets
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
 \T1/lmr/m/n/12 of model el-e-ments, that rep-re-sent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
 \T1/lmr/m/n/12 the same con-cept at dif-fer-ent lev-els
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
 \T1/lmr/m/n/12 of ab-strac-tion, or from dif-fer-ent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
 []|\T1/lmr/m/n/12 Connects tem-plate ar-gu-ments to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
 \T1/lmr/m/n/12 tem-plate pa-ram-e-ters to cre-ate
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 []|\T1/lmr/m/n/12 Indicates that the client model
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 \T1/lmr/m/n/12 el-e-ment is an im-ple-men-ta-tion of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 \T1/lmr/m/n/12 the sup-plier model el-e-ment, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 \T1/lmr/m/n/12 the sup-plier model el-e-ment is the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 []|\T1/lmr/m/n/12 Indicates that the client model
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 \T1/lmr/m/n/12 el-e-ment takes the place of the sup-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 \T1/lmr/m/n/12 plier; the client model el-e-ment
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 \T1/lmr/m/n/12 must con-form to the con-tract or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 \T1/lmr/m/n/12 in-ter-face that the sup-plier model
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--273
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
 []|\T1/lmr/m/n/12 ^^Suse^^T, ^^Scall^^T,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--273
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
 \T1/lmr/m/n/12 ^^Scre-ate^^T, ^^Sin-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--273
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
 \T1/lmr/m/n/12 stan-ti-ate^^T, or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 []|\T1/lmr/m/n/12 Indicates that one model el-e-ment
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 \T1/lmr/m/n/12 re-quires an-other model el-e-ment for
  []
 
 [6]
+
+LaTeX Warning: Reference `fig:usage_example' on page 7 undefined on input line 
+291.
+
+[7]
+
+LaTeX Warning: Reference `fig:dependency_example' on page 8 undefined on input 
+line 319.
+
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
+[8]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 286.
+nput line 342.
 
 
-LaTeX Warning: Citation `albrecht_blueprints_2020' on page 7 undefined on input
- line 289.
+LaTeX Warning: Citation `albrecht_blueprints_2020' on page 9 undefined on input
+ line 345.
 
 
-LaTeX Warning: Citation `albrecht_blueprints_2020' on page 7 undefined on input
- line 289.
+LaTeX Warning: Citation `albrecht_blueprints_2020' on page 9 undefined on input
+ line 345.
 
-[7]
+[9]
 chapter 3.
-<figures/pepe-example.png, id=136, 448.67625pt x 252.34274pt>
+<figures/pepe-example.png, id=153, 448.67625pt x 252.34274pt>
 File: figures/pepe-example.png Graphic file (type png)
 <use figures/pepe-example.png>
-Package pdftex.def Info: figures/pepe-example.png  used on input line 298.
+Package pdftex.def Info: figures/pepe-example.png  used on input line 354.
 (pdftex.def)             Requested size: 333.92206pt x 187.80882pt.
 
-LaTeX Warning: Citation `albrecht_blueprints_2020' on page 8 undefined on input
- line 299.
+LaTeX Warning: Citation `albrecht_blueprints_2020' on page 10 undefined on inpu
+t line 355.
 
 
-LaTeX Warning: Citation `albrecht_blueprints_2020' on page 8 undefined on input
- line 299.
+LaTeX Warning: Citation `albrecht_blueprints_2020' on page 10 undefined on inpu
+t line 355.
 
-[8
+[10
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.307 
+l.363 
        <./figures/pepe-example.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 317--317
+Underfull \hbox (badness 10000) in paragraph at lines 373--373
 [][][]\T1/lmr/m/n/12 Die Tabel-len-cap-tion: Für Tabellen emp-fiehlt sich der
  []
 
-[9
+[11
 pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.322 \backmatter
+l.378 \backmatter
                  ]
 Using TeX to sort glossary entries---this may take a while
-(Vorlage_Report.bbl [10
+(Vorlage_Report.bbl [12
 
 
 
 ]
 chapter without number
-) [11
+) [13
 
 ]
 chapter without number
-[12
+[14
 
 
 ] (Vorlage_Report.aux (cover.aux))
@@ -1748,10 +1758,10 @@ Package rerunfilecheck Info: File `Vorlage_Report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 37487 strings out of 475281
- 749035 string characters out of 2774064
- 1415895 words of memory out of 3000000
- 58200 multiletter control sequences out of 15000+600000
+ 37496 strings out of 475281
+ 748925 string characters out of 2774064
+ 1417549 words of memory out of 3000000
+ 58204 multiletter control sequences out of 15000+600000
  520590 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,19n,106p,10611b,1319s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1764,9 +1774,9 @@ rs/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/User
 s/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/User
 s/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/User
 s/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Vorlage_Report.pdf (17 pages, 887254 bytes).
+Output written on Vorlage_Report.pdf (19 pages, 895461 bytes).
 PDF statistics:
- 272 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
- 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 299 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 500000)
+ 225 words of extra memory for PDF output out of 10000 (max. 10000000)
 
