@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Vorlage_Report.aux
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+A level-1 auxiliary file: cover.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: wmaainf.bst
+Reallocating 'name_of_file' (item size: 1) to 5 items.
+Database file #1: refs.bib
+Warning--I didn't find a database entry for "albrecht_blueprints_2020"
+Rupp -> Rupp
+You've used 1 entry,
+            1647 wiz_defined-function locations,
+            432 strings with 3378 characters,
+and the built_in function-call counts, 384 in all, are:
+= -- 46
+> -- 18
+< -- 0
++ -- 6
+- -- 6
+* -- 28
+:= -- 94
+add.period$ -- 3
+call.type$ -- 1
+change.case$ -- 6
+chr.to.int$ -- 1
+cite$ -- 1
+duplicate$ -- 9
+empty$ -- 1
+format.name$ -- 7
+if$ -- 72
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 15
+newline$ -- 8
+num.names$ -- 2
+pop$ -- 5
+preamble$ -- 1
+purify$ -- 8
+quote$ -- 0
+skip$ -- 17
+stack$ -- 0
+substring$ -- 7
+swap$ -- 1
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 0
+warning$ -- 0
+while$ -- 2
+width$ -- 2
+write$ -- 16
+(There was 1 warning)
