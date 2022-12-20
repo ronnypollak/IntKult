@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.18)  18 DEC 2022 20:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.18)  20 DEC 2022 10:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1522,7 +1522,7 @@ LaTeX Warning: Citation `albrecht_blueprints_2020' on page v undefined on input
 ]
 chapter 1.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-55.
+67.
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [1
@@ -1532,71 +1532,90 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ]
 [2]
 chapter 2.
-<figures/aggr_comp/aggr.jpg, id=96, 3066.45625pt x 823.075pt>
+<figures/aggr_comp/aggr.jpg, id=100, 3066.45625pt x 823.075pt>
 File: figures/aggr_comp/aggr.jpg Graphic file (type jpg)
 <use figures/aggr_comp/aggr.jpg>
-Package pdftex.def Info: figures/aggr_comp/aggr.jpg  used on input line 196.
+Package pdftex.def Info: figures/aggr_comp/aggr.jpg  used on input line 200.
 (pdftex.def)             Requested size: 333.92206pt x 89.6217pt.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-03.
+06.
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [3
+)
+Overfull \hbox (74.30003pt too wide) in paragraph at lines 206--210
+\T1/lmtt/m/n/12 sendDroneToRecipient() \T1/lmr/m/n/12 op-er-a-tion and three pr
+i-vate at-tributes, \T1/lmtt/m/n/12 velocity\T1/lmr/m/n/12 , \T1/lmtt/m/n/12 ho
+rizontalDegree\T1/lmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (2.13718pt too wide) in paragraph at lines 206--210
+\T1/lmr/m/n/12 and \T1/lmtt/m/n/12 verticalDegree\T1/lmr/m/n/12 , which con-tro
+l the move-ment of the drone in the air. [[],
+ []
+
+[3
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.204 
+l.210 
        <./figures/aggr_comp/aggr.jpg>] [4]
-<figures/aggr_comp/comp.jpg, id=109, 2765.33125pt x 592.2125pt>
+<figures/aggr_comp/comp.jpg, id=113, 2765.33125pt x 592.2125pt>
 File: figures/aggr_comp/comp.jpg Graphic file (type jpg)
 <use figures/aggr_comp/comp.jpg>
-Package pdftex.def Info: figures/aggr_comp/comp.jpg  used on input line 225.
+Package pdftex.def Info: figures/aggr_comp/comp.jpg  used on input line 234.
 (pdftex.def)             Requested size: 333.92206pt x 71.5052pt.
- [5
+
+Overfull \hbox (4.03381pt too wide) in paragraph at lines 242--243
+[]\T1/lmr/m/n/12 This de-sign also in-cor-po-rates an anti-theft con-cept, in w
+hich each chipset is uniquely
+ []
+
+[5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.239 \chapter
+l.248 \chapter
               {Foo} <./figures/aggr_comp/comp.jpg>]
 chapter 3.
 
 LaTeX Warning: Citation `albrecht_blueprints_2020' on page 6 undefined on input
- line 241.
+ line 250.
 
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 246.
+nput line 255.
 
 
 LaTeX Warning: Citation `albrecht_blueprints_2020' on page 6 undefined on input
- line 249.
+ line 258.
 
 
 LaTeX Warning: Citation `albrecht_blueprints_2020' on page 6 undefined on input
- line 249.
+ line 258.
 
 [6
 
 ]
 chapter 4.
-<figures/pepe-example.png, id=122, 448.67625pt x 252.34274pt>
+<figures/pepe-example.png, id=127, 448.67625pt x 252.34274pt>
 File: figures/pepe-example.png Graphic file (type png)
 <use figures/pepe-example.png>
-Package pdftex.def Info: figures/pepe-example.png  used on input line 258.
+Package pdftex.def Info: figures/pepe-example.png  used on input line 267.
 (pdftex.def)             Requested size: 333.92206pt x 187.80882pt.
 
 LaTeX Warning: Citation `albrecht_blueprints_2020' on page 7 undefined on input
- line 259.
+ line 268.
 
 
 LaTeX Warning: Citation `albrecht_blueprints_2020' on page 7 undefined on input
- line 259.
+ line 268.
 
 [7
 
@@ -1605,9 +1624,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.267 
+l.276 
        <./figures/pepe-example.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 277--277
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
 [][][]\T1/lmr/m/n/12 Die Tabel-len-cap-tion: Für Tabellen emp-fiehlt sich der
  []
 
@@ -1616,7 +1635,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.282 \backmatter
+l.291 \backmatter
                  ]
 Using TeX to sort glossary entries---this may take a while
 (Vorlage_Report.bbl [9
@@ -1640,10 +1659,10 @@ Package rerunfilecheck Info: File `Vorlage_Report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 37477 strings out of 475281
- 749090 string characters out of 2774064
- 1412947 words of memory out of 3000000
- 58195 multiletter control sequences out of 15000+600000
+ 37481 strings out of 475281
+ 748959 string characters out of 2774064
+ 1412970 words of memory out of 3000000
+ 58197 multiletter control sequences out of 15000+600000
  520590 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,19n,106p,10611b,1319s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1656,9 +1675,9 @@ rs/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/User
 s/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/User
 s/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/User
 s/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Vorlage_Report.pdf (16 pages, 880319 bytes).
+Output written on Vorlage_Report.pdf (16 pages, 883239 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
- 46 named destinations out of 1000 (max. 500000)
- 185 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 262 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
+ 201 words of extra memory for PDF output out of 10000 (max. 10000000)
 

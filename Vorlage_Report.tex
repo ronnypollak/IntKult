@@ -147,6 +147,18 @@
 \mainmatter
 
 \chapter{Introduction}
+
+\section{Motivation}
+This comprehensive study focuses on the various types of more complex relationships that can be represented in UML class diagrams. 
+These relationships include \emph{aggregation}, \emph{composition}, \emph{dependencies}, \emph{interfaces}, \emph{abstract} classes and \emph{inheritance}. 
+Each of these relationships reflects a specific type of connection between classes and serves a unique purpose in the design and implementation of object-oriented systems. 
+The following sections define and provide examples of each of these relationships.
+This paper extends the work of Levin [insert paper citation] and does not delve into the basic concepts, that will be mentioned in the next section, in great detail. The focus is on furthering the research and providing examples to support the points made.
+By the end of this paper, readers should have a thorough understanding of the role of complex relationships in UML class diagrams and how to effectively use them to model object-oriented systems.
+
+TODO Drone beispiele erwähnen
+
+\section{Introduction to UML class diagram}
 UML (Unified Modeling Language) class diagrams are a visual representation of the static structure of an object-oriented system. 
 They are commonly used in software engineering to model the classes, attributes, operations, and relationships within a system, as well as the interactions between these components. 
 A class in UML is a blueprint for an object, which is a runtime instance of that class. 
@@ -163,14 +175,6 @@ Basic relationships are called \emph{associations}.
 An Association indicates that one class has a reference to another class. \cite[p. 108-111]{uml}
 The association is shown using a solid line with an open arrow at one end, indicating the direction of the relationship. \cite[p. 142-143]{uml}
 
-This comprehensive study focuses on the various types of more complex relationships that can be represented in UML class diagrams. 
-These relationships include \emph{aggregation}, \emph{composition}, \emph{dependencies}, \emph{interfaces}, \emph{abstract} classes and \emph{inheritance}. 
-Each of these relationships reflects a specific type of connection between classes and serves a unique purpose in the design and implementation of object-oriented systems. 
-The following sections define and provide examples of each of these relationships.
-This paper extends the work of Levin [insert paper citation] and does not delve into the basic concepts that have been mentioned before in great detail. The focus is on furthering the research and providing examples to support the points made.
-By the end of this paper, readers should have a thorough understanding of the role of complex relationships in UML class diagrams and how to effectively use them to model object-oriented systems.
-
-TODO Motivation (siehe Aufgabenblatt)
 
 \chapter{Complex UML class diagram relationships}
 This chapter will examine various types of complex UML class diagram relationships in detail and how they are depicted.
@@ -199,12 +203,17 @@ In aggregation, as in associations, every combination of multiplicities is possi
 \end{figure}
 
 
+An example of an aggregation relationship involving a \texttt{Drone} class and a \texttt{Rotor} class is demonstrated in Figure \ref{fig:aggregation_example}. 
+The \texttt{Drone} class contains a static attribute, \texttt{totalDrones}, which keeps track of the total number of drones, as well as a static operation, \texttt{calculateTotalDrones()}, which calculates this value. 
+The class also includes a private operation, \texttt{sendDroneToRecipient()}, which is responsible for sending the drone to its intended recipient. 
+The \texttt{Rotor} class, on the other hand, contains a private operation, \texttt{move()}, which is called by the \texttt{Drone} class's \texttt{sendDroneToRecipient()} operation and three private attributes, \texttt{velocity}, \texttt{horizontalDegree}, and \texttt{verticalDegree}, which control the movement of the drone in the air. \cite[p. 153]{uml}
 
-In Figure \ref{fig:aggregation_example}, we demonstrate an example of an aggregation relationship involving a \texttt{Drone} class and a \texttt{Rotor} class. The \texttt{Drone} class contains a static attribute, \texttt{totalDrones}, which keeps track of the total number of drones, as well as a static operation, \texttt{calculateTotalDrones()}, which calculates this value. The class also includes a private operation, \texttt{sendDroneToRecipient()}, which is responsible for sending the drone to its intended recipient. The \texttt{Rotor} class, on the other hand, contains a private operation, \texttt{move()}, which is called by the \texttt{Drone} class's \texttt{sendDroneToRecipient()} operation and three private attributes, \texttt{velocity}, \texttt{horizontalDegree}, and \texttt{verticalDegree}, which control the movement of the drone in the air. \cite[p. 153]{uml}
+The \texttt{Drone} class serves as the referencing class in this aggregation relationship and requires at least four \texttt{Rotor} instances to function properly. 
+However, the drone has the capacity to utilize up to eight rotors at a time, as there are eight available slots for rotors on the drone. 
+Each \texttt{Rotor} instance can be part of one or no drones at a given time.
 
-The \texttt{Drone} class serves as the referencing class in this aggregation relationship and requires at least four \texttt{Rotor} instances to function properly. However, the drone has the capacity to utilize up to eight rotors at a time, as there are eight available slots for rotors on the drone. Each \texttt{Rotor} instance can be part of one or no drones at a given time.
-
-If the \texttt{Rotor} instances become worn down or the weather conditions change, they can be replaced with new or specialized rotors. The destruction of a \texttt{Rotor} instance does not affect the existence of the \texttt{Drone}, and conversely, the destruction of a \texttt{Drone} instance does not affect the \texttt{Rotor} instances.
+If the \texttt{Rotor} instances become worn down or the weather conditions change, they can be replaced with new or specialized rotors. 
+The destruction of a \texttt{Rotor} instance does not affect the existence of the \texttt{Drone}, and conversely, the destruction of a \texttt{Drone} instance does not affect the \texttt{Rotor} instances.
 
 TODO: Qualifizierte Assoziation
    Darstellung einer ternären Assoziationn
@@ -228,17 +237,13 @@ The multiplicities available for use in a composition relationship are restricte
 \end{figure}
 
 
+In Figure \ref{fig:composition_example}, an example of a composition relationship between the \texttt{Drone} class and the \texttt{Chipset} class is displayed. The \texttt{Chipset} class contains the private attribute \texttt{cores}, which stores information about the number of cores present in the chipset, and the public attribute \texttt{temperature}, which reflects the temperature of the chipset. As a vital component of the drone, the chipset is responsible for processing data and issuing commands to other parts of the drone. Without a functioning chipset, the drone would be unable to operate.
 
-[Insert example here]
-
+This design also incorporates an anti-theft concept, in which each chipset is uniquely bound to a specific drone. The number of chipsets used by the drone may vary based on their efficiency and the desired level of efficiency for the drone.
 
 \subsection{Comparison}
 
 
-
-\chapter{Foo}
-\blindtext
-\\Und hier zitiere ich den da: \cite{albrecht_blueprints_2020}.
 
 \section{Foo Foo}
 Hier folgt nun ein Listing, was basically Code ist. Und hier verlinke ich darauf: \autoref{lst:cleaning_impurity}.
