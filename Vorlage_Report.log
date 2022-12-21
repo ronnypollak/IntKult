@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.13)  20 DEC 2022 18:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.18)  21 DEC 2022 14:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -922,7 +922,7 @@ Package: fp-eval 1995/04/03
 \@dtl@foreach@level=\count330
 )
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tracklang.sty
-Package: tracklang 2022/10/29 v1.6 (NLCT) Track Languages
+Package: tracklang 2022/12/13 v1.6.1 (NLCT) Track Languages
 
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/generic/tracklang\tracklang.t
 ex))
@@ -1532,36 +1532,40 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ]
 [2]
 chapter 2.
-<figures/aggr_comp/aggr.jpg, id=108, 3066.45625pt x 823.075pt>
+<figures/aggr_comp/aggr.jpg, id=115, 3417.76875pt x 1776.6375pt>
 File: figures/aggr_comp/aggr.jpg Graphic file (type jpg)
 <use figures/aggr_comp/aggr.jpg>
 Package pdftex.def Info: figures/aggr_comp/aggr.jpg  used on input line 205.
-(pdftex.def)             Requested size: 333.92206pt x 89.6217pt.
+(pdftex.def)             Requested size: 333.92206pt x 173.58066pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-11.
+12.
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [3
 
-
+]
+[4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.215 
-       <./figures/aggr_comp/aggr.jpg>] [4]
-<figures/aggr_comp/comp.jpg, id=121, 2765.33125pt x 592.2125pt>
+l.233 
+       <./figures/aggr_comp/aggr.jpg>]
+<figures/aggr_comp/comp.jpg, id=127, 2966.08125pt x 1776.6375pt>
 File: figures/aggr_comp/comp.jpg Graphic file (type jpg)
 <use figures/aggr_comp/comp.jpg>
 Package pdftex.def Info: figures/aggr_comp/comp.jpg  used on input line 239.
-(pdftex.def)             Requested size: 333.92206pt x 71.5052pt.
+(pdftex.def)             Requested size: 333.92206pt x 200.01219pt.
  [5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.259 
-       <./figures/aggr_comp/comp.jpg>]
+l.250 \section
+              {Dependencies} <./figures/aggr_comp/comp.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 267--267
 []|\T1/lmr/bx/n/12 Type of de-pen-
  []
@@ -1677,94 +1681,152 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--278
  []
 
 [6]
+<figures/dependencies/usage.jpg, id=141, 3618.51875pt x 1776.6375pt>
+File: figures/dependencies/usage.jpg Graphic file (type jpg)
+<use figures/dependencies/usage.jpg>
+Package pdftex.def Info: figures/dependencies/usage.jpg  used on input line 298
+.
+(pdftex.def)             Requested size: 333.92206pt x 163.92975pt.
+ [7] [8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.323 	\item
+             \texttt{<<derive>>}: This stereotype indicates that the client ...
+ <./figures/dependencies/usage.jpg>]
+<figures/dependencies/derive.jpg, id=154, 2915.89375pt x 1776.6375pt>
+File: figures/dependencies/derive.jpg Graphic file (type jpg)
+<use figures/dependencies/derive.jpg>
+Package pdftex.def Info: figures/dependencies/derive.jpg  used on input line 33
+8.
+(pdftex.def)             Requested size: 333.92206pt x 203.45508pt.
+ [9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.348 
+       <./figures/dependencies/derive.jpg>]
+<figures/dependencies/refine.jpg, id=160, 4275.975pt x 923.45pt>
+File: figures/dependencies/refine.jpg Graphic file (type jpg)
+<use figures/dependencies/refine.jpg>
+Package pdftex.def Info: figures/dependencies/refine.jpg  used on input line 36
+3.
+(pdftex.def)             Requested size: 333.92206pt x 72.10208pt.
 
-LaTeX Warning: Reference `fig:usage_example' on page 7 undefined on input line 
-291.
+Underfull \hbox (badness 1210) in paragraph at lines 371--372
+[]\T1/lmr/m/n/12 The \T1/lmtt/m/n/12 DoorHandle \T1/lmr/m/n/12 class, which was
+ pre-vi-ously used by the drone to open
+ []
 
-[7]
 
-LaTeX Warning: Reference `fig:dependency_example' on page 8 undefined on input 
-line 319.
+Underfull \hbox (badness 1902) in paragraph at lines 371--372
+\T1/lmr/m/n/12 and close doors as part of its de-liv-ery tasks, has been re-fin
+ed by the
+ []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
+[]\T1/lmr/m/n/12 When the drone calls the new \T1/lmtt/m/n/12 closeDoor \T1/lmr
+/m/n/12 op-er-a-tion of the
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 373--374
+\T1/lmtt/m/n/12 TwoFactorSecurityDoorHandle \T1/lmr/m/n/12 class, the re-cip-i-
+ent will re-ceive a no-ti-fi-ca-
+ []
+
+[10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.375 T
+       he \texttt{TwoFactorSecurityDoorHandle} class is shown as the client ...
+ <./figures/dependencies/refine.jpg>]
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-[8]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 342.
+nput line 389.
 
 
-LaTeX Warning: Citation `albrecht_blueprints_2020' on page 9 undefined on input
- line 345.
+LaTeX Warning: Citation `albrecht_blueprints_2020' on page 11 undefined on inpu
+t line 392.
 
 
-LaTeX Warning: Citation `albrecht_blueprints_2020' on page 9 undefined on input
- line 345.
+LaTeX Warning: Citation `albrecht_blueprints_2020' on page 11 undefined on inpu
+t line 392.
 
-[9]
+[11] [12]
 chapter 3.
-<figures/pepe-example.png, id=153, 448.67625pt x 252.34274pt>
+<figures/pepe-example.png, id=178, 448.67625pt x 252.34274pt>
 File: figures/pepe-example.png Graphic file (type png)
 <use figures/pepe-example.png>
-Package pdftex.def Info: figures/pepe-example.png  used on input line 354.
+Package pdftex.def Info: figures/pepe-example.png  used on input line 401.
 (pdftex.def)             Requested size: 333.92206pt x 187.80882pt.
 
-LaTeX Warning: Citation `albrecht_blueprints_2020' on page 10 undefined on inpu
-t line 355.
+LaTeX Warning: Citation `albrecht_blueprints_2020' on page 13 undefined on inpu
+t line 402.
 
 
-LaTeX Warning: Citation `albrecht_blueprints_2020' on page 10 undefined on inpu
-t line 355.
+LaTeX Warning: Citation `albrecht_blueprints_2020' on page 13 undefined on inpu
+t line 402.
 
-[10
+[13
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.363 
+l.410 
        <./figures/pepe-example.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 373--373
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
 [][][]\T1/lmr/m/n/12 Die Tabel-len-cap-tion: Für Tabellen emp-fiehlt sich der
  []
 
-[11
+[14
 pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.378 \backmatter
+l.425 \backmatter
                  ]
 Using TeX to sort glossary entries---this may take a while
-(Vorlage_Report.bbl [12
+(Vorlage_Report.bbl [15
 
 
 
 ]
 chapter without number
-) [13
+) [16
 
 ]
 chapter without number
-[14
+[17
 
 
 ] (Vorlage_Report.aux (cover.aux))
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Vorlage_Report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 37496 strings out of 475281
- 748925 string characters out of 2774064
- 1417549 words of memory out of 3000000
- 58204 multiletter control sequences out of 15000+600000
+ 37526 strings out of 475281
+ 749918 string characters out of 2774064
+ 1416851 words of memory out of 3000000
+ 58224 multiletter control sequences out of 15000+600000
  520590 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,19n,106p,10611b,1319s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 108i,20n,106p,10611b,1319s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/ronny/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C
 :/Users/ronny/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/U
 sers/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/U
@@ -1774,9 +1836,9 @@ rs/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/User
 s/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/User
 s/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/User
 s/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Vorlage_Report.pdf (19 pages, 895461 bytes).
+Output written on Vorlage_Report.pdf (22 pages, 2028293 bytes).
 PDF statistics:
- 299 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
- 225 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 325 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
+ 240 words of extra memory for PDF output out of 10000 (max. 10000000)
 

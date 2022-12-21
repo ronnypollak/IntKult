@@ -197,7 +197,7 @@ The referencing class consists of the referenced class.
 However, the lifetime of the referenced class is independent of the referencing class.
 If the referencing class is destroyed, the referenced class may continue to exist.
 This means that the part of a whole can exist without the whole.
-In aggregation, as in associations, every combination of multiplicities is possible.
+In aggregation, as in associations, every combination of multiplicities is possible. \cite[p. 153]{uml}
 
 
 \begin{figure}[h]
@@ -207,11 +207,12 @@ In aggregation, as in associations, every combination of multiplicities is possi
 	\label{fig:aggregation_example} 
 \end{figure}
 
+%TODO Class drone hat sich geändert von Levin
 
 An example of an aggregation relationship involving a \texttt{Drone} class and a \texttt{Rotor} class is demonstrated in Figure \ref{fig:aggregation_example}. 
-The \texttt{Drone} class contains a static attribute, \texttt{totalDrones}, which keeps track of the total number of drones, as well as a static operation, \texttt{calculateTotalDrones()}, which calculates this value. 
-The class also includes a private operation, \texttt{sendDroneToRecipient()}, which is responsible for sending the drone to its intended recipient. 
-The \texttt{Rotor} class, on the other hand, contains a private operation, \texttt{move()}, which is called by the \texttt{Drone} class's \texttt{sendDroneToRecipient()} operation and three private attributes, \texttt{velocity}, \texttt{horizontalDegree}, and \texttt{verticalDegree}, which control the movement of the drone in the air. \cite[p. 153]{uml}
+
+The \texttt{Drone} class  includes a private operation, \texttt{sendDroneToRecipient()}, which involves tasks such as navigating to the recipient's location, verifying the delivery details, and safely delivering the package.
+The \texttt{Rotor} class, on the other hand, contains a private operation, \texttt{move()}, which is called by the \texttt{Drone} class's \texttt{sendDroneToRecipient()} operation and three private attributes, \texttt{velocity}, \texttt{horizontalDegree}, and \texttt{verticalDegree}, which control the movement of the drone in the air. 
 
 The \texttt{Drone} class serves as the referencing class in this aggregation relationship and requires at least four \texttt{Rotor} instances to function properly. 
 However, the drone has the capacity to utilize up to eight rotors at a time, as there are eight available slots for rotors on the drone. 
@@ -230,8 +231,7 @@ In a UML class diagram, composition is a stronger form of relationship than aggr
 
 The composite class is responsible for the lifecycle of the component class, meaning that the composite class creates and destroys the component class as needed. The component class cannot exist independently of the composite class and is tightly bound to the composite class. This is in contrast to an aggregation relationship, where the component class can exist independently of the aggregate class.
 
-The multiplicities available for use in a composition relationship are restricted compared to those in an aggregation relationship. While a whole can have any number of parts, a part can only contribute to one whole. The multiplicity indicated by the solid diamond in a composition relationship is fixed at 0, 0..1, or 1. In many cases, the multiplicity is left out, which implies a multiplicity of 1. A multiplicity of 0 does not make sense in a composition relationship, and a multiplicity of 0..1 means that the parts are capable of existing independently for a certain period of time.(e.g. beispiel).
-(e.g., the pineapple juice before it is mixed with the other ingredients of the cocktail).
+The multiplicities available for use in a composition relationship are restricted compared to those in an aggregation relationship. While a whole can have any number of parts, a part can only contribute to one whole. The multiplicity indicated by the solid diamond in a composition relationship is fixed at 0, 0..1, or 1. In many cases, the multiplicity is left out, which implies a multiplicity of 1. A multiplicity of 0 does not make sense in a composition relationship, and a multiplicity of 0..1 means that the parts are capable of existing independently for a certain period of time.
  \cite[p. 153-154]{uml}
 
 \begin{figure}[h]
@@ -284,48 +284,95 @@ The following Table \ref{tab:dependencies} shows the different types of dependen
 In the following sections the different types of dependencies will be explained with examples.
 
 \subsection{Usage}
+In the context of modeling and software development, a usage relationship is a dependency in which one element (client) requires another element (supplier) for its full implementation or operation. 
+The client element is considered incomplete without the supplier element. 
+The usage relationship is represented using the stereotype \texttt{<<use>>} and is depicted using an arrow pointing from the client element to the supplier element. 
+The client and supplier elements can be any named elements in the model. 
+The difference between a usage relationship and a normal dependency relationship is minimal, with the main distinction being that the \texttt{<<use>>} stereotype may be used to specify that the dependency is specifically related to the actual use of the supplier element. \cite[p. 161]{uml}
 
 %TODO Usage erklären
 
+\vspace{1em}
+\begin{minipage}{\linewidth}
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/dependencies/usage.jpg}
+	\captionof{figure}[Example usage]{Example of usage}
+	\label{fig:usage_example}
+\end{minipage}
+\vspace{1em}
 
-In Figure \ref{fig:usage_example}, an example of a usage relationship between the \texttt{Drone} class and the \texttt{DoorHandle} class is displayed. The \texttt{DoorHandle} class contains the private attribute \texttt{type}, which stores information about the type of door handle, and the public method \texttt{open(password: string)} which allows the door to be opened with a password.
-This method also utilizes the \texttt{state} enumeration to store the current state of the door handle, including "open", "closed", and "invalid" states.
+
+In Figure \ref{fig:usage_example}, an example of a usage relationship between the \texttt{Drone} class and the \texttt{DoorHandle} class is displayed. The \texttt{DoorHandle} class contains the private attribute \texttt{type}, which stores information about the type of door handle, and the public operation \texttt{open()} which allows the door to be opened with a password.
+This operation also utilizes the \texttt{state} enumeration to store the current state of the door handle, including "open", "closed", and "invalid" states.
 It enters the invalid state if an error occures while opening or closing the door
 
 The DoorHandle is built into various types of doors and is responsible for providing a mechanism for opening the door. 
 The drone uses the DoorHandle to open doors as part of its delivery tasks and drops off the packages in the desired place. 
 This can include the houses, garages or shacks. 
-To open a door, the drone calls the \texttt{open(password: string)} method of the DoorHandle class and passes in the password for the door. 
+To open a door, the drone calls the public \texttt{open()} operation of the DoorHandle class and passes in the password for the door. 
 If the password is correct, the door is opened and the Drone class can complete its delivery. 
+Afterwards the door will be closed again with the public operation \texttt{closeDoor()}.
 
 This usage relationship between the Drone and DoorHandle classes can be represented with a directed line with an arrowhead pointing from the Drone class to the DoorHandle class and the stereotype <<use>>. The Drone class is the client that uses the DoorHandle class, and the DoorHandle class is the supplier that provides the functionality for opening the door.
 
 \subsection{Abstraction}
 The abstraction relationship connects different levels of abstraction with each other.
 Stereotypes are a way to add additional meaning to an element in a UML2 class diagram. 
-The common sterotypes that refine the basic abstraction relationship are: \cite{ibm_dependencies}
+The common stereotypes that refine the basic abstraction relationship are: \cite{ibm_dependencies}
 \begin{itemize}
-	\item <<derive>>: This stereotype indicates that the client element is calculated from the supplier element.
-	\item <<refine>>: This stereotype indicates that the client element refines or improves upon the supplier element.
-	\item <<trace>>: This stereotype can be used to link elements that have the same message content, but are each viewed in a different context or from a different perspective
+	\item \texttt{<<derive>>}: This stereotype indicates that the client element is calculated from the supplier element.
+	\item \texttt{<<refine>>}: This stereotype indicates that the client element refines or improves upon the supplier element.
+	\item \texttt{<<trace>>}: This stereotype can be used to link elements that have the same message content, but are each viewed in a different context or from a different perspective
 \end{itemize}
+
+
+In the following the two more common stereotypes \texttt{<<derive>>} and \texttt{<<refine>>}: will be explained with examples.
 
 %TODO Use Location class from full diagram and change it
 
 %As an example, consider the class \texttt{Drone} might have a dependency on a \texttt{GPS} class, indicating that it relies on the \texttt{GPS} class for location information. 
 %This dependency could be represented with a <<derive>> stereotype, as the drone calculates its location based on the information provided by the GPS. The GPS has two private attributes: \texttt{longitude} and \texttt{latitude} which describe the position of the drone.
+\vspace{1em}
+\begin{minipage}{\linewidth}
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/dependencies/derive.jpg}
+	\captionof{figure}[Example abstraction]{Example of a derive abstraction}
+	\label{fig:derive_example}
+\end{minipage}
+\vspace{1em}
 
 
-In Figure \ref{fig:dependency_example}, an example of a dependency relationship between the \texttt{Drone} class and the \texttt{GPS} class is displayed. 
-The \texttt{GPS} class contains the private attributes \texttt{latitude}, \texttt{longitude}, and \texttt{altitude}, which store information about the drone's current location. It also has the public methods \texttt{getLocation()} and \texttt{setLocation()}, which allow the Drone class to retrieve and update the location information provided by the GPS class.
+In Figure \ref{fig:derive_example}, an example of a dependency relationship between the \texttt{Drone} class and the \texttt{GPS} class is displayed. 
+The \texttt{GPS} class contains the private attributes \texttt{latitude}, \texttt{longitude}, and \texttt{altitude}, which store information about the drone's current location. It also has the public operations \texttt{getLocation()} and \texttt{setLocation()}, which allow the Drone class to retrieve and update the location information provided by the GPS class.
 This dependency can be represented with a <<derive>> stereotype, as the drone calculates its location based on the information provided by the GPS.
 
-The Drone class depends on the GPS class for accurate location data, as it is essential for the drone to be able to determine its position and navigate to a desired location. To retrieve the current location, the Drone class calls the \texttt{getLocation()} method of the GPS class and stores the returned location in its own \texttt{location} attribute. The Drone class can then use this information to perform actions such as flying to a specific location or avoiding obstacles.
+The Drone class depends on the GPS class for accurate location data, as it is essential for the drone to be able to determine its position and navigate to a desired location. To retrieve the current location, the Drone class calls the \texttt{getLocation()} operation of the GPS class and stores the returned location in its own \texttt{location} attribute. The Drone class can then use this information to perform actions such as flying to a specific location or avoiding obstacles.
 
-This dependency between the Drone and GPS classes can be represented with a <<derive>> stereotype, as the drone calculates its location based on the information provided by the GPS. The GPS class is the supplier of this information, and the Drone class is the client that depends on it. Without the GPS, the drone would be unable to determine its location and would be unable to perform its intended functions.
+This dependency between the Drone and GPS classes can be represented with a \texttt{<<derive>>} stereotype, as the drone calculates its location based on the information provided by the GPS. 
+The GPS class is the supplier of this information, and the Drone class is the client that depends on it. 
+Without the GPS, the drone would be unable to determine its location and would be unable to perform its intended functions.
 
 %TODO Attribute zu location zu drone adden
 %TODO Zweites Beispiel mit refine 
+%TODO neue Überschrift?
+
+
+\vspace{1em}
+\begin{minipage}{\linewidth}
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/dependencies/refine.jpg}
+	\captionof{figure}[Example abstraction]{Example of a refine abstraction}
+	\label{fig:refine_example}
+\end{minipage}
+\vspace{1em}
+
+In Figure \ref{fig:refine_example}, an example of a refinement relationship between the \texttt{DoorHandle} class and the \texttt{TwoFactorSecurityDoorHandle} class is displayed.
+
+The \texttt{DoorHandle} class, which was previously used by the drone to open and close doors as part of its delivery tasks, has been refined by the \texttt{TwoFactorSecurityDoorHandle} class to add an extra layer of security. The \texttt{TwoFactorSecurityDoorHandle} class has a private attribute \texttt{contact} that stores the phone number, email address, or recipient's ID in the delivery app.
+
+When the drone calls the new \texttt{closeDoor} operation of the \texttt{TwoFactorSecurityDoorHandle} class, the recipient will receive a notification that they must answer, in addition to the password that the drone inputs, in order for the door to be opened. This added security measure ensures that only the drone with the intended package can unlock the door.
+
+The \texttt{TwoFactorSecurityDoorHandle} class is shown as the client element in the refinement relationship, which is depicted with a solid line with a closed triangle pointing from the \texttt{TwoFactorSecurityDoorHandle} class to the \texttt{DoorHandle} class. The stereotype \texttt{<<refine>>} is added to the relationship to indicate that the \texttt{TwoFactorSecurityDoorHandle} class refines the \texttt{DoorHandle} class.
 
 
 
