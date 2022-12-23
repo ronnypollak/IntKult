@@ -286,7 +286,7 @@ In the following sections the different types of dependencies will be explained 
 \subsection{Usage}
 In the context of modeling and software development, a usage relationship is a dependency in which one element (client) requires another element (supplier) for its full implementation or operation. 
 The client element is considered incomplete without the supplier element. 
-The usage relationship is represented using the stereotype \texttt{<<use>>} and is depicted using an arrow pointing from the client element to the supplier element. 
+The usage relationship is represented using the stereotype \texttt{<<use>>} and is depicted using a dashed line with an arrow pointing from the client element to the supplier element. 
 The client and supplier elements can be any named elements in the model. 
 The difference between a usage relationship and a normal dependency relationship is minimal, with the main distinction being that the \texttt{<<use>>} stereotype may be used to specify that the dependency is specifically related to the actual use of the supplier element. \cite[p. 161]{uml}
 
@@ -303,7 +303,7 @@ The difference between a usage relationship and a normal dependency relationship
 
 
 In Figure \ref{fig:usage_example}, an example of a usage relationship between the \texttt{Drone} class and the \texttt{DoorHandle} class is displayed. The \texttt{DoorHandle} class contains the private attribute \texttt{type}, which stores information about the type of door handle, and the public operation \texttt{open()} which allows the door to be opened with a password.
-This operation also utilizes the \texttt{state} enumeration to store the current state of the door handle, including "open", "closed", and "invalid" states.
+This operation also utilizes the \texttt{state} enumeration to store the current state of the door handle, including \texttt{open}, \texttt{closed}, and \texttt{invalid} states.
 It enters the invalid state if an error occures while opening or closing the door
 
 The DoorHandle is built into various types of doors and is responsible for providing a mechanism for opening the door. 
@@ -372,8 +372,46 @@ The \texttt{DoorHandle} class, which was previously used by the drone to open an
 
 When the drone calls the new \texttt{closeDoor} operation of the \texttt{TwoFactorSecurityDoorHandle} class, the recipient will receive a notification that they must answer, in addition to the password that the drone inputs, in order for the door to be opened. This added security measure ensures that only the drone with the intended package can unlock the door.
 
-The \texttt{TwoFactorSecurityDoorHandle} class is shown as the client element in the refinement relationship, which is depicted with a solid line with a closed triangle pointing from the \texttt{TwoFactorSecurityDoorHandle} class to the \texttt{DoorHandle} class. The stereotype \texttt{<<refine>>} is added to the relationship to indicate that the \texttt{TwoFactorSecurityDoorHandle} class refines the \texttt{DoorHandle} class.
+The \texttt{TwoFactorSecurityDoorHandle} class is shown as the client element in the refinement relationship, which is depicted with a dashed line with an open arrow pointing from the \texttt{TwoFactorSecurityDoorHandle} class to the \texttt{DoorHandle} class. The stereotype \texttt{<<refine>>} is added to the relationship to indicate that the \texttt{TwoFactorSecurityDoorHandle} class refines the \texttt{DoorHandle} class.
 
+
+\subsection{Substitution}
+In UML, a substitution dependency is a relationship between classifiers that allows one classifier (the client) to be used in place of another classifier (the supplier) at runtime.
+The client classifier must meet all requirements specified by the supplier, including implementing interfaces and having corresponding ports. 
+The substitution dependency is depicted in a UML diagram with a dashed line and open arrow pointing from the client to the supplier, and the stereotype \texttt{<<substitute>>} added to the relationship. 
+Only classifiers, such as classes or components, can be connected in a substitution dependency. 
+Substitution dependencies can be used when inheritance is not possible or appropriate, for example if the supplier classifier is part of a third-party library and cannot be modified. 
+The client and supplier classifiers in a substitution dependency do not need to have similar base structures, allowing for more flexible and complex designs. \cite[p. 165]{uml}
+
+
+One common use case for substitution dependencies is when a classifier is being replaced or upgraded with a new version, but the new version needs to maintain compatibility with the original classifier. For example, consider a drone delivery system that originally used a fleet of traditional drones for deliveries. As the company develops and deploys a new line of robots that are capable of performing the same tasks as the drones, they may use a substitution dependency to indicate that the robots can be used as a substitute for the drones.
+
+
+\vspace{1em}
+\begin{minipage}{\linewidth}
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/dependencies/substitute.jpg}
+	\captionof{figure}[Example substitution]{Example of a substitution}
+	\label{fig:substitution_example}
+\end{minipage}
+\vspace{1em}
+
+
+In Figure \ref{fig:substitution_example}, an example of a substitution relationship between the \texttt{Drone} class and the \texttt{Robot} class is displayed.
+
+The \texttt{Drone} class has been designated as the contract classifier, which means that it specifies a set of obligations that must be fulfilled by any substituting classifiers. In this case, the \texttt{Robot} class has been identified as a substituting classifier, which means that it can be used in place of the \texttt{Drone} class wherever instances of the \texttt{Drone} class are expected.
+
+In order to fulfill the obligations specified by the \texttt{Drone} class, the \texttt{Robot} class must implement all interfaces and ports that are required by the \texttt{Drone} class. For example, the \texttt{Drone} class requires the implementation of a \texttt{deliverPackage()} operation, which must also be implemented by the \texttt{Robot} class in order to be used as a valid substitution.
+
+
+\subsection{Realization}
+A realization dependency relationship indicates that the client model element is an implementation of the supplier model element, and the supplier model element is the specification.
+A realization relationship can be used to model the relationship between a class and an interface, a component and a class, or a component and an interface. 
+It represents the implementation of a contract defined by the supplier element and indicates that the client element provides the behavior specified by the supplier element.
+In UML2 a realization relationship is depicted as a solid line with a hollow triangle arrowhead pointing from the client element to the supplier element.
+Before UML2 the usual notation of dependencies, using a dashed line with an open arrow, was used as an alternative. \cite[p. 164]{uml}
+
+An example of the realization relationship will be presented in the Interface chapter.
 
 
 
