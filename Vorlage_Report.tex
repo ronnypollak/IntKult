@@ -185,12 +185,13 @@ The association is shown using a solid line with an open arrow at one end, indic
 This chapter will examine various types of complex UML class diagram relationships in detail and how they are depicted.
 
 
-\section{Aggregation and Composition}
+\chapter{Aggregation and Composition}
 Aggregation and composition are two types of relationships that can be represented in a UML class diagram. 
 They both are subtypes of associations and represent a relationship between two classes in which one class has a reference to another class, but they differ in the degree to which the lifetime of the referenced class is tied to the referencing class.
+%angeblich Plagiat
 
 
-\subsection{Aggregation}
+\section{Aggregation}
 Aggregation is a weaker form of relationship than composition and is indicated in a UML class diagram by a solid line with a hollow diamond at one end. 
 It represents a "part-of" relationship between two classes, in which the referencing class (the class with the diamond) is composed of one or more instances of the referenced class (the class on the other end of the line).
 The referencing class consists of the referenced class.
@@ -211,7 +212,7 @@ In aggregation, as in associations, every combination of multiplicities is possi
 
 An example of an aggregation relationship involving a \texttt{Drone} class and a \texttt{Rotor} class is demonstrated in Figure \ref{fig:aggregation_example}. 
 
-The \texttt{Drone} class  includes a private operation, \texttt{sendDroneToRecipient()}, which involves tasks such as navigating to the recipient's location, verifying the delivery details, and safely delivering the package.
+The \texttt{Drone} class includes a private operation, \texttt{sendDroneToRecipient()}, which involves tasks such as navigating to the recipient's location, verifying the delivery details, and safely delivering the package.
 The \texttt{Rotor} class, on the other hand, contains a private operation, \texttt{move()}, which is called by the \texttt{Drone} class's \texttt{sendDroneToRecipient()} operation and three private attributes, \texttt{velocity}, \texttt{horizontalDegree}, and \texttt{verticalDegree}, which control the movement of the drone in the air. 
 
 The \texttt{Drone} class serves as the referencing class in this aggregation relationship and requires at least four \texttt{Rotor} instances to function properly. 
@@ -225,9 +226,9 @@ TODO: Qualifizierte Assoziation
    Darstellung einer ternären Assoziationn
 
 
-\subsection{Composition}
+\section{Composition}
 
-In a UML class diagram, composition is a stronger form of relationship than aggregation and is represented by a solid line with a solid diamond at one end pointing towards the composite class. It represents a whole-part relationship between two classes, in which the whole class, known as the composite, is composed of one or more instances of the part class, known as the component.
+In a UML class diagram, composition is a stronger form of relationship than aggregation and is represented by a solid line with a solid diamond at one end pointing toward the composite class. It represents a whole-part relationship between two classes, in which the whole class, known as the composite, is composed of one or more instances of the part class, known as the component.
 
 The composite class is responsible for the lifecycle of the component class, meaning that the composite class creates and destroys the component class as needed. The component class cannot exist independently of the composite class and is tightly bound to the composite class. This is in contrast to an aggregation relationship, where the component class can exist independently of the aggregate class.
 
@@ -247,7 +248,7 @@ In Figure \ref{fig:composition_example}, an example of a composition relationshi
 This design also incorporates an anti-theft concept, in which each chipset is uniquely bound to a specific drone. The number of chipsets used by the drone may vary based on their efficiency and the desired level of efficiency for the drone.
 
 
-\section{Dependencies}
+\chapter{Dependencies}
 
 In UML, a dependency is a relationship between two elements in which one element (the client) uses or depends on another element (the supplier) for specification or implementation.
 The dependency represents a semantic or structural relationship between the supplier and the client, indicating that the client is dependent on the supplier in some way (Booch, Rumbaugh, und Jacobson, 1998).
@@ -258,8 +259,9 @@ To represent a dependency in a UML diagram, a dashed line with an open arrow poi
 In some cases, stereotypes may be used to show the precise nature of the dependency.
 
 
-The following Table \ref{tab:dependencies} shows the different types of dependencies, their stereotype and a description.
+The following Table \ref{tab:dependencies} shows the different types of dependencies, their stereotype, and a description.
 
+%TODO Binding rausnehmen?
 \vspace{1em}
 {\RaggedRight
 \begin{longtable} {|p{3.5cm}|p{3.25cm}|p{6.5cm}|}
@@ -281,9 +283,9 @@ The following Table \ref{tab:dependencies} shows the different types of dependen
 \end{longtable}
 }
 
-In the following sections the different types of dependencies will be explained with examples.
+In the following sections, the different types of dependencies will be explained with examples.
 
-\subsection{Usage}
+\section{Usage}
 In the context of modeling and software development, a usage relationship is a dependency in which one element (client) requires another element (supplier) for its full implementation or operation. 
 The client element is considered incomplete without the supplier element. 
 The usage relationship is represented using the stereotype \texttt{<<use>>} and is depicted using a dashed line with an arrow pointing from the client element to the supplier element. 
@@ -304,18 +306,18 @@ The difference between a usage relationship and a normal dependency relationship
 
 In Figure \ref{fig:usage_example}, an example of a usage relationship between the \texttt{Drone} class and the \texttt{DoorHandle} class is displayed. The \texttt{DoorHandle} class contains the private attribute \texttt{type}, which stores information about the type of door handle, and the public operation \texttt{open()} which allows the door to be opened with a password.
 This operation also utilizes the \texttt{state} enumeration to store the current state of the door handle, including \texttt{open}, \texttt{closed}, and \texttt{invalid} states.
-It enters the invalid state if an error occures while opening or closing the door
+It enters the invalid state if an error occurs while opening or closing the door
 
 The DoorHandle is built into various types of doors and is responsible for providing a mechanism for opening the door. 
 The drone uses the DoorHandle to open doors as part of its delivery tasks and drops off the packages in the desired place. 
-This can include the houses, garages or shacks. 
+This can include houses, garages, or shacks. 
 To open a door, the drone calls the public \texttt{open()} operation of the DoorHandle class and passes in the password for the door. 
 If the password is correct, the door is opened and the Drone class can complete its delivery. 
-Afterwards the door will be closed again with the public operation \texttt{closeDoor()}.
+Afterwards, the door will be closed again with the public operation \texttt{closeDoor()}.
 
 This usage relationship between the Drone and DoorHandle classes can be represented with a directed line with an arrowhead pointing from the Drone class to the DoorHandle class and the stereotype <<use>>. The Drone class is the client that uses the DoorHandle class, and the DoorHandle class is the supplier that provides the functionality for opening the door.
 
-\subsection{Abstraction}
+\section{Abstraction}
 The abstraction relationship connects different levels of abstraction with each other.
 Stereotypes are a way to add additional meaning to an element in a UML2 class diagram. 
 The common stereotypes that refine the basic abstraction relationship are: \cite{ibm_dependencies}
@@ -346,7 +348,7 @@ In Figure \ref{fig:derive_example}, an example of a dependency relationship betw
 The \texttt{GPS} class contains the private attributes \texttt{latitude}, \texttt{longitude}, and \texttt{altitude}, which store information about the drone's current location. It also has the public operations \texttt{getLocation()} and \texttt{setLocation()}, which allow the Drone class to retrieve and update the location information provided by the GPS class.
 This dependency can be represented with a <<derive>> stereotype, as the drone calculates its location based on the information provided by the GPS.
 
-The Drone class depends on the GPS class for accurate location data, as it is essential for the drone to be able to determine its position and navigate to a desired location. To retrieve the current location, the Drone class calls the \texttt{getLocation()} operation of the GPS class and stores the returned location in its own \texttt{location} attribute. The Drone class can then use this information to perform actions such as flying to a specific location or avoiding obstacles.
+The Drone class depends on the GPS class for accurate location data, as it is essential for the drone to be able to determine its position and navigate to the desired location. To retrieve the current location, the Drone class calls the \texttt{getLocation()} operation of the GPS class and stores the returned location in its \texttt{location} attribute. The Drone class can then use this information to perform actions such as flying to a specific location or avoiding obstacles.
 
 This dependency between the Drone and GPS classes can be represented with a \texttt{<<derive>>} stereotype, as the drone calculates its location based on the information provided by the GPS. 
 The GPS class is the supplier of this information, and the Drone class is the client that depends on it. 
@@ -370,17 +372,17 @@ In Figure \ref{fig:refine_example}, an example of a refinement relationship betw
 
 The \texttt{DoorHandle} class, which was previously used by the drone to open and close doors as part of its delivery tasks, has been refined by the \texttt{TwoFactorSecurityDoorHandle} class to add an extra layer of security. The \texttt{TwoFactorSecurityDoorHandle} class has a private attribute \texttt{contact} that stores the phone number, email address, or recipient's ID in the delivery app.
 
-When the drone calls the new \texttt{closeDoor} operation of the \texttt{TwoFactorSecurityDoorHandle} class, the recipient will receive a notification that they must answer, in addition to the password that the drone inputs, in order for the door to be opened. This added security measure ensures that only the drone with the intended package can unlock the door.
+When the drone calls the new \texttt{closeDoor} operation of the \texttt{TwoFactorSecurityDoorHandle} class, the recipient will receive a notification that they must answer, in addition to the password that the drone inputs, for the door to be opened. This added security measure ensures that only the drone with the intended package can unlock the door.
 
 The \texttt{TwoFactorSecurityDoorHandle} class is shown as the client element in the refinement relationship, which is depicted with a dashed line with an open arrow pointing from the \texttt{TwoFactorSecurityDoorHandle} class to the \texttt{DoorHandle} class. The stereotype \texttt{<<refine>>} is added to the relationship to indicate that the \texttt{TwoFactorSecurityDoorHandle} class refines the \texttt{DoorHandle} class.
 
 
-\subsection{Substitution}
+\section{Substitution}
 In UML, a substitution dependency is a relationship between classifiers that allows one classifier (the client) to be used in place of another classifier (the supplier) at runtime.
 The client classifier must meet all requirements specified by the supplier, including implementing interfaces and having corresponding ports. 
 The substitution dependency is depicted in a UML diagram with a dashed line and open arrow pointing from the client to the supplier, and the stereotype \texttt{<<substitute>>} added to the relationship. 
 Only classifiers, such as classes or components, can be connected in a substitution dependency. 
-Substitution dependencies can be used when inheritance is not possible or appropriate, for example if the supplier classifier is part of a third-party library and cannot be modified. 
+Substitution dependencies can be used when inheritance is not possible or appropriate, for example, if the supplier classifier is part of a third-party library and cannot be modified. 
 The client and supplier classifiers in a substitution dependency do not need to have similar base structures, allowing for more flexible and complex designs. \cite[p. 165]{uml}
 
 
@@ -401,10 +403,10 @@ In Figure \ref{fig:substitution_example}, an example of a substitution relations
 
 The \texttt{Drone} class has been designated as the contract classifier, which means that it specifies a set of obligations that must be fulfilled by any substituting classifiers. In this case, the \texttt{Robot} class has been identified as a substituting classifier, which means that it can be used in place of the \texttt{Drone} class wherever instances of the \texttt{Drone} class are expected.
 
-In order to fulfill the obligations specified by the \texttt{Drone} class, the \texttt{Robot} class must implement all interfaces and ports that are required by the \texttt{Drone} class. For example, the \texttt{Drone} class requires the implementation of a \texttt{deliverPackage()} operation, which must also be implemented by the \texttt{Robot} class in order to be used as a valid substitution.
+To fulfill the obligations specified by the \texttt{Drone} class, the \texttt{Robot} class must implement all interfaces and ports that are required by the \texttt{Drone} class. For example, the \texttt{Drone} class requires the implementation of a \texttt{deliverPackage()} operation, which must also be implemented by the \texttt{Robot} class to be used as a valid substitution.
 
 
-\subsection{Realization}
+\section{Realization}
 A realization dependency relationship indicates that the client model element is an implementation of the supplier model element, and the supplier model element is the specification.
 A realization relationship can be used to model the relationship between a class and an interface, a component and a class, or a component and an interface. 
 It represents the implementation of a contract defined by the supplier element and indicates that the client element provides the behavior specified by the supplier element.
@@ -415,11 +417,59 @@ An example of the realization relationship will be presented in the Interface ch
 
 
 
-\subsection{Binding}
+\section{Binding}
+
+\section{Multiple dependencies}
+
+In cases where a client has a dependency on several suppliers, a connector (represented as a small black dot) can be used to model the dependency.  \cite[p. 160]{uml}
+In the following Figure \ref{fig:multiple_dependencies_example} an example of a possible multiple dependency is displayed.
+
+\vspace{1em}
+\begin{minipage}{\linewidth}
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/dependencies/multiple_dependencies.jpg}
+	\captionof{figure}[Example multiple dependency]{Example of a multiple dependency}
+	\label{fig:multiple_dependencies_example}
+\end{minipage}
+\vspace{1em}
 
 
-In cases where a client has a dependency on several suppliers, a connector (represented as a small black dot) can be used to model the dependency. This allows designers and developers to represent complex dependency relationships in a clear and concise manner, making it easier to understand the dependencies and interactions between different parts of a system.
+For the class \texttt{FlightControl} to work properly, it is dependent on the classes \texttt{Navigation}, \texttt{BatteryManagement}, and \texttt{Communication}.
+Furthermore, the way the classes are dependent can be elaborated by stereotypes and added notes.
 
+\section{Interface}
+
+An interface is a type of classifier that represents a set of related behaviors that a class or component must implement to conform to the interface. 
+An interface defines a set of abstract operations, which are public and do not have any implementation.
+Interfaces are represented by a classifier rectangle with the stereotype \texttt{«interface»} at the top, followed by the name of the interface. 
+The operations and attributes of the interface are listed inside the rectangle. \cite[p. 130-131]{uml}
+
+\vspace{1em}
+\begin{minipage}{\linewidth}
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/interface/doorhandle_interface.jpg}
+	\captionof{figure}[Example interface]{Example of a DoorHandle interface}
+	\label{fig:interface_example}
+\end{minipage}
+\vspace{1em}
+
+
+An example of an interface is shown in Figure \ref{fig:interface_example}, where the \texttt{IDoorHandle} interface has a realization relationship with the \texttt{DoorHandle} class.
+The \texttt{DoorHandle} class implements the \texttt{openDoor()} and \texttt{closeDoor()} operations defined in the interface, allowing for flexibility in the implementation.
+For instance, a different version of the \texttt{DoorHandle} class that also implements these operations could be used in place of the original.
+Interfaces in UML allow for easy substitution of different class implementations while maintaining the same set of required operations.
+
+
+\vspace{1em}
+\begin{minipage}{\linewidth}
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/interface/doorhandle_sec_interface.jpg}
+	\captionof{figure}[Example interface]{Example of an ExtraSecurityDoorHandle interface}
+	\label{fig:interface2_example}
+\end{minipage}
+\vspace{1em}
+
+In Figure \ref{fig:interface2_example}, another example of an interface relationship is shown. The \texttt{IExtraSecurityDoorHandle} interface allows for multiple different implementations of secure DoorHandles to be easily swapped in and out. The \texttt{TwoFactorSecurityDoorHandle} class implements the \texttt{openDoor()} operation of the \texttt{IExtraSecurityDoorHandle} interface.
 
 \section{Foo Foo}
 Hier folgt nun ein Listing, was basically Code ist. Und hier verlinke ich darauf: \autoref{lst:cleaning_impurity}.

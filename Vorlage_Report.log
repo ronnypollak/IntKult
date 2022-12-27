@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.18)  23 DEC 2022 18:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.18)  27 DEC 2022 11:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1493,30 +1493,30 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-] (Vorlage_Report.lof)
+] [3] (Vorlage_Report.lof)
 \tf@lof=\write6
 \openout6 = `Vorlage_Report.lof'.
 
- [3
 
-]
-(Vorlage_Report.lot)
+[4
+
+] (Vorlage_Report.lot)
 \tf@lot=\write7
 \openout7 = `Vorlage_Report.lot'.
 
- [4
+ [5
 
 
 ] (Vorlage_Report.lol
 
-LaTeX Warning: Citation `albrecht_blueprints_2020' on page v undefined on input
- line 4.
+LaTeX Warning: Citation `albrecht_blueprints_2020' on page vi undefined on inpu
+t line 6.
 
 )
 \tf@lol=\write8
 \openout8 = `Vorlage_Report.lol'.
 
- [5
+ [6
 
 
 ]
@@ -1532,312 +1532,361 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ]
 [2]
 chapter 2.
-<figures/aggr_comp/aggr.jpg, id=119, 3417.76875pt x 1776.6375pt>
-File: figures/aggr_comp/aggr.jpg Graphic file (type jpg)
-<use figures/aggr_comp/aggr.jpg>
-Package pdftex.def Info: figures/aggr_comp/aggr.jpg  used on input line 205.
-(pdftex.def)             Requested size: 333.92206pt x 173.58066pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-12.
-(C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [3
+[3
 
 ]
-[4
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.233 
-       <./figures/aggr_comp/aggr.jpg>]
-<figures/aggr_comp/comp.jpg, id=131, 2966.08125pt x 1776.6375pt>
-File: figures/aggr_comp/comp.jpg Graphic file (type jpg)
-<use figures/aggr_comp/comp.jpg>
-Package pdftex.def Info: figures/aggr_comp/comp.jpg  used on input line 239.
-(pdftex.def)             Requested size: 333.92206pt x 200.01219pt.
- [5
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.250 \section
-              {Dependencies} <./figures/aggr_comp/comp.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 267--267
-[]|\T1/lmr/bx/n/12 Type of de-pen-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
-[]|\T1/lmr/m/n/12 ^^Sabstraction^^T,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
-\T1/lmr/m/n/12 ^^Sde-rive^^T, ^^Sre-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
-[]|\T1/lmr/m/n/12 Relates two model el-e-ments, or sets
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
-\T1/lmr/m/n/12 of model el-e-ments, that rep-re-sent
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
-\T1/lmr/m/n/12 the same con-cept at dif-fer-ent lev-els
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
-\T1/lmr/m/n/12 of ab-strac-tion, or from dif-fer-ent
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
-[]|\T1/lmr/m/n/12 Connects tem-plate ar-gu-ments to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
-\T1/lmr/m/n/12 tem-plate pa-ram-e-ters to cre-ate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
-[]|\T1/lmr/m/n/12 Indicates that the client model
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
-\T1/lmr/m/n/12 el-e-ment is an im-ple-men-ta-tion of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
-\T1/lmr/m/n/12 the sup-plier model el-e-ment, and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
-\T1/lmr/m/n/12 the sup-plier model el-e-ment is the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
-[]|\T1/lmr/m/n/12 Indicates that the client model
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
-\T1/lmr/m/n/12 el-e-ment takes the place of the sup-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
-\T1/lmr/m/n/12 plier; the client model el-e-ment
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
-\T1/lmr/m/n/12 must con-form to the con-tract or
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
-\T1/lmr/m/n/12 in-ter-face that the sup-plier model
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--277
-[]|\T1/lmr/m/n/12 ^^Suse^^T, ^^Scall^^T,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--277
-\T1/lmr/m/n/12 ^^Scre-ate^^T, ^^Sin-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--277
-\T1/lmr/m/n/12 stan-ti-ate^^T, or
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
-[]|\T1/lmr/m/n/12 Indicates that one model el-e-ment
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
-\T1/lmr/m/n/12 re-quires an-other model el-e-ment for
- []
-
-[6]
-<figures/dependencies/usage.jpg, id=145, 3618.51875pt x 1776.6375pt>
-File: figures/dependencies/usage.jpg Graphic file (type jpg)
-<use figures/dependencies/usage.jpg>
-Package pdftex.def Info: figures/dependencies/usage.jpg  used on input line 298
-.
-(pdftex.def)             Requested size: 333.92206pt x 163.92975pt.
- [7] [8
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.323 	\item
-             \texttt{<<derive>>}: This stereotype indicates that the client ...
- <./figures/dependencies/usage.jpg>]
-<figures/dependencies/derive.jpg, id=158, 2920.9125pt x 1776.6375pt>
-File: figures/dependencies/derive.jpg Graphic file (type jpg)
-<use figures/dependencies/derive.jpg>
-Package pdftex.def Info: figures/dependencies/derive.jpg  used on input line 33
-8.
-(pdftex.def)             Requested size: 333.92206pt x 203.10265pt.
- [9
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.348 
-       <./figures/dependencies/derive.jpg>]
-<figures/dependencies/refine.jpg, id=164, 4270.95625pt x 923.45pt>
-File: figures/dependencies/refine.jpg Graphic file (type jpg)
-<use figures/dependencies/refine.jpg>
-Package pdftex.def Info: figures/dependencies/refine.jpg  used on input line 36
-3.
-(pdftex.def)             Requested size: 333.92206pt x 72.18661pt.
-
-Underfull \hbox (badness 1210) in paragraph at lines 371--372
-[]\T1/lmr/m/n/12 The \T1/lmtt/m/n/12 DoorHandle \T1/lmr/m/n/12 class, which was
- pre-vi-ously used by the drone to open
- []
-
-
-Underfull \hbox (badness 1902) in paragraph at lines 371--372
-\T1/lmr/m/n/12 and close doors as part of its de-liv-ery tasks, has been re-fin
-ed by the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 373--374
-[]\T1/lmr/m/n/12 When the drone calls the new \T1/lmtt/m/n/12 closeDoor \T1/lmr
-/m/n/12 op-er-a-tion of the
- []
-
-
-Underfull \hbox (badness 1728) in paragraph at lines 373--374
-\T1/lmtt/m/n/12 TwoFactorSecurityDoorHandle \T1/lmr/m/n/12 class, the re-cip-i-
-ent will re-ceive a no-ti-fi-ca-
- []
-
-[10
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.375 T
-       he \texttt{TwoFactorSecurityDoorHandle} class is shown as the client ...
- <./figures/dependencies/refine.jpg>]
-<figures/dependencies/substitute.jpg, id=171, 2067.725pt x 140.525pt>
-File: figures/dependencies/substitute.jpg Graphic file (type jpg)
-<use figures/dependencies/substitute.jpg>
-Package pdftex.def Info: figures/dependencies/substitute.jpg  used on input lin
-e 393.
-(pdftex.def)             Requested size: 333.92206pt x 22.69244pt.
- [11
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.402 T
-       he \texttt{Drone} class has been designated as the contract classifie...
- <./figures/dependencies/substitute.jpg>] [12]
-(C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 427.
-
-
-LaTeX Warning: Citation `albrecht_blueprints_2020' on page 13 undefined on inpu
-t line 430.
-
-
-LaTeX Warning: Citation `albrecht_blueprints_2020' on page 13 undefined on inpu
-t line 430.
-
-[13]
 chapter 3.
-<figures/pepe-example.png, id=191, 448.67625pt x 252.34274pt>
-File: figures/pepe-example.png Graphic file (type png)
-<use figures/pepe-example.png>
-Package pdftex.def Info: figures/pepe-example.png  used on input line 439.
-(pdftex.def)             Requested size: 333.92206pt x 187.80882pt.
-
-LaTeX Warning: Citation `albrecht_blueprints_2020' on page 14 undefined on inpu
-t line 440.
-
-
-LaTeX Warning: Citation `albrecht_blueprints_2020' on page 14 undefined on inpu
-t line 440.
-
-[14
+<figures/aggr_comp/aggr.jpg, id=139, 3417.76875pt x 1776.6375pt>
+File: figures/aggr_comp/aggr.jpg Graphic file (type jpg)
+<use figures/aggr_comp/aggr.jpg>
+Package pdftex.def Info: figures/aggr_comp/aggr.jpg  used on input line 206.
+(pdftex.def)             Requested size: 333.92206pt x 173.58066pt.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
+13.
+(C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [4
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.448 
-       <./figures/pepe-example.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 458--458
-[][][]\T1/lmr/m/n/12 Die Tabel-len-cap-tion: Für Tabellen emp-fiehlt sich der
+l.215 T
+       he \texttt{Drone} class includes a private operation, \texttt{sendDro...
+ <./figures/aggr_comp/aggr.jpg>] [5]
+<figures/aggr_comp/comp.jpg, id=151, 2966.08125pt x 1776.6375pt>
+File: figures/aggr_comp/comp.jpg Graphic file (type jpg)
+<use figures/aggr_comp/comp.jpg>
+Package pdftex.def Info: figures/aggr_comp/comp.jpg  used on input line 240.
+(pdftex.def)             Requested size: 333.92206pt x 200.01219pt.
+ [6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.251 \chapter
+              {Dependencies} <./figures/aggr_comp/comp.jpg>]
+chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--269
+[]|\T1/lmr/bx/n/12 Type of de-pen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+[]|\T1/lmr/m/n/12 ^^Sabstraction^^T,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+\T1/lmr/m/n/12 ^^Sde-rive^^T, ^^Sre-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+[]|\T1/lmr/m/n/12 Relates two model el-e-ments, or sets
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+\T1/lmr/m/n/12 of model el-e-ments, that rep-re-sent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+\T1/lmr/m/n/12 the same con-cept at dif-fer-ent lev-els
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+\T1/lmr/m/n/12 of ab-strac-tion, or from dif-fer-ent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+[]|\T1/lmr/m/n/12 Connects tem-plate ar-gu-ments to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+\T1/lmr/m/n/12 tem-plate pa-ram-e-ters to cre-ate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+[]|\T1/lmr/m/n/12 Indicates that the client model
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+\T1/lmr/m/n/12 el-e-ment is an im-ple-men-ta-tion of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+\T1/lmr/m/n/12 the sup-plier model el-e-ment, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+\T1/lmr/m/n/12 the sup-plier model el-e-ment is the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+[]|\T1/lmr/m/n/12 Indicates that the client model
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+\T1/lmr/m/n/12 el-e-ment takes the place of the sup-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+\T1/lmr/m/n/12 plier; the client model el-e-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+\T1/lmr/m/n/12 must con-form to the con-tract or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+\T1/lmr/m/n/12 in-ter-face that the sup-plier model
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--279
+[]|\T1/lmr/m/n/12 ^^Suse^^T, ^^Scall^^T,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--279
+\T1/lmr/m/n/12 ^^Scre-ate^^T, ^^Sin-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--279
+\T1/lmr/m/n/12 stan-ti-ate^^T, or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
+[]|\T1/lmr/m/n/12 Indicates that one model el-e-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
+\T1/lmr/m/n/12 re-quires an-other model el-e-ment for
+ []
+
+[7
+
+]
+<figures/dependencies/usage.jpg, id=166, 3618.51875pt x 1776.6375pt>
+File: figures/dependencies/usage.jpg Graphic file (type jpg)
+<use figures/dependencies/usage.jpg>
+Package pdftex.def Info: figures/dependencies/usage.jpg  used on input line 300
+.
+(pdftex.def)             Requested size: 333.92206pt x 163.92975pt.
+ [8] [9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.325 	\item
+             \texttt{<<derive>>}: This stereotype indicates that the client ...
+ <./figures/dependencies/usage.jpg>]
+<figures/dependencies/derive.jpg, id=178, 2915.89375pt x 1776.6375pt>
+File: figures/dependencies/derive.jpg Graphic file (type jpg)
+<use figures/dependencies/derive.jpg>
+Package pdftex.def Info: figures/dependencies/derive.jpg  used on input line 34
+0.
+(pdftex.def)             Requested size: 333.92206pt x 203.45508pt.
+ [10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.350 
+       <./figures/dependencies/derive.jpg>]
+<figures/dependencies/refine.jpg, id=184, 4270.95625pt x 923.45pt>
+File: figures/dependencies/refine.jpg Graphic file (type jpg)
+<use figures/dependencies/refine.jpg>
+Package pdftex.def Info: figures/dependencies/refine.jpg  used on input line 36
+5.
+(pdftex.def)             Requested size: 333.92206pt x 72.18661pt.
+
+Underfull \hbox (badness 1210) in paragraph at lines 373--374
+[]\T1/lmr/m/n/12 The \T1/lmtt/m/n/12 DoorHandle \T1/lmr/m/n/12 class, which was
+ pre-vi-ously used by the drone to open
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 373--374
+\T1/lmr/m/n/12 and close doors as part of its de-liv-ery tasks, has been re-fin
+ed by the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
+[]\T1/lmr/m/n/12 When the drone calls the new \T1/lmtt/m/n/12 closeDoor \T1/lmr
+/m/n/12 op-er-a-tion of the
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 375--376
+\T1/lmtt/m/n/12 TwoFactorSecurityDoorHandle \T1/lmr/m/n/12 class, the re-cip-i-
+ent will re-ceive a no-ti-fi-ca-
+ []
+
+[11
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.376 
+       <./figures/dependencies/refine.jpg>]
+<figures/dependencies/substitute.jpg, id=191, 2062.70625pt x 145.54375pt>
+File: figures/dependencies/substitute.jpg Graphic file (type jpg)
+<use figures/dependencies/substitute.jpg>
+Package pdftex.def Info: figures/dependencies/substitute.jpg  used on input lin
+e 395.
+(pdftex.def)             Requested size: 333.92206pt x 23.56062pt.
+ [12
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.404 T
+       he \texttt{Drone} class has been designated as the contract classifie...
+ <./figures/dependencies/substitute.jpg>] [13]
+<figures/dependencies/multiple_dependencies.jpg, id=205, 2313.64375pt x 757.831
+25pt>
+File: figures/dependencies/multiple_dependencies.jpg Graphic file (type jpg)
+<use figures/dependencies/multiple_dependencies.jpg>
+Package pdftex.def Info: figures/dependencies/multiple_dependencies.jpg  used o
+n input line 430.
+(pdftex.def)             Requested size: 333.92206pt x 109.36813pt.
+<figures/interface/doorhandle_interface.jpg, id=207, 1575.8875pt x 898.35625pt>
+
+File: figures/interface/doorhandle_interface.jpg Graphic file (type jpg)
+<use figures/interface/doorhandle_interface.jpg>
+Package pdftex.def Info: figures/interface/doorhandle_interface.jpg  used on in
+put line 450.
+(pdftex.def)             Requested size: 333.92206pt x 190.34644pt.
+ [14
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.455 
+       <./figures/dependencies/multiple_dependencies.jpg>]
+<figures/interface/doorhandle_sec_interface.jpg, id=213, 2012.51875pt x 787.943
+76pt>
+File: figures/interface/doorhandle_sec_interface.jpg Graphic file (type jpg)
+<use figures/interface/doorhandle_sec_interface.jpg>
+Package pdftex.def Info: figures/interface/doorhandle_sec_interface.jpg  used o
+n input line 466.
+(pdftex.def)             Requested size: 333.92206pt x 130.72649pt.
+
+Underfull \hbox (badness 3088) in paragraph at lines 472--473
+\T1/lmr/m/n/12 ta-tions of se-cure DoorHan-dles to be eas-ily swapped in and ou
+t. The
  []
 
 [15
-pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) h
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.474 \section
+              {Foo Foo}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.474 \section
+              {Foo Foo} <./figures/interface/doorhandle_interface.jpg> <./figur
+es/interface/doorhandle_sec_interface.jpg>]
+(C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 477.
+
+
+LaTeX Warning: Citation `albrecht_blueprints_2020' on page 16 undefined on inpu
+t line 480.
+
+
+LaTeX Warning: Citation `albrecht_blueprints_2020' on page 16 undefined on inpu
+t line 480.
+
+[16]
+chapter 5.
+<figures/pepe-example.png, id=227, 448.67625pt x 252.34274pt>
+File: figures/pepe-example.png Graphic file (type png)
+<use figures/pepe-example.png>
+Package pdftex.def Info: figures/pepe-example.png  used on input line 489.
+(pdftex.def)             Requested size: 333.92206pt x 187.80882pt.
+
+LaTeX Warning: Citation `albrecht_blueprints_2020' on page 17 undefined on inpu
+t line 490.
+
+
+LaTeX Warning: Citation `albrecht_blueprints_2020' on page 17 undefined on inpu
+t line 490.
+
+[17
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.498 
+       <./figures/pepe-example.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 508--508
+[][][]\T1/lmr/m/n/12 Die Tabel-len-cap-tion: Für Tabellen emp-fiehlt sich der
+ []
+
+[18
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.463 \backmatter
+l.513 \backmatter
                  ]
 Using TeX to sort glossary entries---this may take a while
-(Vorlage_Report.bbl [16
+(Vorlage_Report.bbl [19
 
 
 
 ]
 chapter without number
-) [17
+) [20
 
 ]
 chapter without number
-[18
+[21
 
 
 ] (Vorlage_Report.aux (cover.aux))
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `Vorlage_Report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 37540 strings out of 475281
- 750260 string characters out of 2774064
- 1416160 words of memory out of 3000000
- 58233 multiletter control sequences out of 15000+600000
+ 37576 strings out of 475281
+ 751387 string characters out of 2774064
+ 1416196 words of memory out of 3000000
+ 58256 multiletter control sequences out of 15000+600000
  520590 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,20n,106p,10611b,1319s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1850,9 +1899,9 @@ rs/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/User
 s/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/User
 s/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/User
 s/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Vorlage_Report.pdf (23 pages, 2060256 bytes).
+Output written on Vorlage_Report.pdf (27 pages, 2360573 bytes).
 PDF statistics:
- 344 PDF objects out of 1000 (max. 8388607)
- 66 named destinations out of 1000 (max. 500000)
- 261 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 389 PDF objects out of 1000 (max. 8388607)
+ 75 named destinations out of 1000 (max. 500000)
+ 292 words of extra memory for PDF output out of 10000 (max. 10000000)
 
