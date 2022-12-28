@@ -156,10 +156,12 @@ This comprehensive study focuses on the various types of more complex relationsh
 These relationships include \emph{aggregation}, \emph{composition}, \emph{dependencies}, \emph{interfaces}, \emph{abstract} classes and \emph{inheritance}. 
 Each of these relationships reflects a specific type of connection between classes and serves a unique purpose in the design and implementation of object-oriented systems. 
 The following sections define and provide examples of each of these relationships.
-This paper extends the work of Levin [insert paper citation] and does not delve into the basic concepts, that will be mentioned in the next section, in great detail. The focus is on furthering the research and providing examples to support the points made.
+This paper extends the work of Levin [insert paper citation] and does not delve into the basic concepts, that will be mentioned in the next section, in great detail. 
+The focus is on furthering the research and providing examples to support the points made.
+The examples will build on a hypothetical delivery drone which is introduced in Levin's paper.
 By the end of this paper, readers should have a thorough understanding of the role of complex relationships in UML class diagrams and how to effectively use them to model object-oriented systems.
 
-TODO Drone beispiele erwähnen
+%TODO Levin zitieren
 
 \section{Introduction to UML class diagram}
 UML (Unified Modeling Language) class diagrams are a visual representation of the static structure of an object-oriented system. 
@@ -178,8 +180,6 @@ Basic relationships are called \emph{associations}.
 An Association indicates that one class has a reference to another class. \cite[p. 108-111]{uml}
 The association is shown using a solid line with an open arrow at one end, indicating the direction of the relationship. \cite[p. 142-143]{uml}
 
-\section{Structure}
-%TODO Wie ist die Arbeit aufgebaut
 
 \chapter{Complex UML class diagram relationships}
 This chapter will examine various types of complex UML class diagram relationships in detail and how they are depicted.
@@ -212,6 +212,7 @@ In aggregation, as in associations, every combination of multiplicities is possi
 
 An example of an aggregation relationship involving a \texttt{Drone} class and a \texttt{Rotor} class is demonstrated in Figure \ref{fig:aggregation_example}. 
 
+%TODO Text an neue operationen anpassen und send drontoRecipient rausnehmen
 The \texttt{Drone} class includes a private operation, \texttt{sendDroneToRecipient()}, which involves tasks such as navigating to the recipient's location, verifying the delivery details, and safely delivering the package.
 The \texttt{Rotor} class, on the other hand, contains a private operation, \texttt{move()}, which is called by the \texttt{Drone} class's \texttt{sendDroneToRecipient()} operation and three private attributes, \texttt{velocity}, \texttt{horizontalDegree}, and \texttt{verticalDegree}, which control the movement of the drone in the air. 
 
@@ -221,9 +222,6 @@ Each \texttt{Rotor} instance can be part of one or no drones at a given time.
 
 If the \texttt{Rotor} instances become worn down or the weather conditions change, they can be replaced with new or specialized rotors. 
 The destruction of a \texttt{Rotor} instance does not affect the existence of the \texttt{Drone}, and conversely, the destruction of a \texttt{Drone} instance does not affect the \texttt{Rotor} instances.
-
-TODO: Qualifizierte Assoziation
-   Darstellung einer ternären Assoziationn
 
 
 \section{Composition}
@@ -251,12 +249,11 @@ This design also incorporates an anti-theft concept, in which each chipset is un
 \chapter{Dependencies}
 
 In UML, a dependency is a relationship between two elements in which one element (the client) uses or depends on another element (the supplier) for specification or implementation.
-The dependency represents a semantic or structural relationship between the supplier and the client, indicating that the client is dependent on the supplier in some way (Booch, Rumbaugh, und Jacobson, 1998).
-%TODO Quelle
+The dependency represents a semantic or structural relationship between the supplier and the client, indicating that the client is dependent on the supplier in some way.
 A dependency indicates that the connection between the two elements is at a higher level of abstraction than an association relationship.
 Dependencies can be represented in various UML diagrams, including class diagrams, component diagrams, deployment diagrams, and use-case diagrams. 
 To represent a dependency in a UML diagram, a dashed line with an open arrow pointing from the client to the supplier is used. 
-In some cases, stereotypes may be used to show the precise nature of the dependency.
+In some cases, stereotypes may be used to show the precise nature of the dependency. \cite[p. 159-160]{uml}
 
 
 The following Table \ref{tab:dependencies} shows the different types of dependencies, their stereotype, and a description.
@@ -270,15 +267,13 @@ The following Table \ref{tab:dependencies} shows the different types of dependen
 		\hline
 		Abstraction & «abstraction», «derive», «refine», or «trace» & Relates two model elements, or sets of model elements, that represent the same concept at different levels of abstraction, or from different viewpoints  \\ 
 		\hline
-		Binding & 	«bind» & Connects template arguments to template parameters to create model elements from templates \\ 
-		\hline
 		Realization & «realize» & 	Indicates that the client model element is an implementation of the supplier model element, and the supplier model element is the specification \\ 
 		\hline
 		Substitution & «substitute» & Indicates that the client model element takes the place of the supplier; the client model element must conform to the contract or interface that the supplier model element establishes  \\ 
 		\hline
 		Usage & «use», «call», «create», «instantiate», or «send» & Indicates that one model element requires another model element for its full implementation or operation  \\ 
 		\hline
-	\caption[Types of dependencies]{Types of dependency \cite{ibm_dependencies}}
+	\caption[Types of dependencies]{Types of dependency \cite{ibm_dependencies} \cite{uml}}
 	\label{tab:dependencies}
 \end{longtable}
 }
@@ -343,6 +338,7 @@ In the following the two more common stereotypes \texttt{<<derive>>} and \texttt
 \end{minipage}
 \vspace{1em}
 
+%TODO alle grafiken neu laden ohne currenLocation Attribut
 
 In Figure \ref{fig:derive_example}, an example of a dependency relationship between the \texttt{Drone} class and the \texttt{GPS} class is displayed. 
 The \texttt{GPS} class contains the private attributes \texttt{latitude}, \texttt{longitude}, and \texttt{altitude}, which store information about the drone's current location. It also has the public operations \texttt{getLocation()} and \texttt{setLocation()}, which allow the Drone class to retrieve and update the location information provided by the GPS class.
@@ -416,13 +412,10 @@ Before UML2 the usual notation of dependencies, using a dashed line with an open
 An example of the realization relationship will be presented in the Interface chapter.
 
 
-
-\section{Binding}
-
 \section{Multiple dependencies}
 
 In cases where a client has a dependency on several suppliers, a connector (represented as a small black dot) can be used to model the dependency.  \cite[p. 160]{uml}
-In the following Figure \ref{fig:multiple_dependencies_example} an example of a possible multiple dependency is displayed.
+In the following Figure \ref{fig:multiple_dependencies_example} an example of possible multiple dependencies is displayed.
 
 \vspace{1em}
 \begin{minipage}{\linewidth}
@@ -443,6 +436,23 @@ An interface is a type of classifier that represents a set of related behaviors 
 An interface defines a set of abstract operations, which are public and do not have any implementation.
 Interfaces are represented by a classifier rectangle with the stereotype \texttt{«interface»} at the top, followed by the name of the interface. 
 The operations and attributes of the interface are listed inside the rectangle. \cite[p. 130-131]{uml}
+
+There are two equivalent ways of displaying an interface relationship which are shown in the following Figure \ref{fig:interface_notation}:
+
+\vspace{1em}
+\begin{minipage}{\linewidth}
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/interface/Interface_Notation.jpg}
+	\captionof{figure}[Notation of an interface relationship]{Notation of an interface relationship}
+	\label{fig:interface_notation}
+\end{minipage}
+\vspace{1em}
+
+The left side shows the lollipop and the right side the arrow notation.
+The first row displays the implementation of the interface with the class.
+The second row displays that the class requires an implementation of this interface. \cite[p. 129]{uml}
+In the following the arrow notation will be used.
+                
 
 \vspace{1em}
 \begin{minipage}{\linewidth}
@@ -469,46 +479,62 @@ Interfaces in UML allow for easy substitution of different class implementations
 \end{minipage}
 \vspace{1em}
 
-In Figure \ref{fig:interface2_example}, another example of an interface relationship is shown. The \texttt{IExtraSecurityDoorHandle} interface allows for multiple different implementations of secure DoorHandles to be easily swapped in and out. The \texttt{TwoFactorSecurityDoorHandle} class implements the \texttt{openDoor()} operation of the \texttt{IExtraSecurityDoorHandle} interface.
+In Figure \ref{fig:interface2_example}, another example of an interface relationship is shown. 
+The \texttt{IExtraSecurityDoorHandle} interface allows for multiple different implementations of secure DoorHandles to be easily swapped in and out. The \texttt{TwoFactorSecurityDoorHandle} class implements the \texttt{openDoor()} operation of the \texttt{IExtraSecurityDoorHandle} interface.
 
-\section{Foo Foo}
-Hier folgt nun ein Listing, was basically Code ist. Und hier verlinke ich darauf: \autoref{lst:cleaning_impurity}.
 
-\begin{lstlisting}[language=Python,caption={Pythonbeispiel nach Albrecht et al. \cite{albrecht_blueprints_2020}},captionpos=b,label={lst:cleaning_impurity}]
-def sexyFunction(x):
-	return x + 69
-\end{lstlisting}	
+\chapter{Inheritance}
+In UML class diagrams, inheritance is a relationship between two classes in which one class (the subclass or derived class) is a specialization of the other class (the superclass or base class). 
+This means that the subclass inherits the attributes, operations and associations of the superclass, and can add additional of its own.
+Inheritance is displayed by a solid line with a closed, non filled, arrow pointing from the subclass to the superclass.
+The two ways of designing inheritance relationships are described in the following.
 
-\subsection{Foo Foo Foo}
-\blindtext
+Generalization is a term used to describe the process of creating a superclass from one or more subclasses. 
+This is typically done to identify common attributes and behaviors shared by the subclasses and to create a more generalized, abstract representation of these concepts. \cite[p. 69-70] {seidl2015uml} \cite{ibm_generalization}
 
-\chapter{Bar}
-\blindtext
-\begin{figure}[h]
+
+\vspace{1em}
+\begin{minipage}{\linewidth}
 	\centering
-	\includegraphics[width=0.8\textwidth]{figures/pepe-example.png}
-	\caption[Kürzerer Text für Abb.verzeichnis]{Ein äußerst wichtiger Frosch ist hier auf diesem Bild zu sehen. Diese Caption wäre zu lang für die Anzeige im Abb.verzeichnis, weswegen es diese eckigen Klammern gibt. Zitieren kannst du hier auch \cite{albrecht_blueprints_2020}}
-	\label{fig:pepe_der_frosch} % UNTERHALB der \caption!
-\end{figure}
-\blindtext
+	\includegraphics[width=0.8\textwidth]{figures/inheritance/generalization.jpg}
+	\captionof{figure}[Example generalization]{Example of generalization}
+	\label{fig:generalization}
+\end{minipage}
+\vspace{1em}
 
-\section{Bar Bar}
-\blindtext
-\\Es gibt eine wichtige Tabelle, nämlich die nun verlinkte \autoref{tab:frosch_tabelle_1}.
+In Figure \ref{fig:generalization}, an example of inheritance and generalization is shown. 
+The class \texttt{Robot} has been added to the system as an additional form of transportation. 
+Since the classes \texttt{Robot} and \texttt{Drone} have many attributes and operations in common, they have been extracted into a superclass, the \texttt{Courier}.
+This means that both subclasses inherit the attributes, operations, and associations of the superclass. 
+The superclass \texttt{Courier} has replaced the \texttt{Drone} class in its previous relationships that have been shown in prior examples.
+The arrow on the right side indicates that the superclass is formed from its two subclasses, which have been designed before the superclass.
 
-\subsection{Bar Bar Bar}
-\blindtext
-	\begin{table}[h]
+
+
+Specialization is the process of creating a subclass from a superclass. This is typically done to add more specific attributes and behaviors to the subclass, or to specialize the subclass for a particular purpose.
+
+In the following Figure \ref{fig:specialization}, an example of specialization is depicted. The figure illustrates that, given the existence of a superclass, the subclasses can be derived from it, resulting in a specialization relationship. 
+The arrow on the right side of the figure indicates that the subclasses, in this case \texttt{Drone} and \texttt{Robot}, are derived from the superclass \texttt{Courier}, which was designed prior to them. 
+This inheritance relationship allows the subclasses to inherit the attributes, operations, and associations of the superclass.
+
+
+
+\vspace{1em}
+\begin{minipage}{\linewidth}
 	\centering
-		\begin{tabular}{l|l|l}
-		                        & Frosch         & Frosch        \\ \hline
-		Strukturierter Frosch   & Datenabfrage   & Frosch Mining \\ \hline
-		Unstrukturierter Frosch & Inhaltsabfrage & Text Frosch
-		\end{tabular}%
-	\caption[Eine Tabelle über Frösche]{Die Tabellencaption: Für Tabellen empfiehlt sich der https://www.tablesgenerator.com/}
-	\label{tab:frosch_tabelle_1}
-	\end{table}
-\blindtext
+	\includegraphics[width=0.8\textwidth]{figures/inheritance/specialization.jpg}
+	\captionof{figure}[Example specialization]{Example of specialization}
+	\label{fig:specialization}
+\end{minipage}
+\vspace{1em}
+
+
+UML also allows multiple inheritance, which means classes can have multiple superclasses. \cite[p. 71] {seidl2015uml}
+
+\chapter{Resumee and outlook}
+
+
+
 
 \backmatter
 %\listoftodos %remove if no longer needed

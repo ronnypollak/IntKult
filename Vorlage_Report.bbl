@@ -1,5 +1,9 @@
 \begin{thebibliography}{Rupp\,12}
 
+\bibitem[IBM]{ibm_generalization}
+IBM.
+\newblock ``Generalization in UML''.
+
 \bibitem[IBM\,21]{ibm_dependencies}
 IBM.
 \newblock ``Dependency relationships''.
@@ -10,5 +14,10 @@ C.~Rupp, S.~Queins, and die SOPHISTen.
 \newblock {\itshape UML 2 glasklar}.
 \newblock Carl Hanser Verlag GmbH \&amp; Co. KG, München, 4., aktualisierte
   und erweiterte auflage Ed., 2012.
+
+\bibitem[Seid\,15]{seidl2015uml}
+M.~Seidl, M.~Scholz, C.~Huemer, and G.~Kappel.
+\newblock {\itshape UML@ classroom}.
+\newblock Springer, 2015.
 
 \end{thebibliography}

@@ -10,10 +10,13 @@
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Example abstraction}}{11}{figure.4.3}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Example substitution}}{12}{figure.4.4}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Example multiple dependency}}{14}{figure.4.5}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Example interface}}{15}{figure.4.6}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Notation of an interface relationship}}{14}{figure.4.6}%
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Example interface}}{15}{figure.4.7}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Example interface}}{15}{figure.4.8}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Kürzerer Text für Abb.verzeichnis}}{17}{figure.5.1}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Example generalization}}{17}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Example specialization}}{19}{figure.5.2}%
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
