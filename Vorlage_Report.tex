@@ -9,7 +9,7 @@
     parskip=half,
     headings=normal,  % reduces heading size
     listof=totoc,
-    bibliography=totoc,
+    bibliography=totocnumbered,
     index=totoc,
     captions=tableheading,  % caption below table
     % chapterprefix,
@@ -117,6 +117,10 @@
 % NEU:damit Bilder nicht rumfloaten und an einer BESTIMMTEN Stelle sind -> [H]
 \usepackage{float}
 
+% Biblatex
+\usepackage[backend=bibtex,style=alphabetic]{biblatex}
+\addbibresource{refs.bib}
+
 % load glossary entries
 \makenoidxglossaries
 \loadglsentries{glossary}
@@ -144,12 +148,14 @@
 \clearpage %\cleardoublepage
 
 \renewcommand{\lstlistlistingname}{List of Listings}  % change for German thesis
-\lstlistoflistings
+%\lstlistoflistings
 \clearpage %\cleardoublepage
 
 \mainmatter
 
 \chapter{Introduction}
+
+%TODO Add citation of levin
 
 \section{Motivation}
 This comprehensive study focuses on the various types of more complex relationships that can be represented in UML class diagrams. 
@@ -158,7 +164,7 @@ Each of these relationships reflects a specific type of connection between class
 The following sections define and provide examples of each of these relationships.
 This paper extends the work of Levin [insert paper citation] and does not delve into the basic concepts, that will be mentioned in the next section, in great detail. 
 The focus is on furthering the research and providing examples to support the points made.
-The examples will build on a hypothetical delivery drone which is introduced in Levin's paper.
+The examples will build on a hypothetical delivery drone which is introduced in Levin's [citation] paper.
 By the end of this paper, readers should have a thorough understanding of the role of complex relationships in UML class diagrams and how to effectively use them to model object-oriented systems.
 
 %TODO Levin zitieren
@@ -181,14 +187,17 @@ An Association indicates that one class has a reference to another class. \cite[
 The association is shown using a solid line with an open arrow at one end, indicating the direction of the relationship. \cite[p. 142-143]{uml}
 
 
-\chapter{Complex UML class diagram relationships}
-This chapter will examine various types of complex UML class diagram relationships in detail and how they are depicted.
+%\chapter{Complex UML class diagram relationships}
+%This chapter will examine various types of complex UML class diagram relationships in detail and how they are depicted.
+%
+%\nopagebreak
 
 
 \chapter{Aggregation and Composition}
 Aggregation and composition are two types of relationships that can be represented in a UML class diagram. 
 They both are subtypes of associations and represent a relationship between two classes in which one class has a reference to another class, but they differ in the degree to which the lifetime of the referenced class is tied to the referencing class.
 %angeblich Plagiat
+
 
 
 \section{Aggregation}
@@ -287,7 +296,6 @@ The usage relationship is represented using the stereotype \texttt{<<use>>} and 
 The client and supplier elements can be any named elements in the model. 
 The difference between a usage relationship and a normal dependency relationship is minimal, with the main distinction being that the \texttt{<<use>>} stereotype may be used to specify that the dependency is specifically related to the actual use of the supplier element. \cite[p. 161]{uml}
 
-%TODO Usage erklären
 
 \vspace{1em}
 \begin{minipage}{\linewidth}
@@ -325,10 +333,7 @@ The common stereotypes that refine the basic abstraction relationship are: \cite
 
 In the following the two more common stereotypes \texttt{<<derive>>} and \texttt{<<refine>>}: will be explained with examples.
 
-%TODO Use Location class from full diagram and change it
 
-%As an example, consider the class \texttt{Drone} might have a dependency on a \texttt{GPS} class, indicating that it relies on the \texttt{GPS} class for location information. 
-%This dependency could be represented with a <<derive>> stereotype, as the drone calculates its location based on the information provided by the GPS. The GPS has two private attributes: \texttt{longitude} and \texttt{latitude} which describe the position of the drone.
 \vspace{1em}
 \begin{minipage}{\linewidth}
 	\centering
@@ -534,6 +539,25 @@ UML also allows multiple inheritance, which means classes can have multiple supe
 \chapter{Resumee and outlook}
 
 
+In Figure \ref{fig:full}, a comprehensive class diagram for a drone delivery system is presented, incorporating all the examples discussed in this paper except for the flight control system (which involves multiple dependencies). 
+This diagram illustrates the various classes and relationships involved in the delivery process, with Levin's [add citation] paper as the starting point. 
+However, it is worth noting that this diagram only represents the delivery side of the system and could be further expanded to include logistics such as package acquisition and packaging.
+
+One of the main benefits of using UML class diagrams is their ability to visually represent the relationships and interactions between different classes in a system. 
+This can help developers better understand the overall structure and design of the system, as well as identify potential areas for improvement or optimization.
+
+In addition, the use of relationships, such as inheritance and generalization, can help to reduce redundancy and improve maintainability by allowing common functionality to be shared among multiple classes. This can also facilitate the reuse of code and make it easier to add new features or functionality to the system.
+
+Overall, the use of UML class diagrams and complex relationships can help to improve the design and development of software systems, leading to more efficient and effective implementations.
+
+
+\begin{figure}[p]
+	\centering
+	\rotatebox{90}{\includegraphics[width=\textheight]{figures/full/full.jpg}}
+	\captionof{figure}[Full diagram]{Full diagram}
+	\label{fig:full}
+\end{figure}
+
 
 
 \backmatter
@@ -542,9 +566,11 @@ UML also allows multiple inheritance, which means classes can have multiple supe
 \printnoidxglossaries
 
 % ACHTUNG: ursprüngl: alpha, aber das erzeugt keine Links
-\bibliographystyle{wmaainf}
+%\bibliographystyle{wmaainf}
 %\bibliographystyle{alpha}
-\bibliography{refs}
+%\bibliography{refs}
+\printbibliography
+
 \clearpage %\cleardoublepage
 
 %-----------------------------------------------------------------------------------------------------------------

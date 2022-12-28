@@ -1,23 +1,166 @@
-\begin{thebibliography}{Rupp\,12}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem[IBM]{ibm_generalization}
-IBM.
-\newblock ``Generalization in UML''.
+\datalist[entry]{anyt/global//global/global}
+  \entry{ibm_generalization}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={IBM},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{I1}
+    \strng{fullhash}{I1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{IBM}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{title}{Generalization in UML}
+    \verb{url}
+    \verb https://www.uml-diagrams.org/generalization.html?context=class-diagra
+    \verb ms
+    \endverb
+    \field{urlday}{28}
+    \field{urlmonth}{12}
+    \field{urlyear}{2022}
+  \endentry
 
-\bibitem[IBM\,21]{ibm_dependencies}
-IBM.
-\newblock ``Dependency relationships''.
-\newblock March 2021.
+  \entry{ibm_dependencies}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={IBM},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en-US}%
+    }
+    \strng{namehash}{I1}
+    \strng{fullhash}{I1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{IBM21}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{abstract}{%
+    IBM Documentation.%
+    }
+    \field{title}{Dependency relationships}
+    \verb{url}
+    \verb https://prod.ibmdocs-production-dal-6099123ce774e592a519d7c33db8265e-
+    \verb 0000.us-south.containers.appdomain.cloud/docs/en/rational-soft-arch/9
+    \verb .7.0?topic=diagrams-dependency-relationships
+    \endverb
+    \field{month}{03}
+    \field{year}{2021}
+    \field{urlday}{20}
+    \field{urlmonth}{12}
+    \field{urlyear}{2022}
+  \endentry
 
-\bibitem[Rupp\,12]{uml}
-C.~Rupp, S.~Queins, and die SOPHISTen.
-\newblock {\itshape UML 2 glasklar}.
-\newblock Carl Hanser Verlag GmbH \&amp; Co. KG, München, 4., aktualisierte
-  und erweiterte auflage Ed., 2012.
+  \entry{uml}{book}{}
+    \name{author}{3}{}{%
+      {{hash=RC}{%
+         family={Rupp},
+         familyi={R\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=QS}{%
+         family={Queins},
+         familyi={Q\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=dS}{%
+         prefix={die},
+         prefixi={d\bibinitperiod},
+         family={SOPHISTen},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Carl Hanser Verlag GmbH \&amp; Co. KG}%
+    }
+    \strng{namehash}{RCQSSd1}
+    \strng{fullhash}{RCQSSd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{RQS12}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{doi}
+    \verb 10.3139/9783446431973
+    \endverb
+    \field{edition}{4., aktualisierte und erweiterte Auflage}
+    \verb{eprint}
+    \verb https://www.hanser-elibrary.com/doi/pdf/10.3139/9783446431973
+    \endverb
+    \field{title}{UML 2 glasklar}
+    \verb{url}
+    \verb https://www.hanser-elibrary.com/doi/abs/10.3139/9783446431973
+    \endverb
+    \list{location}{1}{%
+      {München}%
+    }
+    \field{year}{2012}
+  \endentry
 
-\bibitem[Seid\,15]{seidl2015uml}
-M.~Seidl, M.~Scholz, C.~Huemer, and G.~Kappel.
-\newblock {\itshape UML@ classroom}.
-\newblock Springer, 2015.
-
-\end{thebibliography}
+  \entry{seidl2015uml}{book}{}
+    \name{author}{4}{}{%
+      {{hash=SM}{%
+         family={Seidl},
+         familyi={S\bibinitperiod},
+         given={Martina},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Scholz},
+         familyi={S\bibinitperiod},
+         given={Marion},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HC}{%
+         family={Huemer},
+         familyi={H\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=KG}{%
+         family={Kappel},
+         familyi={K\bibinitperiod},
+         given={Gerti},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{SM+1}
+    \strng{fullhash}{SMSMHCKG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Sei+15}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{UML@ classroom}
+    \field{year}{2015}
+  \endentry
+\enddatalist
+\endinput
