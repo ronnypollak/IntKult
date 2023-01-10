@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.18)  28 DEC 2022 16:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.18)  10 JAN 2023 10:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1801,7 +1801,7 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ]
 [2]
 chapter 2.
-<figures/aggr_comp/aggr.jpg, id=112, 3417.76875pt x 1776.6375pt>
+<figures/aggr_comp/aggr.jpg, id=114, 3417.76875pt x 1776.6375pt>
 File: figures/aggr_comp/aggr.jpg Graphic file (type jpg)
 <use figures/aggr_comp/aggr.jpg>
 Package pdftex.def Info: figures/aggr_comp/aggr.jpg  used on input line 215.
@@ -1820,7 +1820,7 @@ has been already used, duplicate ignored
 l.225 T
        he \texttt{Drone} class includes a private operation, \texttt{sendDro...
  <./figures/aggr_comp/aggr.jpg>] [4]
-<figures/aggr_comp/comp.jpg, id=125, 2966.08125pt x 1776.6375pt>
+<figures/aggr_comp/comp.jpg, id=127, 2966.08125pt x 1776.6375pt>
 File: figures/aggr_comp/comp.jpg Graphic file (type jpg)
 <use figures/aggr_comp/comp.jpg>
 Package pdftex.def Info: figures/aggr_comp/comp.jpg  used on input line 247.
@@ -1941,7 +1941,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 283--284
 [6
 
 ]
-<figures/dependencies/usage.jpg, id=142, 3618.51875pt x 1776.6375pt>
+<figures/dependencies/usage.jpg, id=144, 3618.51875pt x 1776.6375pt>
 File: figures/dependencies/usage.jpg Graphic file (type jpg)
 <use figures/dependencies/usage.jpg>
 Package pdftex.def Info: figures/dependencies/usage.jpg  used on input line 303
@@ -1955,7 +1955,7 @@ has been already used, duplicate ignored
 l.328 	\item
              \texttt{<<derive>>}: This stereotype indicates that the client ...
  <./figures/dependencies/usage.jpg>]
-<figures/dependencies/derive.jpg, id=154, 2915.89375pt x 1776.6375pt>
+<figures/dependencies/derive.jpg, id=156, 2915.89375pt x 1776.6375pt>
 File: figures/dependencies/derive.jpg Graphic file (type jpg)
 <use figures/dependencies/derive.jpg>
 Package pdftex.def Info: figures/dependencies/derive.jpg  used on input line 34
@@ -1968,7 +1968,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.351 
        <./figures/dependencies/derive.jpg>]
-<figures/dependencies/refine.jpg, id=161, 4270.95625pt x 923.45pt>
+<figures/dependencies/refine.jpg, id=163, 4270.95625pt x 923.45pt>
 File: figures/dependencies/refine.jpg Graphic file (type jpg)
 <use figures/dependencies/refine.jpg>
 Package pdftex.def Info: figures/dependencies/refine.jpg  used on input line 36
@@ -2005,7 +2005,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.377 
        <./figures/dependencies/refine.jpg>]
-<figures/dependencies/substitute.jpg, id=168, 2062.70625pt x 145.54375pt>
+<figures/dependencies/substitute.jpg, id=170, 2062.70625pt x 145.54375pt>
 File: figures/dependencies/substitute.jpg Graphic file (type jpg)
 <use figures/dependencies/substitute.jpg>
 Package pdftex.def Info: figures/dependencies/substitute.jpg  used on input lin
@@ -2019,14 +2019,14 @@ has been already used, duplicate ignored
 l.405 T
        he \texttt{Drone} class has been designated as the contract classifie...
  <./figures/dependencies/substitute.jpg>] [12]
-<figures/dependencies/multiple_dependencies.jpg, id=181, 2313.64375pt x 757.831
+<figures/dependencies/multiple_dependencies.jpg, id=183, 2313.64375pt x 757.831
 25pt>
 File: figures/dependencies/multiple_dependencies.jpg Graphic file (type jpg)
 <use figures/dependencies/multiple_dependencies.jpg>
 Package pdftex.def Info: figures/dependencies/multiple_dependencies.jpg  used o
 n input line 428.
 (pdftex.def)             Requested size: 333.92206pt x 109.36813pt.
-<figures/interface/Interface_Notation.jpg, id=184, 3417.76875pt x 732.7375pt>
+<figures/interface/Interface_Notation.jpg, id=186, 3417.76875pt x 732.7375pt>
 File: figures/interface/Interface_Notation.jpg Graphic file (type jpg)
 <use figures/interface/Interface_Notation.jpg>
 Package pdftex.def Info: figures/interface/Interface_Notation.jpg  used on inpu
@@ -2046,14 +2046,14 @@ has been already used, duplicate ignored
 l.460 
        <./figures/dependencies/multiple_dependencies.jpg> <./figures/interface/
 Interface_Notation.jpg>]
-<figures/interface/doorhandle_interface.jpg, id=190, 1575.8875pt x 898.35625pt>
+<figures/interface/doorhandle_interface.jpg, id=192, 1575.8875pt x 898.35625pt>
 
 File: figures/interface/doorhandle_interface.jpg Graphic file (type jpg)
 <use figures/interface/doorhandle_interface.jpg>
 Package pdftex.def Info: figures/interface/doorhandle_interface.jpg  used on in
 put line 465.
 (pdftex.def)             Requested size: 333.92206pt x 190.34644pt.
-<figures/interface/doorhandle_sec_interface.jpg, id=192, 2012.51875pt x 787.943
+<figures/interface/doorhandle_sec_interface.jpg, id=194, 2012.51875pt x 787.943
 76pt>
 File: figures/interface/doorhandle_sec_interface.jpg Graphic file (type jpg)
 <use figures/interface/doorhandle_sec_interface.jpg>
@@ -2081,7 +2081,7 @@ l.489
        <./figures/interface/doorhandle_interface.jpg> <./figures/interface/door
 handle_sec_interface.jpg>] [15]
 chapter 4.
-<figures/inheritance/generalization.jpg, id=205, 2795.44376pt x 2514.39375pt>
+<figures/inheritance/generalization.jpg, id=207, 2795.44376pt x 2514.39375pt>
 File: figures/inheritance/generalization.jpg Graphic file (type jpg)
 <use figures/inheritance/generalization.jpg>
 Package pdftex.def Info: figures/inheritance/generalization.jpg  used on input 
@@ -2096,7 +2096,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.516 
        <./figures/inheritance/generalization.jpg>]
-<figures/inheritance/specialization.jpg, id=214, 2795.44376pt x 2464.20625pt>
+<figures/inheritance/specialization.jpg, id=216, 2795.44376pt x 2464.20625pt>
 File: figures/inheritance/specialization.jpg Graphic file (type jpg)
 <use figures/inheritance/specialization.jpg>
 Package pdftex.def Info: figures/inheritance/specialization.jpg  used on input 
@@ -2110,7 +2110,7 @@ has been already used, duplicate ignored
 l.539 \chapter
               {Resumee and outlook} <./figures/inheritance/specialization.jpg>]
 chapter 5.
-<figures/full/full.jpg, id=225, 10183.04375pt x 5610.9625pt>
+<figures/full/full.jpg, id=227, 10183.04375pt x 5610.9625pt>
 File: figures/full/full.jpg Graphic file (type jpg)
 <use figures/full/full.jpg>
 Package pdftex.def Info: figures/full/full.jpg  used on input line 556.
@@ -2132,36 +2132,27 @@ Using TeX to sort glossary entries---this may take a while
 
 
 
-]
-chapter without number
-[22
-
-]
+] [22]
 chapter without number
 [23
 
+]
+chapter without number
+[24
+
 
 ] (Vorlage_Report.aux (cover.aux))
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `Vorlage_Report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package biblatex Warning: Please rerun LaTeX.
-
 Package logreq Info: Writing requests to 'Vorlage_Report.run.xml'.
 \openout1 = `Vorlage_Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44314 strings out of 475281
- 893524 string characters out of 2774064
- 1809512 words of memory out of 3000000
- 64944 multiletter control sequences out of 15000+600000
+ 44688 strings out of 475281
+ 902310 string characters out of 2774064
+ 1818587 words of memory out of 3000000
+ 65317 multiletter control sequences out of 15000+600000
  520387 words of font info for 60 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,20n,106p,10611b,2461s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -2174,9 +2165,9 @@ sers/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Us
 ers/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Us
 ers/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Us
 ers/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Vorlage_Report.pdf (27 pages, 4258192 bytes).
+Output written on Vorlage_Report.pdf (28 pages, 4261479 bytes).
 PDF statistics:
- 375 PDF objects out of 1000 (max. 8388607)
- 69 named destinations out of 1000 (max. 500000)
+ 380 PDF objects out of 1000 (max. 8388607)
+ 70 named destinations out of 1000 (max. 500000)
  251 words of extra memory for PDF output out of 10000 (max. 10000000)
 

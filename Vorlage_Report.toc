@@ -17,6 +17,6 @@
 \contentsline {chapter}{\numberline {4}Inheritance}{16}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Resumee and outlook}{19}{chapter.5}%
 \contentsline {chapter}{Glossary}{21}{section*.4}%
-\contentsline {chapter}{\nonumberline Bibliography}{22}{chapter*.6}%
-\contentsline {chapter}{\nonumberline Supplemental Information}{23}{chapter*.7}%
+\contentsline {chapter}{\nonumberline Bibliography}{23}{chapter*.6}%
+\contentsline {chapter}{\nonumberline Supplemental Information}{24}{chapter*.7}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
