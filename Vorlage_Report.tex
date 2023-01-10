@@ -217,7 +217,6 @@ In aggregation, as in associations, every combination of multiplicities is possi
 	\label{fig:aggregation_example} 
 \end{figure}
 
-%TODO Class drone hat sich geändert von Levin
 
 An example of an aggregation relationship involving a \texttt{Drone} class and a \texttt{Rotor} class is demonstrated in Figure \ref{fig:aggregation_example}. 
 
@@ -257,13 +256,18 @@ This design also incorporates an anti-theft concept, in which each chipset is un
 
 \chapter{Dependencies}
 
-In UML, a dependency is a relationship between two elements in which one element (the client) uses or depends on another element (the supplier) for specification or implementation.
-The dependency represents a semantic or structural relationship between the supplier and the client, indicating that the client is dependent on the supplier in some way.
-A dependency indicates that the connection between the two elements is at a higher level of abstraction than an association relationship.
-Dependencies can be represented in various UML diagrams, including class diagrams, component diagrams, deployment diagrams, and use-case diagrams. 
-To represent a dependency in a UML diagram, a dashed line with an open arrow pointing from the client to the supplier is used. 
-In some cases, stereotypes may be used to show the precise nature of the dependency. \cite[p. 159-160]{uml}
+%In UML, a dependency is a relationship between two elements in which one element (the client) uses or depends on another element (the supplier) for specification or implementation.
+%The dependency represents a semantic or structural relationship between the supplier and the client, indicating that the client is dependent on the supplier in some way.
+%A dependency indicates that the connection between the two elements is at a higher level of abstraction than an association relationship.
+%Dependencies can be represented in various UML diagrams, including class diagrams, component diagrams, deployment diagrams, and use-case diagrams. 
+%To represent a dependency in a UML diagram, a dashed line with an open arrow pointing from the client to the supplier is used. 
+%In some cases, stereotypes may be used to show the precise nature of the dependency. \cite[p. 159-160]{uml}
 
+In UML, a dependency relationship is a semantic or structural link between two elements, where one element (the client) uses or depends on the other element (the supplier) for its specification or implementation. 
+A dependency indicates that the connection between the two elements is at a higher level of abstraction than an association relationship.
+This dependency relationship can be represented in different types of UML diagrams, such as class, component, deployment, or use-case diagrams. 
+The notation for a dependency is a dashed line with an open arrow pointing from the client to the supplier.
+Stereotypes may also be used to specify the specific type of dependency. \cite[p. 159-160]{uml}
 
 The following Table \ref{tab:dependencies} shows the different types of dependencies, their stereotype, and a description.
 
@@ -290,12 +294,16 @@ The following Table \ref{tab:dependencies} shows the different types of dependen
 In the following sections, the different types of dependencies will be explained with examples.
 
 \section{Usage}
-In the context of modeling and software development, a usage relationship is a dependency in which one element (client) requires another element (supplier) for its full implementation or operation. 
-The client element is considered incomplete without the supplier element. 
-The usage relationship is represented using the stereotype \texttt{<<use>>} and is depicted using a dashed line with an arrow pointing from the client element to the supplier element. 
-The client and supplier elements can be any named elements in the model. 
-The difference between a usage relationship and a normal dependency relationship is minimal, with the main distinction being that the \texttt{<<use>>} stereotype may be used to specify that the dependency is specifically related to the actual use of the supplier element. \cite[p. 161]{uml}
+%In the context of modeling and software development, a usage relationship is a dependency in which one element (client) requires another element (supplier) for its full implementation or operation. 
+%The client element is considered incomplete without the supplier element. 
+%The usage relationship is represented using the stereotype \texttt{<<use>>} and is depicted using a dashed line with an arrow pointing from the client element to the supplier element. 
+%The client and supplier elements can be any named elements in the model. 
+%The difference between a usage relationship and a normal dependency relationship is minimal, with the main distinction being that the \texttt{<<use>>} stereotype may be used to specify that the dependency is specifically related to the actual use of the supplier element. \cite[p. 161]{uml}
 
+
+A usage relationship in UML is a dependency in which one element (the client) requires another element (the supplier) for its proper operation or implementation. 
+It's represented a using a dashed line with an arrow pointing from the client to the supplier element, and the stereotype \texttt{<<use>>} may be used to indicate it's specifically related to the actual use of the supplier element. 
+The difference between a usage relationship and a normal dependency relationship is minimal, with the main distinction being that the \texttt{<<use>>} stereotype may be used to specify that the dependency is specifically related to the actual use of the supplier element. \cite[p. 161]{uml}
 
 \vspace{1em}
 \begin{minipage}{\linewidth}
@@ -318,6 +326,7 @@ To open a door, the drone calls the public \texttt{open()} operation of the Door
 If the password is correct, the door is opened and the Drone class can complete its delivery. 
 Afterwards, the door will be closed again with the public operation \texttt{closeDoor()}.
 
+%TODO is this useless?
 This usage relationship between the Drone and DoorHandle classes can be represented with a directed line with an arrowhead pointing from the Drone class to the DoorHandle class and the stereotype <<use>>. The Drone class is the client that uses the DoorHandle class, and the DoorHandle class is the supplier that provides the functionality for opening the door.
 
 \section{Abstraction}
@@ -343,7 +352,6 @@ In the following the two more common stereotypes \texttt{<<derive>>} and \texttt
 \end{minipage}
 \vspace{1em}
 
-%TODO alle grafiken neu laden ohne currenLocation Attribut
 
 In Figure \ref{fig:derive_example}, an example of a dependency relationship between the \texttt{Drone} class and the \texttt{GPS} class is displayed. 
 The \texttt{GPS} class contains the private attributes \texttt{latitude}, \texttt{longitude}, and \texttt{altitude}, which store information about the drone's current location. It also has the public operations \texttt{getLocation()} and \texttt{setLocation()}, which allow the Drone class to retrieve and update the location information provided by the GPS class.
@@ -355,9 +363,6 @@ This dependency between the Drone and GPS classes can be represented with a \tex
 The GPS class is the supplier of this information, and the Drone class is the client that depends on it. 
 Without the GPS, the drone would be unable to determine its location and would be unable to perform its intended functions.
 
-%TODO Attribute zu location zu drone adden
-%TODO Zweites Beispiel mit refine 
-%TODO neue Überschrift?
 
 
 \vspace{1em}
@@ -377,7 +382,7 @@ When the drone calls the new \texttt{closeDoor} operation of the \texttt{TwoFact
 
 The \texttt{TwoFactorSecurityDoorHandle} class is shown as the client element in the refinement relationship, which is depicted with a dashed line with an open arrow pointing from the \texttt{TwoFactorSecurityDoorHandle} class to the \texttt{DoorHandle} class. The stereotype \texttt{<<refine>>} is added to the relationship to indicate that the \texttt{TwoFactorSecurityDoorHandle} class refines the \texttt{DoorHandle} class.
 
-
+%TODO Intro kürzen
 \section{Substitution}
 In UML, a substitution dependency is a relationship between classifiers that allows one classifier (the client) to be used in place of another classifier (the supplier) at runtime.
 The client classifier must meet all requirements specified by the supplier, including implementing interfaces and having corresponding ports. 
@@ -417,8 +422,8 @@ Before UML2 the usual notation of dependencies, using a dashed line with an open
 An example of the realization relationship will be presented in the Interface chapter.
 
 
+%TODO in appendix?
 \section{Multiple dependencies}
-
 In cases where a client has a dependency on several suppliers, a connector (represented as a small black dot) can be used to model the dependency.  \cite[p. 160]{uml}
 In the following Figure \ref{fig:multiple_dependencies_example} an example of possible multiple dependencies is displayed.
 
@@ -488,6 +493,7 @@ In Figure \ref{fig:interface2_example}, another example of an interface relation
 The \texttt{IExtraSecurityDoorHandle} interface allows for multiple different implementations of secure DoorHandles to be easily swapped in and out. The \texttt{TwoFactorSecurityDoorHandle} class implements the \texttt{openDoor()} operation of the \texttt{IExtraSecurityDoorHandle} interface.
 
 
+%TODO kürzen, damit alles auf 2 Seiten passt
 \chapter{Inheritance}
 In UML class diagrams, inheritance is a relationship between two classes in which one class (the subclass or derived class) is a specialization of the other class (the superclass or base class). 
 This means that the subclass inherits the attributes, operations and associations of the superclass, and can add additional of its own.
@@ -550,7 +556,7 @@ In addition, the use of relationships, such as inheritance and generalization, c
 
 Overall, the use of UML class diagrams and complex relationships can help to improve the design and development of software systems, leading to more efficient and effective implementations.
 
-
+%TODO in Appendix?
 \begin{figure}[p]
 	\centering
 	\rotatebox{90}{\includegraphics[width=\textheight]{figures/full/full.jpg}}
