@@ -90,8 +90,8 @@
 % \setlength{\topskip}{\ht\strutbox}
 \geometry{paper=a4paper,left=2.5cm,top=3.0cm,bindingoffset=.8cm}
 \onehalfspacing
-\frenchspacing
-\linespread{1.25} % NEU
+%\frenchspacing
+%\linespread{1.25} % NEU
 \clubpenalty = 10000
 \widowpenalty = 10000 
 \displaywidowpenalty = 10000
@@ -186,19 +186,10 @@ Basic relationships are called \emph{associations}.
 An Association indicates that one class has a reference to another class. \cite[p. 108-111]{uml}
 The association is shown using a solid line with an open arrow at one end, indicating the direction of the relationship. \cite[p. 142-143]{uml}
 
-
-%\chapter{Complex UML class diagram relationships}
-%This chapter will examine various types of complex UML class diagram relationships in detail and how they are depicted.
-%
-%\nopagebreak
-
-
 \chapter{Aggregation and Composition}
 Aggregation and composition are two types of relationships that can be represented in a UML class diagram. 
 They both are subtypes of associations and represent a relationship between two classes in which one class has a reference to another class, but they differ in the degree to which the lifetime of the referenced class is tied to the referencing class.
 %angeblich Plagiat
-
-
 
 \section{Aggregation}
 Aggregation is a weaker form of relationship than composition and is indicated in a UML class diagram by a solid line with a hollow diamond at one end. 
@@ -255,14 +246,12 @@ This design also incorporates an anti-theft concept, in which each chipset is un
 
 
 \chapter{Dependencies}
-
 %In UML, a dependency is a relationship between two elements in which one element (the client) uses or depends on another element (the supplier) for specification or implementation.
 %The dependency represents a semantic or structural relationship between the supplier and the client, indicating that the client is dependent on the supplier in some way.
 %A dependency indicates that the connection between the two elements is at a higher level of abstraction than an association relationship.
 %Dependencies can be represented in various UML diagrams, including class diagrams, component diagrams, deployment diagrams, and use-case diagrams. 
 %To represent a dependency in a UML diagram, a dashed line with an open arrow pointing from the client to the supplier is used. 
 %In some cases, stereotypes may be used to show the precise nature of the dependency. \cite[p. 159-160]{uml}
-
 In UML, a dependency relationship is a semantic or structural link between two elements, where one element (the client) uses or depends on the other element (the supplier) for its specification or implementation. 
 A dependency indicates that the connection between the two elements is at a higher level of abstraction than an association relationship.
 This dependency relationship can be represented in different types of UML diagrams, such as class, component, deployment, or use-case diagrams. 
@@ -312,7 +301,6 @@ The difference between a usage relationship and a normal dependency relationship
 	\captionof{figure}[Example usage]{Example of usage}
 	\label{fig:usage_example}
 \end{minipage}
-\vspace{1em}
 
 
 In Figure \ref{fig:usage_example}, an example of a usage relationship between the \texttt{Drone} class and the \texttt{DoorHandle} class is displayed. The \texttt{DoorHandle} class contains the private attribute \texttt{type}, which stores information about the type of door handle, and the public operation \texttt{open()} which allows the door to be opened with a password.
@@ -325,13 +313,16 @@ This can include houses, garages, or shacks.
 To open a door, the drone calls the public \texttt{open()} operation of the DoorHandle class and passes in the password for the door. 
 If the password is correct, the door is opened and the Drone class can complete its delivery. 
 Afterwards, the door will be closed again with the public operation \texttt{closeDoor()}.
+The Drone class is the client that uses the DoorHandle class as the supplier.
 
 %TODO is this useless?
-This usage relationship between the Drone and DoorHandle classes can be represented with a directed line with an arrowhead pointing from the Drone class to the DoorHandle class and the stereotype <<use>>. The Drone class is the client that uses the DoorHandle class, and the DoorHandle class is the supplier that provides the functionality for opening the door.
+%This usage relationship between the Drone and DoorHandle classes can be represented with a directed line with an arrowhead pointing from the Drone class to the DoorHandle class and the stereotype <<use>>. The Drone class is the client that uses the DoorHandle class, and the DoorHandle class is the supplier that provides the functionality for opening the door.
 
 \section{Abstraction}
+%TODO nicht auf alle Stereotypen eingehen bzw. das in den appendix schieben?
+%TODO am anfang erwähnen, dass es nur um UML2 geht
 The abstraction relationship connects different levels of abstraction with each other.
-Stereotypes are a way to add additional meaning to an element in a UML2 class diagram. 
+Stereotypes are a way to add additional meaning to an element in a class diagram. 
 The common stereotypes that refine the basic abstraction relationship are: \cite{ibm_dependencies}
 \begin{itemize}
 	\item \texttt{<<derive>>}: This stereotype indicates that the client element is calculated from the supplier element.
@@ -339,9 +330,8 @@ The common stereotypes that refine the basic abstraction relationship are: \cite
 	\item \texttt{<<trace>>}: This stereotype can be used to link elements that have the same message content, but are each viewed in a different context or from a different perspective
 \end{itemize}
 
-
+%TODO nur derive und refine in appendix?
 In the following the two more common stereotypes \texttt{<<derive>>} and \texttt{<<refine>>}: will be explained with examples.
-
 
 \vspace{1em}
 \begin{minipage}{\linewidth}
@@ -350,8 +340,6 @@ In the following the two more common stereotypes \texttt{<<derive>>} and \texttt
 	\captionof{figure}[Example abstraction]{Example of a derive abstraction}
 	\label{fig:derive_example}
 \end{minipage}
-\vspace{1em}
-
 
 In Figure \ref{fig:derive_example}, an example of a dependency relationship between the \texttt{Drone} class and the \texttt{GPS} class is displayed. 
 The \texttt{GPS} class contains the private attributes \texttt{latitude}, \texttt{longitude}, and \texttt{altitude}, which store information about the drone's current location. It also has the public operations \texttt{getLocation()} and \texttt{setLocation()}, which allow the Drone class to retrieve and update the location information provided by the GPS class.
@@ -363,8 +351,6 @@ This dependency between the Drone and GPS classes can be represented with a \tex
 The GPS class is the supplier of this information, and the Drone class is the client that depends on it. 
 Without the GPS, the drone would be unable to determine its location and would be unable to perform its intended functions.
 
-
-
 \vspace{1em}
 \begin{minipage}{\linewidth}
 	\centering
@@ -372,7 +358,6 @@ Without the GPS, the drone would be unable to determine its location and would b
 	\captionof{figure}[Example abstraction]{Example of a refine abstraction}
 	\label{fig:refine_example}
 \end{minipage}
-\vspace{1em}
 
 In Figure \ref{fig:refine_example}, an example of a refinement relationship between the \texttt{DoorHandle} class and the \texttt{TwoFactorSecurityDoorHandle} class is displayed.
 
@@ -382,18 +367,20 @@ When the drone calls the new \texttt{closeDoor} operation of the \texttt{TwoFact
 
 The \texttt{TwoFactorSecurityDoorHandle} class is shown as the client element in the refinement relationship, which is depicted with a dashed line with an open arrow pointing from the \texttt{TwoFactorSecurityDoorHandle} class to the \texttt{DoorHandle} class. The stereotype \texttt{<<refine>>} is added to the relationship to indicate that the \texttt{TwoFactorSecurityDoorHandle} class refines the \texttt{DoorHandle} class.
 
-%TODO Intro kürzen
 \section{Substitution}
-In UML, a substitution dependency is a relationship between classifiers that allows one classifier (the client) to be used in place of another classifier (the supplier) at runtime.
-The client classifier must meet all requirements specified by the supplier, including implementing interfaces and having corresponding ports. 
-The substitution dependency is depicted in a UML diagram with a dashed line and open arrow pointing from the client to the supplier, and the stereotype \texttt{<<substitute>>} added to the relationship. 
-Only classifiers, such as classes or components, can be connected in a substitution dependency. 
-Substitution dependencies can be used when inheritance is not possible or appropriate, for example, if the supplier classifier is part of a third-party library and cannot be modified. 
-The client and supplier classifiers in a substitution dependency do not need to have similar base structures, allowing for more flexible and complex designs. \cite[p. 165]{uml}
+%In UML, a substitution dependency is a relationship between classifiers that allows one classifier (the client) to be used in place of another classifier (the supplier) at runtime.
+%The client classifier must meet all requirements specified by the supplier, including implementing interfaces and having corresponding ports. 
+%The substitution dependency is depicted in a UML diagram with a dashed line and open arrow pointing from the client to the supplier, and the stereotype \texttt{<<substitute>>} added to the relationship. 
+%Only classifiers, such as classes or components, can be connected in a substitution dependency. 
+%Substitution dependencies can be used when inheritance is not possible or appropriate, for example, if the supplier classifier is part of a third-party library and cannot be modified. 
+%The client and supplier classifiers in a substitution dependency do not need to have similar base structures, allowing for more flexible and complex designs. \cite[p. 165]{uml}
+
+In UML, a substitution dependency is a relationship between classifiers where one classifier (the client) can replace another classifier (the supplier) at runtime. 
+It is depicted with a dashed line with an open arrow pointing from the client to the supplier and the stereotype \texttt{<<substitute>>}. \cite[p.165]{uml}
 
 
-One common use case for substitution dependencies is when a classifier is being replaced or upgraded with a new version, but the new version needs to maintain compatibility with the original classifier. For example, consider a drone delivery system that originally used a fleet of traditional drones for deliveries. As the company develops and deploys a new line of robots that are capable of performing the same tasks as the drones, they may use a substitution dependency to indicate that the robots can be used as a substitute for the drones.
-
+One common use case for substitution dependencies is when a classifier is being replaced or upgraded with a new version, but the new version needs to maintain compatibility with the original classifier. 
+For example, the drone delivery system originally used a fleet of traditional drones for deliveries. As the company develops and deploys a new line of robots that are capable of performing the same tasks as the drones, a substitution dependency may be used to indicate that the robots can be used as a substitute for the drones.
 
 \vspace{1em}
 \begin{minipage}{\linewidth}
@@ -402,22 +389,26 @@ One common use case for substitution dependencies is when a classifier is being 
 	\captionof{figure}[Example substitution]{Example of a substitution}
 	\label{fig:substitution_example}
 \end{minipage}
-\vspace{1em}
-
 
 In Figure \ref{fig:substitution_example}, an example of a substitution relationship between the \texttt{Drone} class and the \texttt{Robot} class is displayed.
-
-The \texttt{Drone} class has been designated as the contract classifier, which means that it specifies a set of obligations that must be fulfilled by any substituting classifiers. In this case, the \texttt{Robot} class has been identified as a substituting classifier, which means that it can be used in place of the \texttt{Drone} class wherever instances of the \texttt{Drone} class are expected.
-
-To fulfill the obligations specified by the \texttt{Drone} class, the \texttt{Robot} class must implement all interfaces and ports that are required by the \texttt{Drone} class. For example, the \texttt{Drone} class requires the implementation of a \texttt{deliverPackage()} operation, which must also be implemented by the \texttt{Robot} class to be used as a valid substitution.
+The \texttt{Drone} class has been designated as the contract classifier, which means that it specifies a set of obligations that must be fulfilled by any substituting classifiers. 
+In this case, the \texttt{Robot} class has been identified as a substituting classifier, which means that it can be used in place of the \texttt{Drone} class wherever instances of the \texttt{Drone} class are expected.
+To fulfill the obligations specified by the \texttt{Drone} class, the \texttt{Robot} class must implement all interfaces and ports that are required by the \texttt{Drone} class. 
+For example, the \texttt{Drone} class requires the implementation of a \texttt{deliverPackage()} operation, which must also be implemented by the \texttt{Robot} class to be used as a valid substitution.
 
 
 \section{Realization}
-A realization dependency relationship indicates that the client model element is an implementation of the supplier model element, and the supplier model element is the specification.
-A realization relationship can be used to model the relationship between a class and an interface, a component and a class, or a component and an interface. 
-It represents the implementation of a contract defined by the supplier element and indicates that the client element provides the behavior specified by the supplier element.
-In UML2 a realization relationship is depicted as a solid line with a hollow triangle arrowhead pointing from the client element to the supplier element.
-Before UML2 the usual notation of dependencies, using a dashed line with an open arrow, was used as an alternative. \cite[p. 164]{uml}
+%A realization dependency relationship indicates that the client model element is an implementation of the supplier model element, and the supplier model element is the specification.
+%A realization relationship can be used to model the relationship between a class and an interface, a component and a class, or a component and an interface. 
+%It represents the implementation of a contract defined by the supplier element and indicates that the client element provides the behavior specified by the supplier element.
+%In UML2 a realization relationship is depicted as a solid line with a hollow triangle arrowhead pointing from the client element to the supplier element.
+%Before UML2 the usual notation of dependencies, using a dashed line with an open arrow, was used as an alternative. \cite[p. 164]{uml}
+%
+%An example of the realization relationship will be presented in the Interface chapter.
+
+A realization relationship in UML class diagrams indicates that a client model element (e.g. class, component) is an implementation of a supplier model element (e.g. interface, abstract class). 
+It represents the implementation of a contract defined by the supplier element, and is depicted as a solid line with a hollow triangle arrowhead pointing from the client to the supplier.
+In earlier versions of UML, a dashed line with an open arrow was used as an alternative. 
 
 An example of the realization relationship will be presented in the Interface chapter.
 
@@ -430,12 +421,10 @@ In the following Figure \ref{fig:multiple_dependencies_example} an example of po
 \vspace{1em}
 \begin{minipage}{\linewidth}
 	\centering
-	\includegraphics[width=0.8\textwidth]{figures/dependencies/multiple_dependencies.jpg}
+	\includegraphics[width=0.7\textwidth]{figures/dependencies/multiple_dependencies.jpg}
 	\captionof{figure}[Example multiple dependency]{Example of a multiple dependency}
 	\label{fig:multiple_dependencies_example}
 \end{minipage}
-\vspace{1em}
-
 
 For the class \texttt{FlightControl} to work properly, it is dependent on the classes \texttt{Navigation}, \texttt{BatteryManagement}, and \texttt{Communication}.
 Furthermore, the way the classes are dependent can be elaborated by stereotypes and added notes.
@@ -449,30 +438,24 @@ The operations and attributes of the interface are listed inside the rectangle. 
 
 There are two equivalent ways of displaying an interface relationship which are shown in the following Figure \ref{fig:interface_notation}:
 
-\vspace{1em}
 \begin{minipage}{\linewidth}
 	\centering
 	\includegraphics[width=0.8\textwidth]{figures/interface/Interface_Notation.jpg}
 	\captionof{figure}[Notation of an interface relationship]{Notation of an interface relationship}
 	\label{fig:interface_notation}
 \end{minipage}
-\vspace{1em}
 
 The left side shows the lollipop and the right side the arrow notation.
 The first row displays the implementation of the interface with the class.
 The second row displays that the class requires an implementation of this interface. \cite[p. 129]{uml}
 In the following the arrow notation will be used.
                 
-
-\vspace{1em}
 \begin{minipage}{\linewidth}
 	\centering
-	\includegraphics[width=0.8\textwidth]{figures/interface/doorhandle_interface.jpg}
+	\includegraphics[width=0.6\textwidth]{figures/interface/doorhandle_interface.jpg}
 	\captionof{figure}[Example interface]{Example of a DoorHandle interface}
 	\label{fig:interface_example}
 \end{minipage}
-\vspace{1em}
-
 
 An example of an interface is shown in Figure \ref{fig:interface_example}, where the \texttt{IDoorHandle} interface has a realization relationship with the \texttt{DoorHandle} class.
 The \texttt{DoorHandle} class implements the \texttt{openDoor()} and \texttt{closeDoor()} operations defined in the interface, allowing for flexibility in the implementation.
@@ -483,11 +466,10 @@ Interfaces in UML allow for easy substitution of different class implementations
 \vspace{1em}
 \begin{minipage}{\linewidth}
 	\centering
-	\includegraphics[width=0.8\textwidth]{figures/interface/doorhandle_sec_interface.jpg}
+	\includegraphics[width=0.7\textwidth]{figures/interface/doorhandle_sec_interface.jpg}
 	\captionof{figure}[Example interface]{Example of an ExtraSecurityDoorHandle interface}
 	\label{fig:interface2_example}
 \end{minipage}
-\vspace{1em}
 
 In Figure \ref{fig:interface2_example}, another example of an interface relationship is shown. 
 The \texttt{IExtraSecurityDoorHandle} interface allows for multiple different implementations of secure DoorHandles to be easily swapped in and out. The \texttt{TwoFactorSecurityDoorHandle} class implements the \texttt{openDoor()} operation of the \texttt{IExtraSecurityDoorHandle} interface.
@@ -507,11 +489,10 @@ This is typically done to identify common attributes and behaviors shared by the
 \vspace{1em}
 \begin{minipage}{\linewidth}
 	\centering
-	\includegraphics[width=0.8\textwidth]{figures/inheritance/generalization.jpg}
+	\includegraphics[width=0.7\textwidth]{figures/inheritance/generalization.jpg}
 	\captionof{figure}[Example generalization]{Example of generalization}
 	\label{fig:generalization}
 \end{minipage}
-\vspace{1em}
 
 In Figure \ref{fig:generalization}, an example of inheritance and generalization is shown. 
 The class \texttt{Robot} has been added to the system as an additional form of transportation. 
@@ -528,17 +509,13 @@ In the following Figure \ref{fig:specialization}, an example of specialization i
 The arrow on the right side of the figure indicates that the subclasses, in this case \texttt{Drone} and \texttt{Robot}, are derived from the superclass \texttt{Courier}, which was designed prior to them. 
 This inheritance relationship allows the subclasses to inherit the attributes, operations, and associations of the superclass.
 
-
-
 \vspace{1em}
 \begin{minipage}{\linewidth}
 	\centering
-	\includegraphics[width=0.8\textwidth]{figures/inheritance/specialization.jpg}
+	\includegraphics[width=0.7\textwidth]{figures/inheritance/specialization.jpg}
 	\captionof{figure}[Example specialization]{Example of specialization}
 	\label{fig:specialization}
 \end{minipage}
-\vspace{1em}
-
 
 UML also allows multiple inheritance, which means classes can have multiple superclasses. \cite[p. 71] {seidl2015uml}
 
