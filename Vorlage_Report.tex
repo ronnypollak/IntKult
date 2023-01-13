@@ -122,6 +122,7 @@
 \addbibresource{refs.bib}
 
 % load glossary entries
+\usepackage{glossaries}
 \makenoidxglossaries
 \loadglsentries{glossary}
 
@@ -546,7 +547,7 @@ Overall, the use of UML class diagrams and complex relationships can help to imp
 \backmatter
 %\listoftodos %remove if no longer needed
 
-\printnoidxglossaries
+\printnoidxglossary[title=Symbol,nonumberlist]
 
 % ACHTUNG: ursprüngl: alpha, aber das erzeugt keine Links
 %\bibliographystyle{wmaainf}
