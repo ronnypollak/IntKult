@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.18)  13 JAN 2023 12:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.18)  13 JAN 2023 13:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1790,7 +1790,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 chapter 1.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-79.
+80.
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [1
@@ -1801,13 +1801,13 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ]
 [2]
 chapter 2.
-<figures/aggr_comp/aggr.jpg, id=114, 3417.76875pt x 1776.6375pt>
+<figures/aggr_comp/aggr.jpg, id=116, 3417.76875pt x 1776.6375pt>
 File: figures/aggr_comp/aggr.jpg Graphic file (type jpg)
 <use figures/aggr_comp/aggr.jpg>
-Package pdftex.def Info: figures/aggr_comp/aggr.jpg  used on input line 207.
+Package pdftex.def Info: figures/aggr_comp/aggr.jpg  used on input line 208.
 (pdftex.def)             Requested size: 333.92206pt x 173.58066pt.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-13.
+14.
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [3
@@ -1817,10 +1817,10 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.216 T
+l.217 T
        he \texttt{Drone} class includes a private operation, \texttt{sendDro...
  <./figures/aggr_comp/aggr.jpg>] [4]
-<figures/aggr_comp/comp.jpg, id=127, 2966.08125pt x 1776.6375pt>
+<figures/aggr_comp/comp.jpg, id=133, 2966.08125pt x 1776.6375pt>
 File: figures/aggr_comp/comp.jpg Graphic file (type jpg)
 <use figures/aggr_comp/comp.jpg>
 Package pdftex.def Info: figures/aggr_comp/comp.jpg  used on input line 238.
@@ -1941,7 +1941,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--278
 [6
 
 ]
-<figures/dependencies/usage.jpg, id=144, 3618.51875pt x 1776.6375pt>
+<figures/dependencies/usage.jpg, id=151, 3618.51875pt x 1776.6375pt>
 File: figures/dependencies/usage.jpg Graphic file (type jpg)
 <use figures/dependencies/usage.jpg>
 Package pdftex.def Info: figures/dependencies/usage.jpg  used on input line 301
@@ -1959,7 +1959,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.310 
        <./figures/dependencies/usage.jpg>]
-<figures/dependencies/derive.jpg, id=152, 2915.89375pt x 1776.6375pt>
+<figures/dependencies/derive.jpg, id=159, 2915.89375pt x 1776.6375pt>
 File: figures/dependencies/derive.jpg Graphic file (type jpg)
 <use figures/dependencies/derive.jpg>
 Package pdftex.def Info: figures/dependencies/derive.jpg  used on input line 34
@@ -1971,7 +1971,7 @@ Overfull \hbox (11.74983pt too wide) in paragraph at lines 338--344
  []
 
 [8]
-<figures/dependencies/refine.jpg, id=158, 4270.95625pt x 923.45pt>
+<figures/dependencies/refine.jpg, id=165, 4270.95625pt x 923.45pt>
 File: figures/dependencies/refine.jpg Graphic file (type jpg)
 <use figures/dependencies/refine.jpg>
 Package pdftex.def Info: figures/dependencies/refine.jpg  used on input line 35
@@ -2020,7 +2020,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.385 
        <./figures/dependencies/refine.jpg>]
-<figures/dependencies/substitute.jpg, id=170, 2062.70625pt x 145.54375pt>
+<figures/dependencies/substitute.jpg, id=177, 2062.70625pt x 145.54375pt>
 File: figures/dependencies/substitute.jpg Graphic file (type jpg)
 <use figures/dependencies/substitute.jpg>
 Package pdftex.def Info: figures/dependencies/substitute.jpg  used on input lin
@@ -2036,28 +2036,28 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.421 
+l.422 
        <./figures/dependencies/substitute.jpg>]
-<figures/dependencies/multiple_dependencies.jpg, id=178, 2313.64375pt x 757.831
+<figures/dependencies/multiple_dependencies.jpg, id=186, 2313.64375pt x 757.831
 25pt>
 File: figures/dependencies/multiple_dependencies.jpg Graphic file (type jpg)
 <use figures/dependencies/multiple_dependencies.jpg>
 Package pdftex.def Info: figures/dependencies/multiple_dependencies.jpg  used o
-n input line 425.
+n input line 426.
 (pdftex.def)             Requested size: 292.17941pt x 95.70001pt.
 
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 423--429
+Overfull \hbox (11.74983pt too wide) in paragraph at lines 424--430
 []$[]$ 
  []
 
-<figures/interface/Interface_Notation.jpg, id=181, 3417.76875pt x 732.7375pt>
+<figures/interface/Interface_Notation.jpg, id=189, 3417.76875pt x 732.7375pt>
 File: figures/interface/Interface_Notation.jpg Graphic file (type jpg)
 <use figures/interface/Interface_Notation.jpg>
 Package pdftex.def Info: figures/interface/Interface_Notation.jpg  used on inpu
-t line 444.
+t line 445.
 (pdftex.def)             Requested size: 333.92206pt x 71.58975pt.
 
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 442--448
+Overfull \hbox (11.74983pt too wide) in paragraph at lines 443--449
 []$[]$ 
  []
 
@@ -2066,41 +2066,41 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.453 
+l.454 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.453 
+l.454 
        <./figures/dependencies/multiple_dependencies.jpg> <./figures/interface/
 Interface_Notation.jpg>]
-<figures/interface/doorhandle_interface.jpg, id=187, 1575.8875pt x 898.35625pt>
+<figures/interface/doorhandle_interface.jpg, id=195, 1575.8875pt x 898.35625pt>
 
 File: figures/interface/doorhandle_interface.jpg Graphic file (type jpg)
 <use figures/interface/doorhandle_interface.jpg>
 Package pdftex.def Info: figures/interface/doorhandle_interface.jpg  used on in
-put line 456.
+put line 457.
 (pdftex.def)             Requested size: 250.44313pt x 142.76668pt.
 
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 454--460
+Overfull \hbox (11.74983pt too wide) in paragraph at lines 455--461
 []$[]$ 
  []
 
-<figures/interface/doorhandle_sec_interface.jpg, id=189, 2012.51875pt x 787.943
+<figures/interface/doorhandle_sec_interface.jpg, id=197, 2012.51875pt x 787.943
 76pt>
 File: figures/interface/doorhandle_sec_interface.jpg Graphic file (type jpg)
 <use figures/interface/doorhandle_sec_interface.jpg>
 Package pdftex.def Info: figures/interface/doorhandle_sec_interface.jpg  used o
-n input line 470.
+n input line 471.
 (pdftex.def)             Requested size: 292.17941pt x 114.38718pt.
 
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 468--474
+Overfull \hbox (11.74983pt too wide) in paragraph at lines 469--475
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 1769) in paragraph at lines 475--477
+Underfull \hbox (badness 1769) in paragraph at lines 476--478
 \T1/lmr/m/n/12 ta-tions of se-cure DoorHan-dles to be eas-ily swapped in and ou
 t. The
  []
@@ -2110,24 +2110,24 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.480 \chapter
+l.481 \chapter
               {Inheritance}
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.480 \chapter
+l.481 \chapter
               {Inheritance} <./figures/interface/doorhandle_interface.jpg> <./f
 igures/interface/doorhandle_sec_interface.jpg>]
 chapter 4.
-<figures/inheritance/generalization.jpg, id=197, 2795.44376pt x 2514.39375pt>
+<figures/inheritance/generalization.jpg, id=206, 2795.44376pt x 2514.39375pt>
 File: figures/inheritance/generalization.jpg Graphic file (type jpg)
 <use figures/inheritance/generalization.jpg>
 Package pdftex.def Info: figures/inheritance/generalization.jpg  used on input 
-line 493.
+line 494.
 (pdftex.def)             Requested size: 292.17941pt x 262.77223pt.
 
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 491--497
+Overfull \hbox (11.74983pt too wide) in paragraph at lines 492--498
 []$[]$ 
  []
 
@@ -2138,16 +2138,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.504 
+l.505 
        <./figures/inheritance/generalization.jpg>]
-<figures/inheritance/specialization.jpg, id=206, 2795.44376pt x 2464.20625pt>
+<figures/inheritance/specialization.jpg, id=214, 2795.44376pt x 2464.20625pt>
 File: figures/inheritance/specialization.jpg Graphic file (type jpg)
 <use figures/inheritance/specialization.jpg>
 Package pdftex.def Info: figures/inheritance/specialization.jpg  used on input 
-line 516.
+line 517.
 (pdftex.def)             Requested size: 292.17941pt x 257.52727pt.
 
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 514--520
+Overfull \hbox (11.74983pt too wide) in paragraph at lines 515--521
 []$[]$ 
  []
 
@@ -2156,16 +2156,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.523 \chapter
+l.524 \chapter
               {Resumee and outlook} <./figures/inheritance/specialization.jpg>]
 chapter 5.
-<figures/full/full.jpg, id=214, 10183.04375pt x 5610.9625pt>
+<figures/full/full.jpg, id=222, 10183.04375pt x 5610.9625pt>
 File: figures/full/full.jpg Graphic file (type jpg)
 <use figures/full/full.jpg>
-Package pdftex.def Info: figures/full/full.jpg  used on input line 540.
+Package pdftex.def Info: figures/full/full.jpg  used on input line 541.
 (pdftex.def)             Requested size: 658.28194pt x 362.67058pt.
 
-LaTeX Warning: Float too large for page by 28.85004pt on input line 543.
+LaTeX Warning: Float too large for page by 28.85004pt on input line 544.
 
 [16
 
@@ -2174,7 +2174,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.547 \backmatter
+l.548 \backmatter
                   <./figures/full/full.jpg>]
 Using TeX to sort glossary entries---this may take a while
 [18
@@ -2198,10 +2198,10 @@ Package logreq Info: Writing requests to 'Vorlage_Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44685 strings out of 475281
- 902289 string characters out of 2774064
- 1818590 words of memory out of 3000000
- 65317 multiletter control sequences out of 15000+600000
+ 44696 strings out of 475281
+ 902713 string characters out of 2774064
+ 1818712 words of memory out of 3000000
+ 65326 multiletter control sequences out of 15000+600000
  520387 words of font info for 60 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,20n,106p,10611b,2461s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -2214,9 +2214,9 @@ sers/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Us
 ers/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Us
 ers/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Us
 ers/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Vorlage_Report.pdf (25 pages, 4258877 bytes).
+Output written on Vorlage_Report.pdf (25 pages, 4261553 bytes).
 PDF statistics:
- 367 PDF objects out of 1000 (max. 8388607)
- 67 named destinations out of 1000 (max. 500000)
+ 379 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
  251 words of extra memory for PDF output out of 10000 (max. 10000000)
 

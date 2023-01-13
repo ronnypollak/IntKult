@@ -174,7 +174,8 @@ By the end of this paper, readers should have a thorough understanding of the ro
 UML (Unified Modeling Language) class diagrams are a visual representation of the static structure of an object-oriented system. 
 They are commonly used in software engineering to model the classes, attributes, operations, and relationships within a system, as well as the interactions between these components. 
 A class in UML is a blueprint for an object, which is a runtime instance of that class. 
-Classes are represented by rectangles in UML class diagrams, and typically contain three compartments: 
+Classes are represented by rectangles in UML class diagrams, and typically contain three compartments:
+\cite{uml-diagrams} 
 \begin{itemize}
 	\item Class name
 	\item \emph{Attributes}
@@ -226,12 +227,11 @@ The destruction of a \texttt{Rotor} instance does not affect the existence of th
 
 \section{Composition}
 
-In a UML class diagram, composition is a stronger form of relationship than aggregation and is represented by a solid line with a solid diamond at one end pointing toward the composite class. It represents a whole-part relationship between two classes, in which the whole class, known as the composite, is composed of one or more instances of the part class, known as the component.
-
-The composite class is responsible for the lifecycle of the component class, meaning that the composite class creates and destroys the component class as needed. The component class cannot exist independently of the composite class and is tightly bound to the composite class. This is in contrast to an aggregation relationship, where the component class can exist independently of the aggregate class.
+The composition is a stronger form of relationship than aggregation and is represented by a solid line with a solid diamond at one end pointing toward the composite class. It represents a whole-part relationship between two classes, in which the whole class, known as the composite, is composed of one or more instances of the part class, known as the component. \cite[p. 153-154]{uml}
+The composite class is responsible for the lifecycle of the component class, meaning that the composite class creates and destroys the component class as needed. The component class cannot exist independently of the composite class and is tightly bound to the composite class. \cite{uml-diagrams-comp} This is in contrast to an aggregation relationship, where the component class can exist independently of the aggregate class.
 
 The multiplicities available for use in a composition relationship are restricted compared to those in an aggregation relationship. While a whole can have any number of parts, a part can only contribute to one whole. The multiplicity indicated by the solid diamond in a composition relationship is fixed at 0, 0..1, or 1. In many cases, the multiplicity is left out, which implies a multiplicity of 1. A multiplicity of 0 does not make sense in a composition relationship, and a multiplicity of 0..1 means that the parts are capable of existing independently for a certain period of time.
- \cite[p. 153-154]{uml}
+ \cite[p. 153-154]{uml} \cite[p. 68-69]{seidl2015uml}
 
 \begin{figure}[h]
 \centering
@@ -376,7 +376,7 @@ The \texttt{TwoFactorSecurityDoorHandle} class is shown as the client element in
 %Substitution dependencies can be used when inheritance is not possible or appropriate, for example, if the supplier classifier is part of a third-party library and cannot be modified. 
 %The client and supplier classifiers in a substitution dependency do not need to have similar base structures, allowing for more flexible and complex designs. \cite[p. 165]{uml}
 
-In UML, a substitution dependency is a relationship between classifiers where one classifier (the client) can replace another classifier (the supplier) at runtime. 
+A substitution dependency is a relationship between classifiers where one classifier (the client) can replace another classifier (the supplier) at runtime. 
 It is depicted with a dashed line with an open arrow pointing from the client to the supplier and the stereotype \texttt{<<substitute>>}. \cite[p.165]{uml}
 
 
@@ -407,9 +407,10 @@ For example, the \texttt{Drone} class requires the implementation of a \texttt{d
 %
 %An example of the realization relationship will be presented in the Interface chapter.
 
-A realization relationship in UML class diagrams indicates that a client model element (e.g. class, component) is an implementation of a supplier model element (e.g. interface, abstract class). 
+A realization relationship indicates that a client model element (e.g. class, component) is an implementation of a supplier model element (e.g. interface, abstract class). 
 It represents the implementation of a contract defined by the supplier element, and is depicted as a solid line with a hollow triangle arrowhead pointing from the client to the supplier.
 In earlier versions of UML, a dashed line with an open arrow was used as an alternative. 
+\cite[p.164]{uml}
 
 An example of the realization relationship will be presented in the Interface chapter.
 
@@ -480,11 +481,11 @@ The \texttt{IExtraSecurityDoorHandle} interface allows for multiple different im
 \chapter{Inheritance}
 In UML class diagrams, inheritance is a relationship between two classes in which one class (the subclass or derived class) is a specialization of the other class (the superclass or base class). 
 This means that the subclass inherits the attributes, operations and associations of the superclass, and can add additional of its own.
-Inheritance is displayed by a solid line with a closed, non filled, arrow pointing from the subclass to the superclass.
+Inheritance is displayed by a solid line with a closed, non filled, arrow pointing from the subclass to the superclass. \cite{ibm_generalization}
 The two ways of designing inheritance relationships are described in the following.
 
 Generalization is a term used to describe the process of creating a superclass from one or more subclasses. 
-This is typically done to identify common attributes and behaviors shared by the subclasses and to create a more generalized, abstract representation of these concepts. \cite[p. 69-70] {seidl2015uml} \cite{ibm_generalization}
+This is typically done to identify common attributes and behaviors shared by the subclasses and to create a more generalized, abstract representation of these concepts. \cite[p. 69-70] {seidl2015uml} \cite{ibm_generalization} 
 
 
 \vspace{1em}

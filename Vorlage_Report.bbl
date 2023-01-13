@@ -17,30 +17,6 @@
 \endgroup
 
 \datalist[entry]{anyt/global//global/global}
-  \entry{ibm_generalization}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=I}{%
-         family={IBM},
-         familyi={I\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{I1}
-    \strng{fullhash}{I1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{IBM}
-    \field{sortinit}{I}
-    \field{sortinithash}{I}
-    \field{title}{Generalization in UML}
-    \verb{url}
-    \verb https://www.uml-diagrams.org/generalization.html?context=class-diagra
-    \verb ms
-    \endverb
-    \field{urlday}{28}
-    \field{urlmonth}{12}
-    \field{urlyear}{2022}
-  \endentry
-
   \entry{ibm_dependencies}{misc}{}
     \name{author}{1}{}{%
       {{hash=I}{%
@@ -161,6 +137,79 @@
     \field{sortinithash}{S}
     \field{title}{UML@ classroom}
     \field{year}{2015}
+  \endentry
+
+  \entry{uml-diagrams}{online}{}
+    \name{author}{1}{}{%
+      {{hash=Ud}{%
+         family={Uml-diagrams},
+         familyi={U\bibinithyphendelim d\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{Ud1}
+    \strng{fullhash}{Ud1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Ud}
+    \field{extraalpha}{1}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{title}{Class}
+    \verb{url}
+    \verb https://www.uml-diagrams.org/class.html
+    \endverb
+    \field{urlday}{13}
+    \field{urlmonth}{01}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{ibm_generalization}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=Ud}{%
+         family={Uml-diagrams},
+         familyi={U\bibinithyphendelim d\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{Ud1}
+    \strng{fullhash}{Ud1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Ud}
+    \field{extraalpha}{2}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{title}{Generalization in UML}
+    \verb{url}
+    \verb https://www.uml-diagrams.org/generalization.html?context=class-diagra
+    \verb ms
+    \endverb
+    \field{urlday}{28}
+    \field{urlmonth}{12}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{uml-diagrams-comp}{online}{}
+    \name{author}{1}{}{%
+      {{hash=Ud}{%
+         family={Uml-diagrams},
+         familyi={U\bibinithyphendelim d\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{Ud1}
+    \strng{fullhash}{Ud1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Ud}
+    \field{extraalpha}{3}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{title}{UML Composition}
+    \verb{url}
+    \verb https://www.uml-diagrams.org/composition.html
+    \endverb
+    \field{urlday}{13}
+    \field{urlmonth}{01}
+    \field{urlyear}{2023}
   \endentry
 \enddatalist
 \endinput
