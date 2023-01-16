@@ -160,12 +160,12 @@
 
 \section{Motivation}
 This comprehensive study focuses on the various types of more complex relationships that can be represented in UML class diagrams. 
-These relationships include \emph{aggregation}, \emph{composition}, \emph{dependencies}, \emph{interfaces}, \emph{abstract} classes and \emph{inheritance}. 
+These relationships include \emph{aggregation}, \emph{composition}, \emph{dependencies}, \emph{interfaces}, and \emph{inheritance}. 
 Each of these relationships reflects a specific type of connection between classes and serves a unique purpose in the design and implementation of object-oriented systems. 
 The following sections define and provide examples of each of these relationships.
 This paper extends the work of Levin [insert paper citation] and does not delve into the basic concepts, that will be mentioned in the next section, in great detail. 
 The focus is on furthering the research and providing examples to support the points made.
-The examples will build on a hypothetical delivery drone which is introduced in Levin's [citation] paper.
+The examples will build on a hypothetical delivery drone system which is introduced in Levin's [citation] paper.
 By the end of this paper, readers should have a thorough understanding of the role of complex relationships in UML class diagrams and how to effectively use them to model object-oriented systems.
 
 %TODO Levin zitieren
@@ -218,20 +218,21 @@ The \texttt{Drone} class includes a private operation, \texttt{sendDroneToRecipi
 The \texttt{Rotor} class, on the other hand, contains a private operation, \texttt{move()}, which is called by the \texttt{Drone} class's \texttt{sendDroneToRecipient()} operation and three private attributes, \texttt{velocity}, \texttt{horizontalDegree}, and \texttt{verticalDegree}, which control the movement of the drone in the air. 
 
 The \texttt{Drone} class serves as the referencing class in this aggregation relationship and requires at least four \texttt{Rotor} instances to function properly. 
-However, the drone has the capacity to utilize up to eight rotors at a time, as there are eight available slots for rotors on the drone. 
+However, the drone has the capacity to utilize up to eight rotors at a time, as there are eight available slots for rotors. 
 Each \texttt{Rotor} instance can be part of one or no drones at a given time.
 
 If the \texttt{Rotor} instances become worn down or the weather conditions change, they can be replaced with new or specialized rotors. 
 The destruction of a \texttt{Rotor} instance does not affect the existence of the \texttt{Drone}, and conversely, the destruction of a \texttt{Drone} instance does not affect the \texttt{Rotor} instances.
 
 
+
 \section{Composition}
 
-The composition is a stronger form of relationship than aggregation and is represented by a solid line with a solid diamond at one end pointing toward the composite class. It represents a whole-part relationship between two classes, in which the whole class, known as the composite, is composed of one or more instances of the part class, known as the component. \cite[p. 153-154]{uml}
+The composition is a stronger form of relationship than aggregation and is represented by a solid line with a filled diamond at one end pointing toward the composite class. It represents a "whole-part" relationship between two classes, in which the whole class, known as the composite, is composed of one or more instances of the part class, known as the component. \cite[p. 153-154]{uml}
 The composite class is responsible for the lifecycle of the component class, meaning that the composite class creates and destroys the component class as needed. The component class cannot exist independently of the composite class and is tightly bound to the composite class. \cite{uml-diagrams-comp} This is in contrast to an aggregation relationship, where the component class can exist independently of the aggregate class.
 
-The multiplicities available for use in a composition relationship are restricted compared to those in an aggregation relationship. While a whole can have any number of parts, a part can only contribute to one whole. The multiplicity indicated by the solid diamond in a composition relationship is fixed at 0, 0..1, or 1. In many cases, the multiplicity is left out, which implies a multiplicity of 1. A multiplicity of 0 does not make sense in a composition relationship, and a multiplicity of 0..1 means that the parts are capable of existing independently for a certain period of time.
- \cite[p. 153-154]{uml} \cite[p. 68-69]{seidl2015uml}
+The multiplicities available for use in a composition relationship are restricted compared to those in an aggregation relationship. While a whole can have any number of parts, a part can only contribute to one whole. The multiplicity indicated by the filled diamond in a composition relationship is fixed at 0, 0..1, or 1. In many cases, the multiplicity is left out, which implies a multiplicity of 1. A multiplicity of 0 does not make sense in a composition relationship, and a multiplicity of 0..1 means that the parts are capable of existing independently for a certain period of time.
+\cite[p. 153-154]{uml} \cite[p. 68-69]{seidl2015uml}
 
 \begin{figure}[h]
 \centering
@@ -291,8 +292,8 @@ In the following sections, the different types of dependencies will be explained
 %The difference between a usage relationship and a normal dependency relationship is minimal, with the main distinction being that the \texttt{<<use>>} stereotype may be used to specify that the dependency is specifically related to the actual use of the supplier element. \cite[p. 161]{uml}
 
 
-A usage relationship in UML is a dependency in which one element (the client) requires another element (the supplier) for its proper operation or implementation. 
-It's represented a using a dashed line with an arrow pointing from the client to the supplier element, and the stereotype \texttt{<<use>>} may be used to indicate it's specifically related to the actual use of the supplier element. 
+A usage relationship is a dependency in which one element (the client) requires another element (the supplier) for its proper operation or implementation. 
+It's represented a using a dashed line with an arrow pointing from the client to the supplier element, and the stereotype \texttt{<<use>>}.
 The difference between a usage relationship and a normal dependency relationship is minimal, with the main distinction being that the \texttt{<<use>>} stereotype may be used to specify that the dependency is specifically related to the actual use of the supplier element. \cite[p. 161]{uml}
 
 \vspace{1em}
@@ -308,13 +309,13 @@ In Figure \ref{fig:usage_example}, an example of a usage relationship between th
 This operation also utilizes the \texttt{state} enumeration to store the current state of the door handle, including \texttt{open}, \texttt{closed}, and \texttt{invalid} states.
 It enters the invalid state if an error occurs while opening or closing the door
 
-The DoorHandle is built into various types of doors and is responsible for providing a mechanism for opening the door. 
-The drone uses the DoorHandle to open doors as part of its delivery tasks and drops off the packages in the desired place. 
+The door handle is built into various types of doors and is responsible for providing a mechanism for opening the door. 
+The drone uses the door handle to open doors as part of its delivery tasks and drops off the packages in the desired place. 
 This can include houses, garages, or shacks. 
-To open a door, the drone calls the public \texttt{open()} operation of the DoorHandle class and passes in the password for the door. 
-If the password is correct, the door is opened and the Drone class can complete its delivery. 
+To open a door, the drone calls the public \texttt{open()} operation of the \texttt{DoorHandle} class and passes in the password for the door. 
+If the password is correct, the door is opened and the drone can complete its delivery. 
 Afterwards, the door will be closed again with the public operation \texttt{closeDoor()}.
-The Drone class is the client that uses the DoorHandle class as the supplier.
+The \texttt{Drone} class is the client that uses the \texttt{DoorHandle} class as the supplier.
 
 %TODO is this useless?
 %This usage relationship between the Drone and DoorHandle classes can be represented with a directed line with an arrowhead pointing from the Drone class to the DoorHandle class and the stereotype <<use>>. The Drone class is the client that uses the DoorHandle class, and the DoorHandle class is the supplier that provides the functionality for opening the door.
@@ -343,13 +344,13 @@ In the following the two more common stereotypes \texttt{<<derive>>} and \texttt
 \end{minipage}
 
 In Figure \ref{fig:derive_example}, an example of a dependency relationship between the \texttt{Drone} class and the \texttt{GPS} class is displayed. 
-The \texttt{GPS} class contains the private attributes \texttt{latitude}, \texttt{longitude}, and \texttt{altitude}, which store information about the drone's current location. It also has the public operations \texttt{getLocation()} and \texttt{setLocation()}, which allow the Drone class to retrieve and update the location information provided by the GPS class.
-This dependency can be represented with a <<derive>> stereotype, as the drone calculates its location based on the information provided by the GPS.
+The \texttt{GPS} class contains the private attributes \texttt{latitude}, \texttt{longitude}, and \texttt{altitude}, which store information about the drone's current location. It also has the public operations \texttt{getLocation()} and \texttt{setLocation()}, which allow the drone to retrieve and update the location information provided by the \texttt{GPS} class.
+This dependency can be represented with a \texttt{<<derive>>} stereotype, as the drone calculates its location based on the information provided by the GPS.
 
-The Drone class depends on the GPS class for accurate location data, as it is essential for the drone to be able to determine its position and navigate to the desired location. To retrieve the current location, the Drone class calls the \texttt{getLocation()} operation of the GPS class and stores the returned location in its \texttt{location} attribute. The Drone class can then use this information to perform actions such as flying to a specific location or avoiding obstacles.
+The drone depends on the GPS for accurate location data, as it is essential for the drone to be able to determine its position and navigate to the desired location. To retrieve the current location, the drone calls the \texttt{getLocation()} operation of the \texttt{GPS} class and stores the returned location in its \texttt{location} attribute. The drone can then use this information to perform actions such as flying to a specific location or avoiding obstacles.
 
-This dependency between the Drone and GPS classes can be represented with a \texttt{<<derive>>} stereotype, as the drone calculates its location based on the information provided by the GPS. 
-The GPS class is the supplier of this information, and the Drone class is the client that depends on it. 
+This dependency between the drone and the GPS can be represented with a \texttt{<<derive>>} stereotype, as the drone calculates its location based on the information provided by the GPS. 
+The GPS is the supplier of this information, and the drone is the client that depends on it. 
 Without the GPS, the drone would be unable to determine its location and would be unable to perform its intended functions.
 
 \vspace{1em}
@@ -364,7 +365,7 @@ In Figure \ref{fig:refine_example}, an example of a refinement relationship betw
 
 The \texttt{DoorHandle} class, which was previously used by the drone to open and close doors as part of its delivery tasks, has been refined by the \texttt{TwoFactorSecurityDoorHandle} class to add an extra layer of security. The \texttt{TwoFactorSecurityDoorHandle} class has a private attribute \texttt{contact} that stores the phone number, email address, or recipient's ID in the delivery app.
 
-When the drone calls the new \texttt{closeDoor} operation of the \texttt{TwoFactorSecurityDoorHandle} class, the recipient will receive a notification that they must answer, in addition to the password that the drone inputs, for the door to be opened. This added security measure ensures that only the drone with the intended package can unlock the door.
+When the drone calls the new \texttt{closeDoor()} operation of the \texttt{TwoFactorSecurityDoorHandle} class, the recipient will receive a notification that they must answer, in addition to the password that the drone inputs, for the door to be opened. This added security measure ensures that only the drone with the intended package can unlock the door.
 
 The \texttt{TwoFactorSecurityDoorHandle} class is shown as the client element in the refinement relationship, which is depicted with a dashed line with an open arrow pointing from the \texttt{TwoFactorSecurityDoorHandle} class to the \texttt{DoorHandle} class. The stereotype \texttt{<<refine>>} is added to the relationship to indicate that the \texttt{TwoFactorSecurityDoorHandle} class refines the \texttt{DoorHandle} class.
 
@@ -436,7 +437,8 @@ Furthermore, the way the classes are dependent can be elaborated by stereotypes 
 An interface is a type of classifier that represents a set of related behaviors that a class or component must implement to conform to the interface. 
 An interface defines a set of abstract operations, which are public and do not have any implementation.
 Interfaces are represented by a classifier rectangle with the stereotype \texttt{«interface»} at the top, followed by the name of the interface. 
-The operations and attributes of the interface are listed inside the rectangle. \cite[p. 130-131]{uml}
+The operations of the interface are listed inside the rectangle. \cite[p. 130-131]{uml}
+%TODO Die Attribute bei den Interfaces rausmachen?
 
 There are two equivalent ways of displaying an interface relationship which are shown in the following Figure \ref{fig:interface_notation}:
 
@@ -474,14 +476,14 @@ Interfaces in UML allow for easy substitution of different class implementations
 \end{minipage}
 
 In Figure \ref{fig:interface2_example}, another example of an interface relationship is shown. 
-The \texttt{IExtraSecurityDoorHandle} interface allows for multiple different implementations of secure DoorHandles to be easily swapped in and out. The \texttt{TwoFactorSecurityDoorHandle} class implements the \texttt{openDoor()} operation of the \texttt{IExtraSecurityDoorHandle} interface.
+The \texttt{IExtraSecurityDoorHandle} interface allows for multiple different implementations of secure door handles to be easily swapped in and out. The \texttt{TwoFactorSecurityDoorHandle} class implements the \texttt{openDoor()} operation of the \texttt{IExtraSecurityDoorHandle} interface.
 
 
 %TODO kürzen, damit alles auf 2 Seiten passt
 \chapter{Inheritance}
 In UML class diagrams, inheritance is a relationship between two classes in which one class (the subclass or derived class) is a specialization of the other class (the superclass or base class). 
 This means that the subclass inherits the attributes, operations and associations of the superclass, and can add additional of its own.
-Inheritance is displayed by a solid line with a closed, non filled, arrow pointing from the subclass to the superclass. \cite{ibm_generalization}
+Inheritance is displayed by a solid line with a closed, non-filled, arrow pointing from the subclass to the superclass. \cite{ibm_generalization}
 The two ways of designing inheritance relationships are described in the following.
 
 Generalization is a term used to describe the process of creating a superclass from one or more subclasses. 
@@ -508,7 +510,7 @@ The arrow on the right side indicates that the superclass is formed from its two
 Specialization is the process of creating a subclass from a superclass. This is typically done to add more specific attributes and behaviors to the subclass, or to specialize the subclass for a particular purpose.
 
 In the following Figure \ref{fig:specialization}, an example of specialization is depicted. The figure illustrates that, given the existence of a superclass, the subclasses can be derived from it, resulting in a specialization relationship. 
-The arrow on the right side of the figure indicates that the subclasses, in this case \texttt{Drone} and \texttt{Robot}, are derived from the superclass \texttt{Courier}, which was designed prior to them. 
+The arrow on the right side of the figure, which is not part of the UML notation, indicates that the subclasses, in this case \texttt{Drone} and \texttt{Robot}, are derived from the superclass \texttt{Courier}, which was designed prior to them. 
 This inheritance relationship allows the subclasses to inherit the attributes, operations, and associations of the superclass.
 
 \vspace{1em}
@@ -521,10 +523,10 @@ This inheritance relationship allows the subclasses to inherit the attributes, o
 
 UML also allows multiple inheritance, which means classes can have multiple superclasses. \cite[p. 71] {seidl2015uml}
 
-\chapter{Resumee and outlook}
+\chapter{Resume and outlook}
 
 
-In Figure \ref{fig:full}, a comprehensive class diagram for a drone delivery system is presented, incorporating all the examples discussed in this paper except for the flight control system (which involves multiple dependencies). 
+In Figure \ref{fig:full} on the next page, a comprehensive class diagram for a drone delivery system is presented, incorporating all the examples discussed in this paper except for the flight control system (which involves multiple dependencies). 
 This diagram illustrates the various classes and relationships involved in the delivery process, with Levin's [add citation] paper as the starting point. 
 However, it is worth noting that this diagram only represents the delivery side of the system and could be further expanded to include logistics such as package acquisition and packaging.
 
@@ -548,7 +550,7 @@ Overall, the use of UML class diagrams and complex relationships can help to imp
 \backmatter
 %\listoftodos %remove if no longer needed
 
-\printnoidxglossary[title=Symbol,nonumberlist]
+\printnoidxglossary[title=Glossary,nonumberlist]
 
 % ACHTUNG: ursprüngl: alpha, aber das erzeugt keine Links
 %\bibliographystyle{wmaainf}

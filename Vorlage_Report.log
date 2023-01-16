@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.18)  13 JAN 2023 13:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.13)  15 JAN 2023 15:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -922,7 +922,7 @@ Package: fp-eval 1995/04/03
 \@dtl@foreach@level=\count330
 )
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tracklang.sty
-Package: tracklang 2022/12/13 v1.6.1 (NLCT) Track Languages
+Package: tracklang 2022/10/29 v1.6 (NLCT) Track Languages
 
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/generic/tracklang\tracklang.t
 ex))
@@ -1823,118 +1823,118 @@ l.217 T
 <figures/aggr_comp/comp.jpg, id=133, 2966.08125pt x 1776.6375pt>
 File: figures/aggr_comp/comp.jpg Graphic file (type jpg)
 <use figures/aggr_comp/comp.jpg>
-Package pdftex.def Info: figures/aggr_comp/comp.jpg  used on input line 238.
+Package pdftex.def Info: figures/aggr_comp/comp.jpg  used on input line 239.
 (pdftex.def)             Requested size: 333.92206pt x 200.01219pt.
  [5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.249 \chapter
+l.250 \chapter
               {Dependencies} <./figures/aggr_comp/comp.jpg>]
 chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 270--270
 []|\T1/lmr/bx/n/12 Type of de-pen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--271
+Underfull \hbox (badness 10000) in paragraph at lines 272--272
 []|\T1/lmr/m/n/12 ^^Sabstraction^^T,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--271
+Underfull \hbox (badness 10000) in paragraph at lines 272--272
 \T1/lmr/m/n/12 ^^Sde-rive^^T, ^^Sre-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 []|\T1/lmr/m/n/12 Relates two model el-e-ments, or sets
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 \T1/lmr/m/n/12 of model el-e-ments, that rep-re-sent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 \T1/lmr/m/n/12 the same con-cept at dif-fer-ent lev-els
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 \T1/lmr/m/n/12 of ab-strac-tion, or from dif-fer-ent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
 []|\T1/lmr/m/n/12 Indicates that the client model
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
 \T1/lmr/m/n/12 el-e-ment is an im-ple-men-ta-tion of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
 \T1/lmr/m/n/12 the sup-plier model el-e-ment, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
 \T1/lmr/m/n/12 the sup-plier model el-e-ment is the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 []|\T1/lmr/m/n/12 Indicates that the client model
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 \T1/lmr/m/n/12 el-e-ment takes the place of the sup-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 \T1/lmr/m/n/12 plier; the client model el-e-ment
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 \T1/lmr/m/n/12 must con-form to the con-tract or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 \T1/lmr/m/n/12 in-ter-face that the sup-plier model
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--277
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
 []|\T1/lmr/m/n/12 ^^Suse^^T, ^^Scall^^T,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--277
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
 \T1/lmr/m/n/12 ^^Scre-ate^^T, ^^Sin-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--277
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
 \T1/lmr/m/n/12 stan-ti-ate^^T, or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 []|\T1/lmr/m/n/12 Indicates that one model el-e-ment
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 \T1/lmr/m/n/12 re-quires an-other model el-e-ment for
  []
 
@@ -1944,11 +1944,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--278
 <figures/dependencies/usage.jpg, id=151, 3618.51875pt x 1776.6375pt>
 File: figures/dependencies/usage.jpg Graphic file (type jpg)
 <use figures/dependencies/usage.jpg>
-Package pdftex.def Info: figures/dependencies/usage.jpg  used on input line 301
+Package pdftex.def Info: figures/dependencies/usage.jpg  used on input line 302
 .
 (pdftex.def)             Requested size: 333.92206pt x 163.92975pt.
 
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 299--305
+Overfull \hbox (11.74983pt too wide) in paragraph at lines 300--306
 []$[]$ 
  []
 
@@ -1957,16 +1957,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.310 
+l.311 
        <./figures/dependencies/usage.jpg>]
 <figures/dependencies/derive.jpg, id=159, 2915.89375pt x 1776.6375pt>
 File: figures/dependencies/derive.jpg Graphic file (type jpg)
 <use figures/dependencies/derive.jpg>
 Package pdftex.def Info: figures/dependencies/derive.jpg  used on input line 34
-0.
+1.
 (pdftex.def)             Requested size: 333.92206pt x 203.45508pt.
 
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 338--344
+Overfull \hbox (11.74983pt too wide) in paragraph at lines 339--345
 []$[]$ 
  []
 
@@ -1975,10 +1975,10 @@ Overfull \hbox (11.74983pt too wide) in paragraph at lines 338--344
 File: figures/dependencies/refine.jpg Graphic file (type jpg)
 <use figures/dependencies/refine.jpg>
 Package pdftex.def Info: figures/dependencies/refine.jpg  used on input line 35
-8.
+9.
 (pdftex.def)             Requested size: 333.92206pt x 72.18661pt.
 
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 356--362
+Overfull \hbox (11.74983pt too wide) in paragraph at lines 357--363
 []$[]$ 
  []
 
@@ -1987,28 +1987,28 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.363 I
+l.364 I
        n Figure \ref{fig:refine_example}, an example of a refinement relatio...
  <./figures/dependencies/derive.jpg>]
-Underfull \hbox (badness 1132) in paragraph at lines 365--366
+Underfull \hbox (badness 1132) in paragraph at lines 366--367
 []\T1/lmr/m/n/12 The \T1/lmtt/m/n/12 DoorHandle \T1/lmr/m/n/12 class, which was
  pre-vi-ously used by the drone to open
  []
 
 
-Underfull \hbox (badness 1796) in paragraph at lines 365--366
+Underfull \hbox (badness 1796) in paragraph at lines 366--367
 \T1/lmr/m/n/12 and close doors as part of its de-liv-ery tasks, has been re-fin
 ed by the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
-[]\T1/lmr/m/n/12 When the drone calls the new \T1/lmtt/m/n/12 closeDoor \T1/lmr
-/m/n/12 op-er-a-tion of the
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
+[]\T1/lmr/m/n/12 When the drone calls the new \T1/lmtt/m/n/12 closeDoor() \T1/l
+mr/m/n/12 op-er-a-tion of the
  []
 
 
-Underfull \hbox (badness 1552) in paragraph at lines 367--368
+Underfull \hbox (badness 1552) in paragraph at lines 368--369
 \T1/lmtt/m/n/12 TwoFactorSecurityDoorHandle \T1/lmr/m/n/12 class, the re-cip-i-
 ent will re-ceive a no-ti-fi-ca-
  []
@@ -2018,16 +2018,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.385 
+l.386 
        <./figures/dependencies/refine.jpg>]
 <figures/dependencies/substitute.jpg, id=177, 2062.70625pt x 145.54375pt>
 File: figures/dependencies/substitute.jpg Graphic file (type jpg)
 <use figures/dependencies/substitute.jpg>
 Package pdftex.def Info: figures/dependencies/substitute.jpg  used on input lin
-e 389.
+e 390.
 (pdftex.def)             Requested size: 333.92206pt x 23.56062pt.
 
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 387--393
+Overfull \hbox (11.74983pt too wide) in paragraph at lines 388--394
 []$[]$ 
  []
 
@@ -2036,17 +2036,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.422 
+l.423 
        <./figures/dependencies/substitute.jpg>]
 <figures/dependencies/multiple_dependencies.jpg, id=186, 2313.64375pt x 757.831
 25pt>
 File: figures/dependencies/multiple_dependencies.jpg Graphic file (type jpg)
 <use figures/dependencies/multiple_dependencies.jpg>
 Package pdftex.def Info: figures/dependencies/multiple_dependencies.jpg  used o
-n input line 426.
+n input line 427.
 (pdftex.def)             Requested size: 292.17941pt x 95.70001pt.
 
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 424--430
+Overfull \hbox (11.74983pt too wide) in paragraph at lines 425--431
 []$[]$ 
  []
 
@@ -2054,10 +2054,10 @@ Overfull \hbox (11.74983pt too wide) in paragraph at lines 424--430
 File: figures/interface/Interface_Notation.jpg Graphic file (type jpg)
 <use figures/interface/Interface_Notation.jpg>
 Package pdftex.def Info: figures/interface/Interface_Notation.jpg  used on inpu
-t line 445.
+t line 447.
 (pdftex.def)             Requested size: 333.92206pt x 71.58975pt.
 
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 443--449
+Overfull \hbox (11.74983pt too wide) in paragraph at lines 445--451
 []$[]$ 
  []
 
@@ -2066,13 +2066,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.454 
+l.456 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.454 
+l.456 
        <./figures/dependencies/multiple_dependencies.jpg> <./figures/interface/
 Interface_Notation.jpg>]
 <figures/interface/doorhandle_interface.jpg, id=195, 1575.8875pt x 898.35625pt>
@@ -2080,10 +2080,10 @@ Interface_Notation.jpg>]
 File: figures/interface/doorhandle_interface.jpg Graphic file (type jpg)
 <use figures/interface/doorhandle_interface.jpg>
 Package pdftex.def Info: figures/interface/doorhandle_interface.jpg  used on in
-put line 457.
+put line 459.
 (pdftex.def)             Requested size: 250.44313pt x 142.76668pt.
 
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 455--461
+Overfull \hbox (11.74983pt too wide) in paragraph at lines 457--463
 []$[]$ 
  []
 
@@ -2092,17 +2092,17 @@ Overfull \hbox (11.74983pt too wide) in paragraph at lines 455--461
 File: figures/interface/doorhandle_sec_interface.jpg Graphic file (type jpg)
 <use figures/interface/doorhandle_sec_interface.jpg>
 Package pdftex.def Info: figures/interface/doorhandle_sec_interface.jpg  used o
-n input line 471.
+n input line 473.
 (pdftex.def)             Requested size: 292.17941pt x 114.38718pt.
 
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 469--475
+Overfull \hbox (11.74983pt too wide) in paragraph at lines 471--477
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 1769) in paragraph at lines 476--478
-\T1/lmr/m/n/12 ta-tions of se-cure DoorHan-dles to be eas-ily swapped in and ou
-t. The
+Underfull \hbox (badness 1466) in paragraph at lines 478--480
+\T1/lmr/m/n/12 ta-tions of se-cure door han-dles to be eas-ily swapped in and o
+ut. The
  []
 
 [13
@@ -2110,13 +2110,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.481 \chapter
+l.483 \chapter
               {Inheritance}
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.481 \chapter
+l.483 \chapter
               {Inheritance} <./figures/interface/doorhandle_interface.jpg> <./f
 igures/interface/doorhandle_sec_interface.jpg>]
 chapter 4.
@@ -2124,10 +2124,10 @@ chapter 4.
 File: figures/inheritance/generalization.jpg Graphic file (type jpg)
 <use figures/inheritance/generalization.jpg>
 Package pdftex.def Info: figures/inheritance/generalization.jpg  used on input 
-line 494.
+line 496.
 (pdftex.def)             Requested size: 292.17941pt x 262.77223pt.
 
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 492--498
+Overfull \hbox (11.74983pt too wide) in paragraph at lines 494--500
 []$[]$ 
  []
 
@@ -2138,16 +2138,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.505 
+l.507 
        <./figures/inheritance/generalization.jpg>]
 <figures/inheritance/specialization.jpg, id=214, 2795.44376pt x 2464.20625pt>
 File: figures/inheritance/specialization.jpg Graphic file (type jpg)
 <use figures/inheritance/specialization.jpg>
 Package pdftex.def Info: figures/inheritance/specialization.jpg  used on input 
-line 517.
+line 519.
 (pdftex.def)             Requested size: 292.17941pt x 257.52727pt.
 
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 515--521
+Overfull \hbox (11.74983pt too wide) in paragraph at lines 517--523
 []$[]$ 
  []
 
@@ -2156,16 +2156,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.524 \chapter
-              {Resumee and outlook} <./figures/inheritance/specialization.jpg>]
+l.526 \chapter
+              {Resume and outlook} <./figures/inheritance/specialization.jpg>]
 chapter 5.
 <figures/full/full.jpg, id=222, 10183.04375pt x 5610.9625pt>
 File: figures/full/full.jpg Graphic file (type jpg)
 <use figures/full/full.jpg>
-Package pdftex.def Info: figures/full/full.jpg  used on input line 541.
+Package pdftex.def Info: figures/full/full.jpg  used on input line 543.
 (pdftex.def)             Requested size: 658.28194pt x 362.67058pt.
 
-LaTeX Warning: Float too large for page by 28.85004pt on input line 544.
+LaTeX Warning: Float too large for page by 28.85004pt on input line 546.
 
 [16
 
@@ -2174,7 +2174,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.548 \backmatter
+l.550 \backmatter
                   <./figures/full/full.jpg>]
 Using TeX to sort glossary entries---this may take a while
 [18
@@ -2198,10 +2198,10 @@ Package logreq Info: Writing requests to 'Vorlage_Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44696 strings out of 475281
- 902713 string characters out of 2774064
- 1818712 words of memory out of 3000000
- 65326 multiletter control sequences out of 15000+600000
+ 44695 strings out of 475281
+ 902496 string characters out of 2774064
+ 1818705 words of memory out of 3000000
+ 65325 multiletter control sequences out of 15000+600000
  520387 words of font info for 60 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,20n,106p,10611b,2461s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -2214,7 +2214,7 @@ sers/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Us
 ers/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Us
 ers/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Us
 ers/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Vorlage_Report.pdf (25 pages, 4261553 bytes).
+Output written on Vorlage_Report.pdf (25 pages, 4261173 bytes).
 PDF statistics:
  379 PDF objects out of 1000 (max. 8388607)
  69 named destinations out of 1000 (max. 500000)
