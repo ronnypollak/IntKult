@@ -314,7 +314,7 @@ It enters the invalid state if an error occurs while opening or closing the door
 The DoorHandle is built into various types of doors and is responsible for providing a mechanism for opening the door. 
 The drone uses the DoorHandle to open doors as part of its delivery tasks and drops off the packages in the desired place. 
 This can include houses, garages, or shacks. 
-To open a door, the drone sends a wireless signal and calls the public \texttt{open()} operation of the \texttt{DoorHandle} class and passes in the password for the door. 
+To open a door, the drone sends a wireless signal, calls the public \texttt{open()} operation of the \texttt{DoorHandle} class and passes the password for the door as a parameter. 
  
 If the password is correct, the door is opened and the drone can complete its delivery. 
 Afterwards, the door will be closed again with the public operation \texttt{closeDoor()}.
@@ -565,11 +565,11 @@ Overall, the use of UML class diagrams and complex relationships can help to imp
 
 %-----------------------------------------------------------------------------------------------------------------
 
-% remove if not needed
-\appendix
-%\pagenumbering{Alph}
-\chapter{Supplemental Information}\label{app:supplemental-information}
-Hier könnte Ihr Anhang stehen!
+%% remove if not needed
+%\appendix
+%%\pagenumbering{Alph}
+%\chapter{Supplemental Information}\label{app:supplemental-information}
+%Hier könnte Ihr Anhang stehen!
 
 
 %-----------------------------------------------------------------------------------------------------------------
