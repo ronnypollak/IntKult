@@ -164,9 +164,9 @@ This comprehensive study focuses on the various types of more complex relationsh
 These relationships include \emph{aggregation}, \emph{composition}, \emph{dependencies}, \emph{interfaces}, and \emph{inheritance}. 
 Each of these relationships reflects a specific type of connection between classes and serves a unique purpose in the design and implementation of object-oriented systems. 
 The following sections define and provide examples of each of these relationships.
-This paper extends the work of Levin [insert paper citation] and does not delve into the basic concepts, that will be mentioned in the next section, in great detail. 
+This paper can be seen as the second part and extends the work of the first part of the studies concerning the UML class diagram \cite{levin} and does not delve into the basic concepts, that will be mentioned in the next section, in great detail. 
 The focus is on furthering the research and providing examples to support the points made.
-The examples will build on a hypothetical delivery drone system which is introduced in Levin's [citation] paper.
+The examples will build on a hypothetical delivery drone system which is introduced in the first part of the studies \cite{levin} .
 By the end of this paper, readers should have a thorough understanding of the role of complex relationships in UML2 class diagrams and how to effectively use them to model object-oriented systems.
 
 %TODO Levin zitieren
@@ -311,10 +311,11 @@ In Figure \ref{fig:usage_example}, an example of a usage relationship between th
 This operation also utilizes the \texttt{state} enumeration to store the current state of the door handle, including \texttt{open}, \texttt{closed}, and \texttt{invalid} states.
 It enters the invalid state if an error occurs while opening or closing the door
 
-The door handle is built into various types of doors and is responsible for providing a mechanism for opening the door. 
-The drone uses the door handle to open doors as part of its delivery tasks and drops off the packages in the desired place. 
+The DoorHandle is built into various types of doors and is responsible for providing a mechanism for opening the door. 
+The drone uses the DoorHandle to open doors as part of its delivery tasks and drops off the packages in the desired place. 
 This can include houses, garages, or shacks. 
-To open a door, the drone calls the public \texttt{open()} operation of the \texttt{DoorHandle} class and passes in the password for the door. 
+To open a door, the drone sends a wireless signal and calls the public \texttt{open()} operation of the \texttt{DoorHandle} class and passes in the password for the door. 
+ 
 If the password is correct, the door is opened and the drone can complete its delivery. 
 Afterwards, the door will be closed again with the public operation \texttt{closeDoor()}.
 The \texttt{Drone} class is the client that uses the \texttt{DoorHandle} class as the supplier.
@@ -529,7 +530,7 @@ UML also allows multiple inheritance, which means classes can have multiple supe
 
 
 In Figure \ref{fig:full} on the next page, a comprehensive class diagram for a drone delivery system is presented, incorporating all the examples discussed in this paper except for the flight control system (which involves multiple dependencies). 
-This diagram illustrates the various classes and relationships involved in the delivery process, with Levin's [add citation] paper as the starting point. 
+This diagram illustrates the various classes and relationships involved in the delivery process, with the first part of UML class diagrams \cite{levin} as the starting point. 
 However, it is worth noting that this diagram only represents the delivery side of the system and could be further expanded to include logistics such as package acquisition and packaging.
 
 One of the main benefits of using UML class diagrams is their ability to visually represent the relationships and interactions between different classes in a system. 
