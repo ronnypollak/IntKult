@@ -166,8 +166,13 @@ Each of these relationships reflects a specific type of connection between class
 The following sections define and provide examples of each of these relationships.
 This paper extends the work of Levin [insert paper citation] and does not delve into the basic concepts, that will be mentioned in the next section, in great detail. 
 The focus is on furthering the research and providing examples to support the points made.
+<<<<<<< Updated upstream
 The examples will build on a hypothetical delivery drone system which is introduced in Levin's [citation] paper.
+By the end of this paper, readers should have a thorough understanding of the role of complex relationships in UML class diagrams and how to effectively use them to model object-oriented systems.
+=======
+The examples will build on a hypothetical delivery drone which is introduced in Levin's [citation] paper.
 By the end of this paper, readers should have a thorough understanding of the role of complex relationships in UML2 class diagrams and how to effectively use them to model object-oriented systems.
+>>>>>>> Stashed changes
 
 %TODO Levin zitieren
 
