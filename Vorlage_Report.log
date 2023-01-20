@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.18)  17 JAN 2023 19:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.18)  20 JAN 2023 14:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1528,48 +1528,47 @@ Package biblatex Info: ... and expl3
 .sty
 Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
 
-)) (glossary.tex)
+))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 13
-5.
-
-(C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+1.
+ (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 (Vorlage_Report.aux (cover.aux))
 \openout1 = `Vorlage_Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-Package scrbase Info: activating english \partname on input line 135.
-Package scrbase Info: activating english \chaptername on input line 135.
-Package scrbase Info: activating english \appendixname on input line 135.
-Package scrbase Info: activating english \figurename on input line 135.
-Package scrbase Info: activating english \tablename on input line 135.
-Package scrbase Info: activating english \contentsname on input line 135.
-Package scrbase Info: activating english \listfigurename on input line 135.
-Package scrbase Info: activating english \listtablename on input line 135.
-Package scrbase Info: activating english \bibname on input line 135.
-Package scrbase Info: activating english \indexname on input line 135.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+Package scrbase Info: activating english \partname on input line 131.
+Package scrbase Info: activating english \chaptername on input line 131.
+Package scrbase Info: activating english \appendixname on input line 131.
+Package scrbase Info: activating english \figurename on input line 131.
+Package scrbase Info: activating english \tablename on input line 131.
+Package scrbase Info: activating english \contentsname on input line 131.
+Package scrbase Info: activating english \listfigurename on input line 131.
+Package scrbase Info: activating english \listtablename on input line 131.
+Package scrbase Info: activating english \bibname on input line 131.
+Package scrbase Info: activating english \indexname on input line 131.
 
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -1635,7 +1634,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 135.
+loading the todonotes package. on input line 131.
 
 
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
@@ -1647,7 +1646,7 @@ Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
 F (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring OFF on input line 135.
+Package hyperref Info: Link coloring OFF on input line 131.
  (Vorlage_Report.out) (Vorlage_Report.out)
 \@outlinefile=\write5
 \openout5 = `Vorlage_Report.out'.
@@ -1659,7 +1658,7 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 135.
+(scrbook)           before \begin{document} on input line 131.
 
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
@@ -1669,7 +1668,7 @@ File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count511
 ))
 \c@lstlisting=\count512
-Package scrhack Info: undefining \float@addtolists on input line 135.
+Package scrhack Info: undefining \float@addtolists on input line 131.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1705,9 +1704,15 @@ Package biblatex Info: Data encoding 'utf8' specified.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Vorlage_Report.bbl' found.
- (Vorlage_Report.bbl)
-Package biblatex Info: Reference section=0 on input line 135.
-Package biblatex Info: Reference segment=0 on input line 135.
+ (Vorlage_Report.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'usa':
+(biblatex)                - Invalid format of field 'month'.
+
+)
+Package biblatex Info: Reference section=0 on input line 131.
+Package biblatex Info: Reference segment=0 on input line 131.
 \openout2 = `cover.aux'.
 
  (cover.tex
@@ -1789,403 +1794,44 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 chapter 1.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-81.
-(C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [1
+[1
 
 
 
 
 ]
-[2]
 chapter 2.
-<figures/aggr_comp/aggr.jpg, id=117, 3417.76875pt x 1776.6375pt>
-File: figures/aggr_comp/aggr.jpg Graphic file (type jpg)
-<use figures/aggr_comp/aggr.jpg>
-Package pdftex.def Info: figures/aggr_comp/aggr.jpg  used on input line 209.
-(pdftex.def)             Requested size: 333.92206pt x 173.58066pt.
+[2
+
+]
+chapter 3.
+[3
+
+]
+chapter 4.
+[4
+
+]
+chapter 5.
+[5
+
+]
+chapter without number
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-15.
+24.
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [3
+)
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
+24.
 
+(C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [6
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.218 T
-       he \texttt{Drone} class includes private operations, \texttt{deliverP...
- <./figures/aggr_comp/aggr.jpg>] [4]
-<figures/aggr_comp/comp.jpg, id=134, 2966.08125pt x 1776.6375pt>
-File: figures/aggr_comp/comp.jpg Graphic file (type jpg)
-<use figures/aggr_comp/comp.jpg>
-Package pdftex.def Info: figures/aggr_comp/comp.jpg  used on input line 241.
-(pdftex.def)             Requested size: 333.92206pt x 200.01219pt.
- [5
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.252 \chapter
-              {Dependencies} <./figures/aggr_comp/comp.jpg>]
-chapter 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 272--272
-[]|\T1/lmr/bx/n/12 Type of de-pen-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--274
-[]|\T1/lmr/m/n/12 ^^Sabstraction^^T,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--274
-\T1/lmr/m/n/12 ^^Sde-rive^^T, ^^Sre-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
-[]|\T1/lmr/m/n/12 Relates two model el-e-ments, or sets
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
-\T1/lmr/m/n/12 of model el-e-ments, that rep-re-sent
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
-\T1/lmr/m/n/12 the same con-cept at dif-fer-ent lev-els
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
-\T1/lmr/m/n/12 of ab-strac-tion, or from dif-fer-ent
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
-[]|\T1/lmr/m/n/12 Indicates that the client model
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
-\T1/lmr/m/n/12 el-e-ment is an im-ple-men-ta-tion of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
-\T1/lmr/m/n/12 the sup-plier model el-e-ment, and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
-\T1/lmr/m/n/12 the sup-plier model el-e-ment is the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
-[]|\T1/lmr/m/n/12 Indicates that the client model
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
-\T1/lmr/m/n/12 el-e-ment takes the place of the sup-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
-\T1/lmr/m/n/12 plier; the client model el-e-ment
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
-\T1/lmr/m/n/12 must con-form to the con-tract or
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
-\T1/lmr/m/n/12 in-ter-face that the sup-plier model
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--280
-[]|\T1/lmr/m/n/12 ^^Suse^^T, ^^Scall^^T,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--280
-\T1/lmr/m/n/12 ^^Scre-ate^^T, ^^Sin-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--280
-\T1/lmr/m/n/12 stan-ti-ate^^T, or
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
-[]|\T1/lmr/m/n/12 Indicates that one model el-e-ment
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
-\T1/lmr/m/n/12 re-quires an-other model el-e-ment for
- []
-
-[6
 
 ]
-<figures/dependencies/usage.jpg, id=152, 3618.51875pt x 1776.6375pt>
-File: figures/dependencies/usage.jpg Graphic file (type jpg)
-<use figures/dependencies/usage.jpg>
-Package pdftex.def Info: figures/dependencies/usage.jpg  used on input line 304
-.
-(pdftex.def)             Requested size: 333.92206pt x 163.92975pt.
-
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 302--308
-[]$[]$ 
- []
-
-[7
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.313 
-       <./figures/dependencies/usage.jpg>]
-<figures/dependencies/derive.jpg, id=160, 2915.89375pt x 1776.6375pt>
-File: figures/dependencies/derive.jpg Graphic file (type jpg)
-<use figures/dependencies/derive.jpg>
-Package pdftex.def Info: figures/dependencies/derive.jpg  used on input line 34
-4.
-(pdftex.def)             Requested size: 333.92206pt x 203.45508pt.
-
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 342--348
-[]$[]$ 
- []
-
-[8]
-<figures/dependencies/refine.jpg, id=166, 4270.95625pt x 923.45pt>
-File: figures/dependencies/refine.jpg Graphic file (type jpg)
-<use figures/dependencies/refine.jpg>
-Package pdftex.def Info: figures/dependencies/refine.jpg  used on input line 36
-2.
-(pdftex.def)             Requested size: 333.92206pt x 72.18661pt.
-
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 360--366
-[]$[]$ 
- []
-
-[9
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.367 I
-       n Figure \ref{fig:refine_example}, an example of a refinement relatio...
- <./figures/dependencies/derive.jpg>]
-Underfull \hbox (badness 1132) in paragraph at lines 369--370
-[]\T1/lmr/m/n/12 The \T1/lmtt/m/n/12 DoorHandle \T1/lmr/m/n/12 class, which was
- pre-vi-ously used by the drone to open
- []
-
-
-Underfull \hbox (badness 1796) in paragraph at lines 369--370
-\T1/lmr/m/n/12 and close doors as part of its de-liv-ery tasks, has been re-fin
-ed by the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 371--372
-[]\T1/lmr/m/n/12 When the drone calls the new \T1/lmtt/m/n/12 closeDoor() \T1/l
-mr/m/n/12 op-er-a-tion of the
- []
-
-
-Underfull \hbox (badness 1552) in paragraph at lines 371--372
-\T1/lmtt/m/n/12 TwoFactorSecurityDoorHandle \T1/lmr/m/n/12 class, the re-cip-i-
-ent will re-ceive a no-ti-fi-ca-
- []
-
-[10
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.389 
-       <./figures/dependencies/refine.jpg>]
-<figures/dependencies/substitute.jpg, id=178, 2062.70625pt x 145.54375pt>
-File: figures/dependencies/substitute.jpg Graphic file (type jpg)
-<use figures/dependencies/substitute.jpg>
-Package pdftex.def Info: figures/dependencies/substitute.jpg  used on input lin
-e 393.
-(pdftex.def)             Requested size: 333.92206pt x 23.56062pt.
-
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 391--397
-[]$[]$ 
- []
-
-[11
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.426 
-       <./figures/dependencies/substitute.jpg>]
-<figures/dependencies/multiple_dependencies.jpg, id=187, 2313.64375pt x 757.831
-25pt>
-File: figures/dependencies/multiple_dependencies.jpg Graphic file (type jpg)
-<use figures/dependencies/multiple_dependencies.jpg>
-Package pdftex.def Info: figures/dependencies/multiple_dependencies.jpg  used o
-n input line 430.
-(pdftex.def)             Requested size: 292.17941pt x 95.70001pt.
-
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 428--434
-[]$[]$ 
- []
-
-<figures/interface/Interface_Notation.jpg, id=190, 3417.76875pt x 732.7375pt>
-File: figures/interface/Interface_Notation.jpg Graphic file (type jpg)
-<use figures/interface/Interface_Notation.jpg>
-Package pdftex.def Info: figures/interface/Interface_Notation.jpg  used on inpu
-t line 450.
-(pdftex.def)             Requested size: 333.92206pt x 71.58975pt.
-
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 448--454
-[]$[]$ 
- []
-
-[12
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.459 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.459 
-       <./figures/dependencies/multiple_dependencies.jpg> <./figures/interface/
-Interface_Notation.jpg>]
-<figures/interface/doorhandle_interface.jpg, id=196, 1575.8875pt x 898.35625pt>
-
-File: figures/interface/doorhandle_interface.jpg Graphic file (type jpg)
-<use figures/interface/doorhandle_interface.jpg>
-Package pdftex.def Info: figures/interface/doorhandle_interface.jpg  used on in
-put line 462.
-(pdftex.def)             Requested size: 250.44313pt x 142.76668pt.
-
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 460--466
-[]$[]$ 
- []
-
-<figures/interface/doorhandle_sec_interface.jpg, id=198, 2012.51875pt x 787.943
-76pt>
-File: figures/interface/doorhandle_sec_interface.jpg Graphic file (type jpg)
-<use figures/interface/doorhandle_sec_interface.jpg>
-Package pdftex.def Info: figures/interface/doorhandle_sec_interface.jpg  used o
-n input line 476.
-(pdftex.def)             Requested size: 292.17941pt x 114.38718pt.
-
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 474--480
-[]$[]$ 
- []
-
-
-Underfull \hbox (badness 1466) in paragraph at lines 481--483
-\T1/lmr/m/n/12 ta-tions of se-cure door han-dles to be eas-ily swapped in and o
-ut. The
- []
-
-[13
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.486 \chapter
-              {Inheritance}
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.486 \chapter
-              {Inheritance} <./figures/interface/doorhandle_interface.jpg> <./f
-igures/interface/doorhandle_sec_interface.jpg>]
-chapter 4.
-<figures/inheritance/generalization.jpg, id=207, 2795.44376pt x 2514.39375pt>
-File: figures/inheritance/generalization.jpg Graphic file (type jpg)
-<use figures/inheritance/generalization.jpg>
-Package pdftex.def Info: figures/inheritance/generalization.jpg  used on input 
-line 499.
-(pdftex.def)             Requested size: 292.17941pt x 262.77223pt.
-
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 497--503
-[]$[]$ 
- []
-
-[14
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.510 
-       <./figures/inheritance/generalization.jpg>]
-<figures/inheritance/specialization.jpg, id=215, 2795.44376pt x 2464.20625pt>
-File: figures/inheritance/specialization.jpg Graphic file (type jpg)
-<use figures/inheritance/specialization.jpg>
-Package pdftex.def Info: figures/inheritance/specialization.jpg  used on input 
-line 522.
-(pdftex.def)             Requested size: 292.17941pt x 257.52727pt.
-
-Overfull \hbox (11.74983pt too wide) in paragraph at lines 520--526
-[]$[]$ 
- []
-
-[15
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.529 \chapter
-              {Resume and outlook} <./figures/inheritance/specialization.jpg>]
-chapter 5.
-<figures/full/full.jpg, id=224, 10183.04375pt x 5610.9625pt>
-File: figures/full/full.jpg Graphic file (type jpg)
-<use figures/full/full.jpg>
-Package pdftex.def Info: figures/full/full.jpg  used on input line 546.
-(pdftex.def)             Requested size: 658.28194pt x 362.67058pt.
-
-LaTeX Warning: Float too large for page by 28.85004pt on input line 549.
-
-[16
-
-] [17
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.553 \backmatter
-                  <./figures/full/full.jpg>]
-Using TeX to sort glossary entries---this may take a while
-[18
-
-
-
-] [19]
-chapter without number
-[20
-
-] (Vorlage_Report.aux (cover.aux))
+(Vorlage_Report.aux (cover.aux))
 Package rerunfilecheck Info: File `Vorlage_Report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'Vorlage_Report.run.xml'.
@@ -2193,25 +1839,24 @@ Package logreq Info: Writing requests to 'Vorlage_Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44697 strings out of 475281
- 902816 string characters out of 2774064
- 1818659 words of memory out of 3000000
- 65328 multiletter control sequences out of 15000+600000
- 520387 words of font info for 60 fonts, out of 8000000 for 9000
+ 44048 strings out of 475281
+ 887262 string characters out of 2774064
+ 1806131 words of memory out of 3000000
+ 64743 multiletter control sequences out of 15000+600000
+ 517389 words of font info for 59 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,20n,106p,10611b,2461s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/ronny/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C
-:/Users/ronny/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/U
+ 108i,19n,106p,10611b,2461s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/ronny/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{
+C:/Users/ronny/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/U
 sers/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/U
 sers/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/
 Users/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/U
 sers/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Us
 ers/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Us
-ers/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Us
 ers/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Vorlage_Report.pdf (24 pages, 4261861 bytes).
+Output written on Vorlage_Report.pdf (10 pages, 247461 bytes).
 PDF statistics:
- 373 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
- 243 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 159 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
+ 90 words of extra memory for PDF output out of 10000 (max. 10000000)
 

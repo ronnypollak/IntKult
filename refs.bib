@@ -27,75 +27,80 @@
 
 % howpublished = {available at: \url{https://...} (successful access: Juli 2022)},
 
-@book{uml,
-author = {Rupp, Chris and Queins, Stefan and die SOPHISTen},
-title = {UML 2 glasklar},
-publisher = {Carl Hanser Verlag GmbH \&amp; Co. KG},
-year = {2012},
-doi = {10.3139/9783446431973},
-address = {München},
-edition   = {4., aktualisierte und erweiterte Auflage},
-URL = {https://www.hanser-elibrary.com/doi/abs/10.3139/9783446431973},
-eprint = {https://www.hanser-elibrary.com/doi/pdf/10.3139/9783446431973}
+
+@book{khan_guide_2018,
+	location = {Cham},
+	title = {A Guide to Convolutional Neural Networks for Computer Vision},
+	isbn = {978-3-031-00693-7 978-3-031-01821-3},
+	url = {https://link.springer.com/10.1007/978-3-031-01821-3},
+	series = {Synthesis Lectures on Computer Vision},
+	publisher = {Springer International Publishing},
+	author = {Khan, Salman and Rahmani, Hossein and Shah, Syed Afaq Ali and Bennamoun, Mohammed},
+	urldate = {2023-01-20},
+	date = {2018},
+	langid = {english},
+	doi = {10.1007/978-3-031-01821-3},
+}
+
+@article{ferrer_bias_2021,
+	title = {Bias and Discrimination in {AI}: A Cross-Disciplinary Perspective},
+	volume = {40},
+	issn = {1937-416X},
+	doi = {10.1109/MTS.2021.3056293},
+	shorttitle = {Bias and Discrimination in {AI}},
+	abstract = {Operating at a large scale and impacting large groups of people, automated systems can make consequential and sometimes contestable decisions. Automated decisions can impact a range of phenomena, from credit scores to insurance payouts to health evaluations. These forms of automation can become problematic when they place certain groups or people at a systematic disadvantage. These are cases of discrimination-which is legally defined as the unfair or unequal treatment of an individual (or group) based on certain protected characteristics (also known as protected attributes) such as income, education, gender, or ethnicity. When the unfair treatment is caused by automated decisions, usually taken by intelligent agents or other {AI}-based systems, the topic of digital discrimination arises. Digital discrimination is prevalent in a diverse range of fields, such as in risk assessment systems for policing and credit scores [1], [2].},
+	pages = {72--80},
+	number = {2},
+	journaltitle = {{IEEE} Technology and Society Magazine},
+	author = {Ferrer, Xavier and Nuenen, Tom van and Such, Jose M. and Coté, Mark and Criado, Natalia},
+	date = {2021-06},
+	note = {Conference Name: {IEEE} Technology and Society Magazine},
+	keywords = {Artificial intelligence, Automation, Education, Insurance, Intelligent agents, Risk management, Systematics},
+}
+
+@article{bacchini_race_2019,
+	title = {Race, again: how face recognition technology reinforces racial discrimination},
+	volume = {17},
+	issn = {1477-996X},
+	url = {https://doi.org/10.1108/JICES-05-2018-0050},
+	doi = {10.1108/JICES-05-2018-0050},
+	shorttitle = {Race, again},
+	abstract = {Purpose This study aims to explore whether face recognition technology – as it is intensely used by state and local police departments and law enforcement agencies – is racism free or, on the contrary, is affected by racial biases and/or racist prejudices, thus reinforcing overall racial discrimination.Design/methodology/approach The study investigates the causal pathways through which face recognition technology may reinforce the racial disproportion in enforcement; it also inquires whether it further discriminates black people by making them experience more racial discrimination and self-identify more decisively as black – two conditions that are shown to be harmful in various respects.Findings This study shows that face recognition technology, as it is produced, implemented and used in Western societies, reinforces existing racial disparities in stop, investigation, arrest and incarceration rates because of racist prejudices and even contributes to strengthen the unhealthy effects of racism on historically disadvantaged racial groups, like black people.Practical implications The findings hope to make law enforcement agencies and software companies aware that they must take adequate action against the racially discriminative effects of the use of face recognition technology.Social implications This study highlights that no implementation of an allegedly racism-free biometric technology is safe from the risk of racially discriminating, simply because each implementation leans against our society, which is affected by racism in many persisting ways.Originality/value While the ethical survey of biometric technologies is traditionally framed in the discourse of universal rights, this study explores an issue that has not been deeply scrutinized so far, that is, how face recognition technology differently affects distinct racial groups and how it contributes to racial discrimination.},
+	pages = {321--335},
+	number = {3},
+	journaltitle = {Journal of Information, Communication and Ethics in Society},
+	author = {Bacchini, Fabio and Lorusso, Ludovica},
+	urldate = {2023-01-14},
+	date = {2019-01-01},
+	note = {Publisher: Emerald Publishing Limited},
+}
+
+@report{usa,
+	author = {Cecilia Muñoz, Megan Smith, DJ Patil},
+	title = {Big Data: A Report on Algorithmic Systems, Opportunity, and Civil Rights},
+type = {•},
+	institution = {Executive Office of the President},
+	year = {2016},
+	month = {may}
+
 }
 
 
-@misc{ibm_dependencies,
-	author = {IBM},
-	title = {Dependency relationships},
-	copyright = {© Copyright IBM Corporation 1987, 2012},
-	url = {https://prod.ibmdocs-production-dal-6099123ce774e592a519d7c33db8265e-0000.us-south.containers.appdomain.cloud/docs/en/rational-soft-arch/9.7.0?topic=diagrams-dependency-relationships},
-	abstract = {IBM Documentation.},
-	language = {en-US},
-	urldate = {2022-12-20},
-	month = mar,
-	year = {2021},
+@inproceedings{buolamwini_gender_2018,
+	title = {Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification},
+	url = {https://proceedings.mlr.press/v81/buolamwini18a.html},
+	shorttitle = {Gender Shades},
+	abstract = {Recent studies demonstrate that machine learning algorithms can discriminate based on classes like race and gender. In this work, we present an approach to evaluate bias present in automated facial analysis algorithms and datasets with respect to phenotypic subgroups. Using the dermatologist  approved Fitzpatrick Skin Type classification system, we characterize the gender and skin type distribution of two facial analysis benchmarks, {IJB}-A and Adience. We find that these datasets are overwhelmingly composed of lighter-skinned subjects (79.6\% for {IJB}-A and 86.2\% for Adience) and introduce a new facial analysis dataset which is balanced by gender and skin type. We evaluate 3 commercial gender classification systems using our dataset and show that darker-skinned females are the most misclassified group (with error rates of up to 34.7\%). The maximum error rate for lighter-skinned males is 0.8\%. The substantial disparities in the accuracy of classifying darker females, lighter females, darker males, and lighter males in gender classification systems require urgent attention if commercial companies are to build genuinely fair, transparent and accountable facial analysis algorithms.},
+	eventtitle = {Conference on Fairness, Accountability and Transparency},
+	pages = {77--91},
+	booktitle = {Proceedings of the 1st Conference on Fairness, Accountability and Transparency},
+	publisher = {{PMLR}},
+	author = {Buolamwini, Joy and Gebru, Timnit},
+	urldate = {2023-01-20},
+	date = {2018-01-21},
+	langid = {english},
+	note = {{ISSN}: 2640-3498},
 }
-
-@misc{ibm_abstraction,
-	author = {Uml-diagrams},
-	title = {Abstraction
-UML Common Structure},
-	url = {https://www.uml-diagrams.org/abstraction.html},
-	urldate = {2022-11-08},
-	file = {UML abstraction is dependency that relates two elements representing the same concept but at different levels of abstraction.:C\:\\Users\\ronny\\Zotero\\storage\\QF9CH2Q6\\abstraction.html:text/html},
-}
-
-@book{seidl2015uml,
-  title={UML@ classroom},
-  author={Seidl, Martina and Scholz, Marion and Huemer, Christian and Kappel, Gerti},
-  year={2015},
-  publisher={Springer}
-}
-
-@misc{ibm_generalization,
-	author = {Uml-diagrams},
-	title = {Generalization in UML},
-	url = {https://www.uml-diagrams.org/generalization.html?context=class-diagrams},
-	urldate = {2022-12-28},
-}
-
-@online{uml-diagrams,
-	author = {Uml-diagrams},
-	title = {Class},
-	url = {https://www.uml-diagrams.org/class.html},
-	urldate = {2023-01-13},
-}
-
-@online{uml-diagrams-comp,
-	author = {Uml-diagrams},
-	title = {UML Composition},
-	url = {https://www.uml-diagrams.org/composition.html},
-	urldate = {2023-01-13},
-}
-
-@Misc{levin,
-	author = {Levin Bohrisch},
-	title = {The UML class diagramm explained using a drone example (Part1)},
-	month = {01},
-	year = {2023}
-}
-
 
 
 
