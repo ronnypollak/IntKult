@@ -240,5 +240,78 @@
     \field{urlmonth}{01}
     \field{urlyear}{2023}
   \endentry
+
+  \entry{nanni2022feature}{article}{}
+    \name{author}{4}{}{%
+      {{hash=NL}{%
+         family={Nanni},
+         familyi={N\bibinitperiod},
+         given={Loris},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Paci},
+         familyi={P\bibinitperiod},
+         given={Michelangelo},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Brahnam},
+         familyi={B\bibinitperiod},
+         given={Sheryl},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Lumini},
+         familyi={L\bibinitperiod},
+         given={Alessandra},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NL+1}
+    \strng{fullhash}{NLPMBSLA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Nan+}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{title}{Feature transforms for image data augmentation}
+    \field{journaltitle}{arXiv preprint arXiv:2201.09700}
+  \endentry
+
+  \entry{singh_face_2020}{online}{}
+    \name{author}{1}{}{%
+      {{hash=SM}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={Manmeet},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SM1}
+    \strng{fullhash}{SM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Sin20}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    This article is a brief outline on various state-of-art techniques used for
+  face data augmentation.%
+    }
+    \field{titleaddon}{Medium}
+    \field{title}{Face Data Augmentation Techniques}
+    \verb{url}
+    \verb https://manmeet3.medium.com/face-data-augmentation-techniques-ace9e8d
+    \verb db030
+    \endverb
+    \field{langid}{english}
+    \field{day}{25}
+    \field{month}{05}
+    \field{year}{2020}
+    \field{urlday}{20}
+    \field{urlmonth}{01}
+    \field{urlyear}{2023}
+  \endentry
 \enddatalist
 \endinput

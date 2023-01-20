@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.18)  20 JAN 2023 14:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.18)  20 JAN 2023 19:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1801,37 +1801,90 @@ chapter 1.
 
 ]
 chapter 2.
+<figures/training.pdf, id=56, 463.7325pt x 161.64389pt>
+File: figures/training.pdf Graphic file (type pdf)
+<use figures/training.pdf>
+Package pdftex.def Info: figures/training.pdf  used on input line 170.
+(pdftex.def)             Requested size: 333.92206pt x 116.3983pt.
+
+Overfull \hbox (11.74983pt too wide) in paragraph at lines 168--174
+[]$[]$ 
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./figures/test.pdf): PDF inclusion: found PDF ve
+rsion <1.7>, but at most version <1.5> allowed
+<figures/test.pdf, id=59, 405.43468pt x 96.36pt>
+File: figures/test.pdf Graphic file (type pdf)
+<use figures/test.pdf>
+Package pdftex.def Info: figures/test.pdf  used on input line 186.
+(pdftex.def)             Requested size: 333.92206pt x 79.36856pt.
+
+Overfull \hbox (11.74983pt too wide) in paragraph at lines 184--190
+[]$[]$ 
+ []
+
 [2
 
-]
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.193 \chapter
+              {Issues with data}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.193 \chapter
+              {Issues with data} <./figures/training.pdf> <./figures/test.pdf>]
 chapter 3.
 [3
 
 ]
 chapter 4.
+<figures/augmentation2.jpg, id=102, 2223.30624pt x 779.91376pt>
+File: figures/augmentation2.jpg Graphic file (type jpg)
+<use figures/augmentation2.jpg>
+Package pdftex.def Info: figures/augmentation2.jpg  used on input line 231.
+(pdftex.def)             Requested size: 333.92206pt x 117.13672pt.
+
+Overfull \hbox (11.74983pt too wide) in paragraph at lines 229--235
+[]$[]$ 
+ []
+
 [4
 
-]
-chapter 5.
-[5
 
-]
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.250 \backmatter
+                  <./figures/augmentation2.jpg>]
 chapter without number
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-24.
+58.
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-24.
+58.
 
 (C:\Users\ronny\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [6
+)
+Underfull \hbox (badness 1655) in paragraph at lines 259--259
+[]\T1/lmr/m/n/12 Manmeet Singh. \T1/lmr/m/it/12 Face Data Aug-men-ta-tion Tech-
+niques\T1/lmr/m/n/12 . Medium.
+ []
+
+[5
 
 
-]
-(Vorlage_Report.aux (cover.aux))
+] (Vorlage_Report.aux (cover.aux))
 Package rerunfilecheck Info: File `Vorlage_Report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'Vorlage_Report.run.xml'.
@@ -1839,10 +1892,10 @@ Package logreq Info: Writing requests to 'Vorlage_Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44048 strings out of 475281
- 887262 string characters out of 2774064
- 1806131 words of memory out of 3000000
- 64743 multiletter control sequences out of 15000+600000
+ 44088 strings out of 475281
+ 888369 string characters out of 2774064
+ 1808480 words of memory out of 3000000
+ 64776 multiletter control sequences out of 15000+600000
  517389 words of font info for 59 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,106p,10611b,2461s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1854,9 +1907,9 @@ Users/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/U
 sers/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Us
 ers/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Us
 ers/ronny/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Vorlage_Report.pdf (10 pages, 247461 bytes).
+Output written on Vorlage_Report.pdf (9 pages, 698187 bytes).
 PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
- 90 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 191 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
+ 97 words of extra memory for PDF output out of 10000 (max. 10000000)
 

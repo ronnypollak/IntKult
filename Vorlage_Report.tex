@@ -19,13 +19,13 @@
     {scrbook}
     
 % details about your thesis
-\newcommand{\titel}{Discrimination in Algorithms (Face Recognition}
+\newcommand{\titel}{Discrimination in Algorithms (Face Recognition)}
 \newcommand{\artderarbeit}{Studienarbeit}  % {Bachelorarbeit,Masterarbeit}
 \newcommand{\autor}{Ronny Pollak}
-\newcommand{\modul}{Intercultural Cpmmunications} 
+\newcommand{\modul}{Intercultural Communications} 
 %\newcommand{\modulzusatz}{Strategien,\,Architekturen\,und\,Algorithmen}
 \newcommand{\matrikelnr}{3694422}
-\newcommand{\dozent}{???}
+\newcommand{\dozent}{Wolfgang Jockusch}
 \newcommand{\abgabedatum}{27.01.2023}
 \newcommand{\keywords}{key, words}
 %\newcommand{\studentname}{key, words}
@@ -154,17 +154,41 @@
 Discrimination in algorithms is a growing concern in the field of artificial intelligence (AI) and machine learning. 
 Discrimination can occur in a number of ways, including bias in the training data or the algorithm itself. 
 One specific area where discrimination has been identified is in facial recognition technology. This technology uses algorithms to analyze images of faces and match them to a database of known individuals.
-In this essay, I will discuss the ways in which discrimination can occur in algorithms, as well as specific examples of discrimination in facial recognition technology.
+This essay will discuss the ways in which discrimination can occur in algorithms, as well as providing specific examples of discrimination in facial recognition technology.
 
 \chapter{Training and test data}
 To understand how algorithms can discriminate a group of people you first have to understand how these algorithms work. 
 When building an AI algorithm it has to be trained on a big amount of data. 
-This is called the training data. In AI, training data is a set of data used to train an algorithmic model. 
+This is called the training data. 
+In AI, training data is a set of data used to train an algorithmic model. 
+In \ref{fig:training} we can see a simplified figure of a neural net as blackbox that is being trained on the training data.
 The model uses this data to learn patterns and relationships in the data, which it can then use to make predictions or decisions on new, unseen data. 
-On the other hand, is the test data. The model is presented with test data and its predictions or decisions are compared to the true values in the test data to evaluate its accuracy and reliability. 
+
+\vspace{1em}
+\begin{minipage}{\linewidth}
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/training.pdf}
+	\captionof{figure}[Neural network as blockbox with training data]{Neural network as blockbox with training data}
+	\label{fig:training}
+\end{minipage}
+
+On the other hand, is the test data. 
+In \ref{fig:training} we can see a simplified figure of a neural net as blackbox that uses the test data to make predictions or decisions and compare them to the true values in the test data to evaluate its accuracy and reliability. 
 In general, the training data is used to optimize the model and the test data is used to evaluate the model. \cite[p. 32-33]{khan_guide_2018}
 %vll. rausmachen
 %The data used in the training and test set can be biased in certain directions without the researchers knowing. It could have a higher proportion of males or of a single ethnicity. For example, if a face recognition system is being trained on a data set that mostly consists of white men it will have an easier time identifying white men which will result in a higher success rate.
+
+
+
+\vspace{1em}
+\begin{minipage}{\linewidth}
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/test.pdf}
+	\captionof{figure}[Neural network as blockbox with test data]{Neural network as blockbox with test data}
+	\label{fig:test}
+\end{minipage}
+
+
 
 \chapter{Issues with data}
 %TODO Quelle und umschreiben!!
@@ -192,8 +216,22 @@ Algorithms working with this kind of data reflect the hidden and historical bias
 
 
 
-\chapter{Discrimination}
-%Explanation on how this can happen
+\chapter{How to fight it}
+To prevent discrimination in algorithms, there are a number of steps that can be taken. 
+One step is to ensure that the training data used to train algorithms is representative of the population it will be used on. 
+This can be achieved by using diverse and inclusive data sets, or by using techniques such as data augmentation to make the training data more representative.
+Data augmentation is a technique used to increase the amount of training data by adding modified copies of existing data or newly created synthetic data.
+The aim of this technique is to reduce overfitting and promote better generalization when training machine learning models. \cite[p. 2]{nanni2022feature}
+In the following Figure \ref{fig:augmentation} an example of a image data augmentation on an existing image of a person can be seen. 
+This image gets modified in different ways to add more data.
+
+\vspace{1em}
+\begin{minipage}{\linewidth}
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/augmentation2.jpg}
+	\captionof{figure}[Example data augmentation]{Example data augmentation \cite{singh_face_2020}}
+	\label{fig:augmentation}
+\end{minipage}
 
 
 
@@ -204,10 +242,6 @@ Algorithms working with this kind of data reflect the hidden and historical bias
 %	\captionof{figure}[Example specialization]{Example of specialization}
 %	\label{fig:specialization}
 %\end{minipage}
-
-
-\chapter{Resume and outlook}
-
 
 
 
