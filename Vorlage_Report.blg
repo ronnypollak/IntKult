@@ -24,10 +24,6 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: Vorlage_Report-blx.bib
 Database file #2: refs.bib
-I was expecting a `,' or a `}'---line 108 of file refs.bib
- :   journal={arXiv preprint arXiv:2201.09700} 
- :                                             Titel anhand dieser ArXiv-ID in Citavi-Projekt übernehmen,
-I'm skipping whatever remains of this entry
 I was expecting an "="---line 168 of file refs.bib
  : url = {https://doi.org/10.1145/3494672}, <span><a 
  :                                                   href="javascript:"><img class="citavipicker" identifier="10.1145/3494672}," identifiertype="1" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iRWJlbmVfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIxNnB4IiBoZWlnaHQ9IjE2cHgiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTYgMTYiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxnPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik04LjAwMSwxNS41QzMuODY0LDE1LjUsMC41LDEyLjEzNiwwLjUsOGMwLTQuMTM1LDMuMzY1LTcuNSw3LjUwMS03LjVTMTUuNSwzLjg2NCwxNS41LDhTMTIuMTM3LDE1LjUsOC4wMDEsMTUuNXoiLz48cGF0aCBmaWxsPSIjRDUyQjFFIiBkPSJNOC4wMDEsMUMxMS44NiwxLDE1LDQuMTQxLDE1LDhzLTMuMTM5LDctNi45OTksN0M0LjE0LDE1LDEsMTEuODU5LDEsOFM0LjE0LDEsOC4wMDEsMSBNOC4wMDEsMEMzLjU4MiwwLDAsMy41ODIsMCw4czMuNTgyLDgsOC4wMDEsOEMxMi40MTgsMTYsMTYsMTIuNDE4LDE2LDhTMTIuNDE4LDAsOC4wMDEsMEw4LjAwMSwweiIvPjwvZz48cGF0aCBmaWxsPSIjRDUyQjFFIiBkPSJNNi43NDUsMTIuNTg5Yy0wLjIyNywwLjEyMi0wLjQ5NywwLjI0Ny0wLjY4NCwwLjI0N2MtMC4zMTgsMC0wLjUwMS0wLjE2NC0wLjUwMS0wLjQ1MmMwLTAuMjA3LDAuMTQtMC4zNzUsMC41OTUtMC42MjJjMS41NDktMC45MDQsMi41OTQtMi4yNzIsMi41OTQtMy43MjFjMC0wLjgyNS0wLjIyNy0xLjExOS0wLjY4MS0xLjExOWMtMC4xMzUsMC0wLjMyLDAuMjE5LTAuNjM2LDAuMjE5SDcuMTU3QzYuMTAyLDcuMTQzLDUuMzMzLDYuMjY0LDUuMzMzLDUuMjNjMC0xLjE1MiwwLjk1OC0yLjAwNiwyLjI4LTIuMDA2YzEuNzc3LDAsMy4wNTMsMS4zNzMsMy4wNTMsMy40M0MxMC42NjYsOS4yMTUsOS4yMDMsMTEuMjcsNi43NDUsMTIuNTg5Ii8+PC9nPjwvc3ZnPg" style="border: 0px none!important;width: 16px!important;height: 16px!important;margin-left:1px !important;margin-right:1px !important;" title="Titel anhand dieser DOI in Citavi-Projekt übernehmen" existsinproject="0"></a></span>
@@ -38,36 +34,36 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 You've used 10 entries,
             6399 wiz_defined-function locations,
             1296 strings with 17377 characters,
-and the built_in function-call counts, 121647 in all, are:
-= -- 8334
+and the built_in function-call counts, 121721 in all, are:
+= -- 8338
 > -- 6068
 < -- 747
 + -- 7299
 - -- 4668
-* -- 7124
-:= -- 15939
+* -- 7135
+:= -- 15944
 add.period$ -- 0
 call.type$ -- 10
-change.case$ -- 320
+change.case$ -- 322
 chr.to.int$ -- 417
 cite$ -- 18
-duplicate$ -- 11593
-empty$ -- 8665
+duplicate$ -- 11598
+empty$ -- 8674
 format.name$ -- 772
-if$ -- 20935
+if$ -- 20952
 int.to.chr$ -- 0
 int.to.str$ -- 29
 missing$ -- 0
-newline$ -- 477
+newline$ -- 478
 num.names$ -- 635
-pop$ -- 3498
+pop$ -- 3495
 preamble$ -- 1
-purify$ -- 387
+purify$ -- 389
 quote$ -- 0
 skip$ -- 2672
 stack$ -- 0
-substring$ -- 15600
-swap$ -- 2404
+substring$ -- 15614
+swap$ -- 2410
 text.length$ -- 503
 text.prefix$ -- 13
 top$ -- 1
@@ -75,5 +71,5 @@ type$ -- 324
 warning$ -- 0
 while$ -- 1726
 width$ -- 0
-write$ -- 468
-(There were 2 error messages)
+write$ -- 469
+(There was 1 error message)

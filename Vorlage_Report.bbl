@@ -478,11 +478,12 @@
     \strng{fullhash}{NLPMBSLA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{Nan+}
+    \field{labelalpha}{Nan+22}
     \field{sortinit}{N}
     \field{sortinithash}{N}
     \field{title}{Feature transforms for image data augmentation}
     \field{journaltitle}{arXiv preprint arXiv:2201.09700}
+    \field{year}{2022}
   \endentry
 
   \entry{fairness}{article}{}
