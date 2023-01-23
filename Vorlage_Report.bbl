@@ -17,6 +17,107 @@
 \endgroup
 
 \datalist[entry]{anyt/global//global/global}
+  \entry{yang_cross-datasets_2022}{incollection}{}
+    \name{author}{3}{}{%
+      {{hash=ARS}{%
+         family={Al-Riyami},
+         familyi={A\bibinithyphendelim R\bibinitperiod},
+         given={Said},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Lisitsa},
+         familyi={L\bibinitperiod},
+         given={Alexei},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CF}{%
+         family={Coenen},
+         familyi={C\bibinitperiod},
+         given={Frans},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \name{editor}{4}{}{%
+      {{hash=YXS}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Xin-She},
+         giveni={X\bibinithyphendelim S\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Sherratt},
+         familyi={S\bibinitperiod},
+         given={Simon},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DN}{%
+         family={Dey},
+         familyi={D\bibinitperiod},
+         given={Nilanjan},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=JA}{%
+         family={Joshi},
+         familyi={J\bibinitperiod},
+         given={Amit},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Singapore}%
+    }
+    \strng{namehash}{ARSLACF1}
+    \strng{fullhash}{ARSLACF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{ARLC22}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    The conventional way to evaluate the performance of machine learning models
+  intrusion detection systems ({IDS}) is by using the same dataset to train and
+  test. This method might lead to the bias from the computer network where the
+  traﬃc is generated. Because of that, the applicability of the learned
+  models might not be adequately evaluated. We argued in [1] that a better way
+  is to use cross-datasets evaluation, where we use two diﬀerent datasets for
+  training and testing. Both datasets should be generated from various
+  networks. Using this method as it was shown in [1] may lead to a signiﬁcant
+  drop in the performance of the learned model. This indicates that the models
+  learn very little knowledge about the intrusion, which would be transferable
+  from one setting to another. The reasons for such behaviour were not fully
+  understood in [1]. In this paper, we investigate the problem and show that
+  the main reason is the diﬀerent deﬁnitions of the same feature in both
+  models. We propose the correction and further empirically investigate
+  cross-datasets evaluation for various machine learning methods. Further, we
+  explored cross-dataset evaluation in the multi-class classiﬁcation of
+  attacks, and we show for the most models that learning traﬃc normality is
+  more robust than learning intrusions.%
+    }
+    \field{booktitle}{Proceedings of Sixth International Congress on
+  Information and Communication Technology}
+    \verb{doi}
+    \verb 10.1007/978-981-16-2102-4_73
+    \endverb
+    \field{isbn}{9789811621017 9789811621024}
+    \field{note}{Series Title: Lecture Notes in Networks and Systems}
+    \field{pages}{815\bibrangedash 828}
+    \field{title}{Cross-Datasets Evaluation of Machine Learning Models for
+  Intrusion Detection Systems}
+    \verb{url}
+    \verb https://link.springer.com/10.1007/978-981-16-2102-4_73
+    \endverb
+    \field{volume}{217}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {Singapore}%
+    }
+    \field{year}{2022}
+    \field{urlday}{21}
+    \field{urlmonth}{01}
+    \field{urlyear}{2023}
+  \endentry
+
   \entry{buolamwini_gender_2018}{inproceedings}{}
     \name{author}{2}{}{%
       {{hash=BJ}{%
@@ -156,32 +257,99 @@
     \field{urlyear}{2023}
   \endentry
 
-  \entry{usa}{report}{}
-    \name{author}{1}{}{%
-      {{hash=CMDPMS}{%
-         family={Cecilia\bibnamedelima Muñoz},
-         familyi={C\bibinitperiod\bibinitdelim M\bibinitperiod},
-         suffix={Megan\bibnamedelima Smith},
-         suffixi={M\bibinitperiod\bibinitdelim S\bibinitperiod},
-         given={DJ\bibnamedelima Patil},
-         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+  \entry{chen_cdevalsumm_2020}{inproceedings}{}
+    \name{author}{7}{}{%
+      {{hash=CY}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Yiran},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Pengfei},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={Zhong},
+         familyi={Z\bibinitperiod},
+         given={Ming},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DZY}{%
+         family={Dou},
+         familyi={D\bibinitperiod},
+         given={Zi-Yi},
+         giveni={Z\bibinithyphendelim Y\bibinitperiod},
+      }}%
+      {{hash=WD}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Danqing},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=QX}{%
+         family={Qiu},
+         familyi={Q\bibinitperiod},
+         given={Xipeng},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=HX}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Xuanjing},
+         giveni={X\bibinitperiod},
       }}%
     }
-    \strng{namehash}{CMMSDP1}
-    \strng{fullhash}{CMMSDP1}
+    \list{publisher}{1}{%
+      {Association for Computational Linguistics}%
+    }
+    \strng{namehash}{CY+1}
+    \strng{fullhash}{CYLPZMDZYWDQXHX1}
     \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{CM16}
+    \field{labeltitlesource}{shorttitle}
+    \field{labelalpha}{Che+20}
     \field{sortinit}{C}
     \field{sortinithash}{C}
-    \field{title}{Big Data: A Report on Algorithmic Systems, Opportunity, and
-  Civil Rights}
-    \list{institution}{1}{%
-      {Executive Office of the President}%
+    \field{abstract}{%
+    Neural network-based models augmented with unsupervised pre-trained
+  knowledge have achieved impressive performance on text summarization.
+  However, most existing evaluation methods are limited to an in-domain
+  setting, where summarizers are trained and evaluated on the same dataset. We
+  argue that this approach can narrow our understanding of the generalization
+  ability for different summarization systems. In this paper, we perform an
+  in-depth analysis of characteristics of different datasets and investigate
+  the performance of different summarization models under a cross-dataset
+  setting, in which a summarizer trained on one corpus will be evaluated on a
+  range of out-of-domain corpora. A comprehensive study of 11 representative
+  summarization systems on 5 datasets from different domains reveals the effect
+  of model architectures and generation ways (i.e. abstractive and extractive)
+  on model generalization ability. Further, experimental results shed light on
+  the limitations of existing summarizers. Brief introduction and supplementary
+  code can be found in https://github.com/zide05/{CDEvalSumm}.%
     }
-    \field{type}{•}
-    \field{year}{2016}
-    \warn{\item Invalid format of field 'month'}
+    \field{booktitle}{Findings of the Association for Computational
+  Linguistics: {EMNLP} 2020}
+    \verb{doi}
+    \verb 10.18653/v1/2020.findings-emnlp.329
+    \endverb
+    \field{eventtitle}{Findings 2020}
+    \field{pages}{3679\bibrangedash 3691}
+    \field{shorttitle}{{CDEvalSumm}}
+    \field{title}{{CDEvalSumm}: An Empirical Study of Cross-Dataset Evaluation
+  for Neural Summarization Systems}
+    \verb{url}
+    \verb https://aclanthology.org/2020.findings-emnlp.329
+    \endverb
+    \list{location}{1}{%
+      {Online}%
+    }
+    \field{month}{11}
+    \field{year}{2020}
+    \field{urlday}{21}
+    \field{urlmonth}{01}
+    \field{urlyear}{2023}
   \endentry
 
   \entry{khan_guide_2018}{book}{}
@@ -241,6 +409,44 @@
     \field{urlyear}{2023}
   \endentry
 
+  \entry{usa}{report}{}
+    \name{author}{3}{}{%
+      {{hash=MC}{%
+         family={Muñoz},
+         familyi={M\bibinitperiod},
+         given={Cecilia},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={Megan},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PD}{%
+         family={Patil},
+         familyi={P\bibinitperiod},
+         given={DJ},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MCSMPD1}
+    \strng{fullhash}{MCSMPD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{MSP16}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Big Data: A Report on Algorithmic Systems, Opportunity, and
+  Civil Rights}
+    \list{institution}{1}{%
+      {Executive Office of the President}%
+    }
+    \field{type}{•}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{nanni2022feature}{article}{}
     \name{author}{4}{}{%
       {{hash=NL}{%
@@ -277,6 +483,44 @@
     \field{sortinithash}{N}
     \field{title}{Feature transforms for image data augmentation}
     \field{journaltitle}{arXiv preprint arXiv:2201.09700}
+  \endentry
+
+  \entry{fairness}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PD}{%
+         family={Pessach},
+         familyi={P\bibinitperiod},
+         given={Dana},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SE}{%
+         family={Shmueli},
+         familyi={S\bibinitperiod},
+         given={Erez},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \strng{namehash}{PDSE1}
+    \strng{fullhash}{PDSE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{PS22}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{issn}{0360-0300}
+    \field{number}{3}
+    \field{title}{A Review on Fairness in Machine Learning}
+    \verb{url}
+    \verb https://doi.org/10.1145/3494672
+    \endverb
+    \field{volume}{55}
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \field{year}{2022}
   \endentry
 
   \entry{singh_face_2020}{online}{}

@@ -1,9 +1,9 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{\nonumberline List of Figures}{iii}{chapter*.2}%
-\contentsline {chapter}{\nonumberline List of Tables}{iv}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Training and test data}{2}{chapter.2}%
 \contentsline {chapter}{\numberline {3}Issues with data}{3}{chapter.3}%
-\contentsline {chapter}{\numberline {4}How to fight it}{4}{chapter.4}%
-\contentsline {chapter}{\nonumberline Bibliography}{5}{chapter*.4}%
+\contentsline {chapter}{\numberline {4}Solution approaches}{4}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Conclusion}{6}{chapter.5}%
+\contentsline {chapter}{\nonumberline Bibliography}{7}{chapter*.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

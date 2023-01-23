@@ -76,7 +76,7 @@
 }
 
 @report{usa,
-	author = {Cecilia Muñoz, Megan Smith, DJ Patil},
+	author = {Muñoz, Cecilia and Smith, Megan and Patil, DJ},
 	title = {Big Data: A Report on Algorithmic Systems, Opportunity, and Civil Rights},
 type = {•},
 	institution = {Executive Office of the President},
@@ -119,4 +119,60 @@ type = {•},
 	date = {2020-05-25},
 	langid = {english},
 }
+
+@incollection{yang_cross-datasets_2022,
+	location = {Singapore},
+	title = {Cross-Datasets Evaluation of Machine Learning Models for Intrusion Detection Systems},
+	volume = {217},
+	isbn = {9789811621017 9789811621024},
+	url = {https://link.springer.com/10.1007/978-981-16-2102-4_73},
+	abstract = {The conventional way to evaluate the performance of machine learning models intrusion detection systems ({IDS}) is by using the same dataset to train and test. This method might lead to the bias from the computer network where the traﬃc is generated. Because of that, the applicability of the learned models might not be adequately evaluated. We argued in [1] that a better way is to use cross-datasets evaluation, where we use two diﬀerent datasets for training and testing. Both datasets should be generated from various networks. Using this method as it was shown in [1] may lead to a signiﬁcant drop in the performance of the learned model. This indicates that the models learn very little knowledge about the intrusion, which would be transferable from one setting to another. The reasons for such behaviour were not fully understood in [1]. In this paper, we investigate the problem and show that the main reason is the diﬀerent deﬁnitions of the same feature in both models. We propose the correction and further empirically investigate cross-datasets evaluation for various machine learning methods. Further, we explored cross-dataset evaluation in the multi-class classiﬁcation of attacks, and we show for the most models that learning traﬃc normality is more robust than learning intrusions.},
+	pages = {815--828},
+	booktitle = {Proceedings of Sixth International Congress on Information and Communication Technology},
+	publisher = {Springer Singapore},
+	author = {Al-Riyami, Said and Lisitsa, Alexei and Coenen, Frans},
+	editor = {Yang, Xin-She and Sherratt, Simon and Dey, Nilanjan and Joshi, Amit},
+	urldate = {2023-01-21},
+	date = {2022},
+	langid = {english},
+	doi = {10.1007/978-981-16-2102-4_73},
+	note = {Series Title: Lecture Notes in Networks and Systems},
+}
+
+@inproceedings{chen_cdevalsumm_2020,
+	location = {Online},
+	title = {{CDEvalSumm}: An Empirical Study of Cross-Dataset Evaluation for Neural Summarization Systems},
+	url = {https://aclanthology.org/2020.findings-emnlp.329},
+	doi = {10.18653/v1/2020.findings-emnlp.329},
+	shorttitle = {{CDEvalSumm}},
+	abstract = {Neural network-based models augmented with unsupervised pre-trained knowledge have achieved impressive performance on text summarization. However, most existing evaluation methods are limited to an in-domain setting, where summarizers are trained and evaluated on the same dataset. We argue that this approach can narrow our understanding of the generalization ability for different summarization systems. In this paper, we perform an in-depth analysis of characteristics of different datasets and investigate the performance of different summarization models under a cross-dataset setting, in which a summarizer trained on one corpus will be evaluated on a range of out-of-domain corpora. A comprehensive study of 11 representative summarization systems on 5 datasets from different domains reveals the effect of model architectures and generation ways (i.e. abstractive and extractive) on model generalization ability. Further, experimental results shed light on the limitations of existing summarizers. Brief introduction and supplementary code can be found in https://github.com/zide05/{CDEvalSumm}.},
+	eventtitle = {Findings 2020},
+	pages = {3679--3691},
+	booktitle = {Findings of the Association for Computational Linguistics: {EMNLP} 2020},
+	publisher = {Association for Computational Linguistics},
+	author = {Chen, Yiran and Liu, Pengfei and Zhong, Ming and Dou, Zi-Yi and Wang, Danqing and Qiu, Xipeng and Huang, Xuanjing},
+	urldate = {2023-01-21},
+	date = {2020-11},
+}
+
+@article{fairness,
+author = {Pessach, Dana and Shmueli, Erez},
+title = {A Review on Fairness in Machine Learning},
+year = {2022},
+issue_date = {March 2023},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {55},
+number = {3},
+issn = {0360-0300},
+url = {https://doi.org/10.1145/3494672}, <span><a href="javascript:"><img class="citavipicker" identifier="10.1145/3494672}," identifiertype="1" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iRWJlbmVfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIxNnB4IiBoZWlnaHQ9IjE2cHgiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTYgMTYiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxnPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik04LjAwMSwxNS41QzMuODY0LDE1LjUsMC41LDEyLjEzNiwwLjUsOGMwLTQuMTM1LDMuMzY1LTcuNSw3LjUwMS03LjVTMTUuNSwzLjg2NCwxNS41LDhTMTIuMTM3LDE1LjUsOC4wMDEsMTUuNXoiLz48cGF0aCBmaWxsPSIjRDUyQjFFIiBkPSJNOC4wMDEsMUMxMS44NiwxLDE1LDQuMTQxLDE1LDhzLTMuMTM5LDctNi45OTksN0M0LjE0LDE1LDEsMTEuODU5LDEsOFM0LjE0LDEsOC4wMDEsMSBNOC4wMDEsMEMzLjU4MiwwLDAsMy41ODIsMCw4czMuNTgyLDgsOC4wMDEsOEMxMi40MTgsMTYsMTYsMTIuNDE4LDE2LDhTMTIuNDE4LDAsOC4wMDEsMEw4LjAwMSwweiIvPjwvZz48cGF0aCBmaWxsPSIjRDUyQjFFIiBkPSJNNi43NDUsMTIuNTg5Yy0wLjIyNywwLjEyMi0wLjQ5NywwLjI0Ny0wLjY4NCwwLjI0N2MtMC4zMTgsMC0wLjUwMS0wLjE2NC0wLjUwMS0wLjQ1MmMwLTAuMjA3LDAuMTQtMC4zNzUsMC41OTUtMC42MjJjMS41NDktMC45MDQsMi41OTQtMi4yNzIsMi41OTQtMy43MjFjMC0wLjgyNS0wLjIyNy0xLjExOS0wLjY4MS0xLjExOWMtMC4xMzUsMC0wLjMyLDAuMjE5LTAuNjM2LDAuMjE5SDcuMTU3QzYuMTAyLDcuMTQzLDUuMzMzLDYuMjY0LDUuMzMzLDUuMjNjMC0xLjE1MiwwLjk1OC0yLjAwNiwyLjI4LTIuMDA2YzEuNzc3LDAsMy4wNTMsMS4zNzMsMy4wNTMsMy40M0MxMC42NjYsOS4yMTUsOS4yMDMsMTEuMjcsNi43NDUsMTIuNTg5Ii8+PC9nPjwvc3ZnPg" style="border: 0px none!important;width: 16px!important;height: 16px!important;margin-left:1px !important;margin-right:1px !important;" title="Titel anhand dieser DOI in Citavi-Projekt übernehmen" existsinproject="0"></a></span>
+doi = {10.1145/3494672},
+abstract = {An increasing number of decisions regarding the daily lives of human beings are being controlled by artificial intelligence and machine learning (ML) algorithms in spheres ranging from healthcare, transportation, and education to college admissions, recruitment, provision of loans, and many more realms. Since they now touch on many aspects of our lives, it is crucial to develop ML algorithms that are not only accurate but also objective and fair. Recent studies have shown that algorithmic decision making may be inherently prone to unfairness, even when there is no intention for it. This article presents an overview of the main concepts of identifying, measuring, and improving algorithmic fairness when using ML algorithms, focusing primarily on classification tasks. The article begins by discussing the causes of algorithmic bias and unfairness and the common definitions and measures for fairness. Fairness-enhancing mechanisms are then reviewed and divided into pre-process, in-process, and post-process mechanisms. A comprehensive comparison of the mechanisms is then conducted, toward a better understanding of which mechanisms should be used in different scenarios. The article ends by reviewing several emerging research sub-fields of algorithmic fairness, beyond classification.},
+journal = {ACM Comput. Surv.},
+month = {feb},
+articleno = {51},
+numpages = {44},
+keywords = {algorithmic fairness, fairness-aware machine learning, Algorithmic bias, fairness in machine learning}
+}
+
 
